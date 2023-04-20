@@ -1,0 +1,26 @@
+/* ENGAGEMENT CONTENT */
+.engagementContent {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+/* SIDE NAVIGATION */
+.sideNavigation {
+    width: 280px;
+    height: 100vh;
+    
+}
+
+.sideNavigation ul li {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+/* ENGAGEMENT FEED/CARDS */
+.hiringBoard {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+
+}
