@@ -19,6 +19,7 @@ body ,button {
     color: var(--black);
     text-decoration: none;
     list-style-type: none;
+    gap: 10px;
 }
 
 /* ENGAGEMENT FEED */

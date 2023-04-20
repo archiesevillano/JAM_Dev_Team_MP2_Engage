@@ -51,20 +51,21 @@ const createCard = () => {
     const engBotBtn2 = document.createElement('button');
 
     // Class Adding
-    cards.classList.add(".engagement-cards");
-    card.classList.add(".engagement-cards-name");
-    imgContainer.classList.add(".recruiter-image");
-    recNameTime.classList.add(".recruiter-name-timeposted");
-    recName.classList.add(".recruiter-name");
-    timePost.classList.add(".time-posted");
-    recOps.classList.add(".recruiter-options");
-    recOpsBtn.classList.add(".fa-solid fa-ellipsis fa-xs");
-    engCardsContent.classList.add(".engagement-cards-content");
-    jobTitle.classList.add(".job-title");
-    jobDescript.classList.add(".job-description");
-    hireCompany.classList.add(".hiring-company");
-    engInfo.classList.add(".engagement-info");
-    engBot.classList.add(".engagement-bottom");
+
+    cards.className =  ".engagement-cards";
+    card.className =  ".engagement-cards-name";
+    imgContainer.className =  ".recruiter-image";
+    recNameTime.className =  ".recruiter-name-timeposted";
+    recName.className =  ".recruiter-name";
+    timePost.className =  ".time-posted";
+    recOps.className =  ".recruiter-options";
+    recOpsBtn.className =  ".fa-solid fa-ellipsis fa-xs";
+    engCardsContent.className =  ".engagement-cards-content";
+    jobTitle.className =  ".job-title";
+    jobDescript.className =  ".job-description";
+    hireCompany.className =  ".hiring-company";
+    engInfo.className =  ".engagement-info";
+    engBot.className =  ".engagement-bottom";
 
 
     cards.appendChild("card");
@@ -76,4 +77,8 @@ const createCard = () => {
     engInfo.appendChild("engInfoNum");
     engBot.appendChild("engBotBtn", "const engBotBtn2");
 
+    
 };
+
+
+createCard();
