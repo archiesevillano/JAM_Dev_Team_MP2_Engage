@@ -15,6 +15,7 @@
 
     <!-- External JS Files -->
     <script defer type="module" src="assets/scripts/resources.js"></script>
+    <script defer src="assets/scripts/signup.js"></script>
 
     <!-- FONTS AWESOME CDN -->
     <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
@@ -93,7 +94,7 @@
                 <div class="password-container input-container">
                     <label for="passsword">Password:</label>
                     <input type="password" name="password" id="password" class="password field" autocomplete="off">
-                    <i class="fa-regular fa-eye show-password-btn"></i>
+                    <i class="fa-regular fa-eye show-password-btn" id="show-password"></i>
                 </div>
             </div>
             <div class="row">
@@ -101,6 +102,7 @@
                     <label for="confirm-passsword">Confirm Password:</label>
                     <input type="password" name="confirm-password" id="confirm-password" class="confirm-password field"
                         autocomplete="off">
+                    <i class="fa-regular fa-eye show-password-btn" id="confirm-show-password"></i>
                 </div>
             </div>
             <div class="row">

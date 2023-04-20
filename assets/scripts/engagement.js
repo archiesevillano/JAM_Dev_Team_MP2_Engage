@@ -1,6 +1,6 @@
 // Objects
 const recruiter = [{
-    imageURL: 'C:\Users\Marc\Desktop',
+    imageURL: '',
     firstname: 'James',
     lastname: 'Trinidad',
     timeposted: 'Posted 30 minutes ago',
