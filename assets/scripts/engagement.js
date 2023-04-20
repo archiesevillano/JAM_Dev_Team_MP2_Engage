@@ -1,3 +1,6 @@
+import { loadOnlineSource } from "./resources.js";
+
+
 // Objects
 const recruiter = [{
     imageURL: 'C:\Users\Marc\Desktop',
