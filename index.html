@@ -14,24 +14,94 @@
 
     <!-- External CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/root.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <!-- External JS Files -->
     <script defer type="module" src="assets/scripts/index.js"></script>
     <script defer type="module" src="assets/scripts/resources.js"></script>
 
+    <!-- FONTS AWESOME CDN -->
+    <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <header class="lp-header">
-        <div class="brand-container">
-            <h1>Test</h1>
+    <header class="main-header">
+        <div class="brand-container col" data-sub="none">
+            <div class="app-logo">
+                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+            </div>
+            <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
         </div>
-        <div class="navigation-bar">
-
+        <div class="search-bar-container">
+            <div class="search-bar-content">
+                <button type="button" class="main-header-btn search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" class="search-bar input-search" name="search-bar" autocomplete="on"
+                    placeholder="Search for Jobs">
+            </div>
+        </div>
+        <div class="navigation-bar col">
+            <div class="button-collection">
+                <button type="button" class="main-nav-btns todo-btn">
+                    <i class="fa-solid fa-table-list"></i>
+                </button>
+                <button type="button" class="main-nav-btns message-btn">
+                    <i class="fa-solid fa-comment"></i>
+                </button>
+                <button type="button" class="main-nav-btns notification-btn">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+            </div>
+            <div class="user_profile">
+                <a href="profile.html">
+                    <img src="assets/images/user-pic.png">
+                </a>
+            </div>
         </div>
     </header>
 
-    
+    <footer class="main-footer">
+        <div class="upper">
+            <div class="app-details">
+                <ul class="app-address-container">
+                    <li class="footer-headings">Address</li>
+                    <li class="app_address">
+                        Epifanio Bldg. 02 St. Manila Mexico,
+                        Metro Manila Philippines
+                    </li>
+                </ul>
+                <ul class="app-contacts-container">
+                    <li class="footer-headings">Contact us</li>
+                    <li>Email: <span class="app_email">engageph@gmail.com</span></li>
+                    <li>Phone: <span class="app_phone">(+63) 978 954 8554</span></li>
+                </ul>
+            </div>
+            <ul class="legal-docs">
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms and Condition</a>
+                </li>
+            </ul>
+        </div>
+        <div class="lower">
+            <div class="brand-container col" data-sub="none">
+                <div class="app-logo">
+                    <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+                </div>
+                <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+            </div>
+            <div class="copyright-details">
+                <p class="app_copyright">Copyright © JAM April 2023 MP2 - WD54</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
