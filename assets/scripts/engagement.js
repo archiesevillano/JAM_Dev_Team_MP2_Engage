@@ -1,12 +1,15 @@
 // Objects
 const recruiter = {
     firstname: 'James',
+    lastname: 'Trinidad',
     timeposted: 'Posted 30 minutes ago',
-    jobdescription: 'Marketing Manager'
+    jobdescription: 'We are seeking a talented Marketing Manager to join our team. The Marketing Manager will be responsible for the overseeing the development and implentation of marketing strategies and campaigns to promote our products or services. The successful candidate will have a deep understaing of consumer behavior and market trends, as well as the ability to manage a team of marketing professionals.',
+    numofapplicants: "433 Applicants",
+    fullname: function {
+        return this.firstname + ' ' + this.lastname;
+    }
     
-
-    
-}
+};
 
 // Create Card Function 
 const CreateCard = () => {
