@@ -1,0 +1,44 @@
+[33mcommit 4fca2f25e13c27bd899fc334599f453d0ff38ae0[m
+Merge: 6a6bdfb 2a591fa
+Author: unknown <osunero.marc@gmail.com>
+Date:   Thu Apr 20 16:07:57 2023 +0800
+
+    #6 engagement.html update
+
+[33mcommit b6b11e75186c1057e5415e445a0a439714bab454[m
+Author: archiesevillano <archie.sevillano29@gmail.com>
+Date:   Thu Apr 20 16:07:22 2023 +0800
+
+    #7 Added Sign up Page
+
+[33mcommit 82dbbb37475b81c4efbc621b4b97597796613059[m
+Merge: 9bfd2bd 451e819
+Author: unknown <osunero.marc@gmail.com>
+Date:   Thu Apr 20 13:20:19 2023 +0800
+
+    #2 engagement.html update added
+
+[33mcommit 3453fe2f189506360da213c5e06a506ea13e6534[m
+Merge: 90bb1f2 d81cdd4
+Author: unknown <osunero.marc@gmail.com>
+Date:   Thu Apr 20 10:47:32 2023 +0800
+
+    commit changes
+
+[33mcommit 90bb1f29665bcc1aa208c1334572420f3cd35fd8[m
+Author: unknown <osunero.marc@gmail.com>
+Date:   Thu Apr 20 10:24:03 2023 +0800
+
+    engagement.html added
+
+[33mcommit d81cdd4bcc370d7f79ac91c689b18bbdc65eadfa[m
+Author: archiesevillano <archie.sevillano29@gmail.com>
+Date:   Thu Apr 20 10:03:08 2023 +0800
+
+    #3 root css changes
+
+[33mcommit 30653053b6c67547e302c98c35577e04fb09afe6[m
+Author: unknown <osunero.marc@gmail.com>
+Date:   Thu Apr 20 09:30:32 2023 +0800
+
+    add background color

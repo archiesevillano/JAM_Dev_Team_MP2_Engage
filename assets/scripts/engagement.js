@@ -23,7 +23,6 @@ const recruiter = [{
         }
     
 }];
-console.log(recruiter);
 // Create Card Function 
 const createCard = () => {
     // Card Creation
