@@ -1,26 +1,115 @@
+body ,button {
+    font-family: 'Poppins', sans-serif;
+}
 /* ENGAGEMENT CONTENT */
-.engagementContent {
+.engagement-content {
     display:flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
 }
 
 /* SIDE NAVIGATION */
-.sideNavigation {
+.side-navigation {
     width: 280px;
     height: 100vh;
     
 }
 
-.sideNavigation ul li {
-    font-family: 'Poppins', sans-serif;
+.side-navigation ul li , a{
+    color: var(--black);
+    text-decoration: none;
     list-style-type: none;
 }
 
-/* ENGAGEMENT FEED/CARDS */
-.hiringBoard {
-    border: 1px solid black;
-    width: 500px;
+/* ENGAGEMENT FEED */
+.engagement-cards {
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 3px;
+    width: 600px;
     height: 300px;
+    box-shadow:
+    0.7px 0.6px 2.2px rgba(0, 0, 0, 0.021),
+    1.8px 1.5px 5.3px rgba(0, 0, 0, 0.032),
+    3.4px 2.8px 10px rgba(0, 0, 0, 0.04),
+    6px 4.9px 17.9px rgba(0, 0, 0, 0.047),
+    11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
+    27px 22px 80px rgba(0, 0, 0, 0.09)
+    ;
 
+}
+
+/* engagement cards */
+
+.engagement-cards-name {
+    background-color: var( --silk);
+    height: 50px;
+    display:flex;
+    align-items: center;
+    
+}
+.recruiter-image {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    padding-left: 10px
+}
+.recruiter-image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    
+}
+.recruiter-name-timeposted {
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.recruiter-name {
+    font-size: small;
+    color: var( --primary)
+}
+.time-posted {
+    font-size: 8px;
+    color: var( --black)
+}
+.recruiter-options {
+    position: relative;
+    left: 400px;
+}
+.recruiter-options button {
+    border: none;
+    color: var(--dark);
+    background-color: var( --silk);
+    cursor: pointer;
+}
+.engagement-cards-content {
+    height: 200px;
+    background-color: var( --clean);
+    padding: 10px 10px 0 10px;
+}
+.job-description {
+    display:flex; 
+    flex-direction: column;
+    text-justify: auto;
+}
+.engagement-info {
+    height: 20px;
+    color: var( --primary);
+    font-size: x-small;
+    padding-left: 5px;
+    display:flex; 
+    align-items: center;
+}
+.engagement-bottom {
+    display:flex;
+    gap: 20px;
+    background-color: var( --silk);
+    height: 30px;
+    
+}
+.engagement-bottom button {
+    border:none;
+    background-color: var( --silk);
+    padding-left: 20px;
 }
