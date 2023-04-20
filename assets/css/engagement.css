@@ -51,7 +51,7 @@ body ,button {
     border-radius: 50px;
     height: 40px;
     width: 40px;
-    padding-left: 10px
+    padding-left: 10px;
 }
 .recruiter-image img {
     object-fit: contain;
