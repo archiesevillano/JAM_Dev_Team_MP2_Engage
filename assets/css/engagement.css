@@ -48,16 +48,18 @@ body ,button {
     
 }
 .recruiter-image {
-    border-radius: 50px;
+    margin-left: 10px;
+    border: 4px solid var(--secondary);
     height: 40px;
     width: 40px;
-    padding-left: 10px
+    border-radius: 50%;
+    overflow: hidden;
 }
 .recruiter-image img {
     object-fit: contain;
     width: 100%;
     height: 100%;
-    border-radius: 50px;
+    
     
 }
 .recruiter-name-timeposted {
@@ -86,30 +88,78 @@ body ,button {
 .engagement-cards-content {
     height: 200px;
     background-color: var( --clean);
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 10px 10px;
 }
-.job-description {
+.job-title {
+    color: var(--primary);
+    font-weight: bold;
+}
+.job-content {
     display:flex; 
     flex-direction: column;
-    text-justify: auto;
+}
+.job-content .job-sum {
+    font-size: 13px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.job-content .job-description {
+    font-size: 12px;
+    text-align: justify;
+    padding: 5px 15px 5px 15px;
 }
 .engagement-info {
-    height: 20px;
+    height: 30px;
     color: var( --primary);
     font-size: x-small;
     padding-left: 5px;
     display:flex; 
     align-items: center;
 }
+.hiring-company {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.hiring-company img{
+    width: 150px;
+}
+.learn-more {
+    border: 1px solid black;
+    height: 27px;
+    width: 100px;
+    background-color: var(--clean);
+    cursor: pointer;
+}
+.learn-more:hover {
+    filter: brightness(110%);
+}
+
+.learn-more:active {
+    filter: brightness(90%);
+}
+
+
 .engagement-bottom {
     display:flex;
     gap: 20px;
     background-color: var( --silk);
-    height: 30px;
+    height: 40px;
     
 }
 .engagement-bottom button {
     border:none;
     background-color: var( --silk);
-    padding-left: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 30px
+}
+
+.engagement-bottom button:hover {
+    filter: brightness(110%);
+}
+
+.engagement-bottom button:active {
+    filter: brightness(90%);
 }
