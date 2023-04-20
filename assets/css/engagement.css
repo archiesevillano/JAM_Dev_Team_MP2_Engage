@@ -1,9 +1,11 @@
-body ,button {
+body,
+button {
     font-family: 'Poppins', sans-serif;
 }
+
 /* ENGAGEMENT CONTENT */
 .engagement-content {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -12,13 +14,15 @@ body ,button {
 .side-navigation {
     width: 280px;
     height: 100vh;
-    
+
 }
 
-.side-navigation ul li , a{
+.side-navigation ul li,
+a {
     color: var(--black);
     text-decoration: none;
     list-style-type: none;
+    gap: 10px;
 }
 
 /* ENGAGEMENT FEED */
@@ -28,25 +32,25 @@ body ,button {
     width: 600px;
     height: 300px;
     box-shadow:
-    0.7px 0.6px 2.2px rgba(0, 0, 0, 0.021),
-    1.8px 1.5px 5.3px rgba(0, 0, 0, 0.032),
-    3.4px 2.8px 10px rgba(0, 0, 0, 0.04),
-    6px 4.9px 17.9px rgba(0, 0, 0, 0.047),
-    11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
-    27px 22px 80px rgba(0, 0, 0, 0.09)
-    ;
+        0.7px 0.6px 2.2px rgba(0, 0, 0, 0.021),
+        1.8px 1.5px 5.3px rgba(0, 0, 0, 0.032),
+        3.4px 2.8px 10px rgba(0, 0, 0, 0.04),
+        6px 4.9px 17.9px rgba(0, 0, 0, 0.047),
+        11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
+        27px 22px 80px rgba(0, 0, 0, 0.09);
 
 }
 
 /* engagement cards */
 
 .engagement-cards-name {
-    background-color: var( --silk);
+    background-color: var(--silk);
     height: 50px;
-    display:flex;
+    display: flex;
     align-items: center;
-    
+
 }
+
 .recruiter-image {
     margin-left: 10px;
     border: 4px solid var(--secondary);
@@ -55,41 +59,54 @@ body ,button {
     border-radius: 50%;
     overflow: hidden;
 }
+
 .recruiter-image img {
     object-fit: contain;
     width: 100%;
     height: 100%;
     
     
+
+
 }
+
 .recruiter-name-timeposted {
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding-left: 10px;
 }
+
 .recruiter-name {
     font-size: small;
-    color: var( --primary)
+    color: var(--primary)
 }
+
 .time-posted {
     font-size: 8px;
-    color: var( --black)
+    color: var(--black)
 }
+
 .recruiter-options {
     position: relative;
     left: 400px;
 }
+
 .recruiter-options button {
     border: none;
     color: var(--dark);
-    background-color: var( --silk);
+    background-color: var(--silk);
     cursor: pointer;
 }
+
 .engagement-cards-content {
     height: 200px;
     background-color: var( --clean);
     padding: 10px 10px 10px 10px;
 }
+    background-color: var(--clean);
+    padding: 10px 10px 10px 10px;
+}
+
 .job-title {
     color: var(--primary);
     font-weight: bold;
@@ -107,15 +124,37 @@ body ,button {
     font-size: 12px;
     text-align: justify;
     padding: 5px 15px 5px 15px;
+
+.job-content {
+    display: flex;
+    flex-direction: column;
 }
+
+.job-content .job-sum {
+    font-size: 13px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.job-content .job-description {
+    font-size: 12px;
+    text-align: justify;
+    padding: 5px 15px 5px 15px;
+}
+
 .engagement-info {
     height: 30px;
     color: var( --primary);
+    color: var(--primary);
     font-size: x-small;
     padding-left: 5px;
-    display:flex; 
+    display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a62bb094c34c2ea4f13c11d1d9cacaaa2a3ef4d1
 .hiring-company {
     display: flex;
     height: 40px;
@@ -148,9 +187,41 @@ body ,button {
     height: 40px;
     
 }
+
+.hiring-company img {
+    width: 150px;
+}
+
+.learn-more {
+    border: 1px solid black;
+    height: 27px;
+    width: 100px;
+    background-color: var(--clean);
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    filter: brightness(110%);
+}
+
+.learn-more:active {
+    filter: brightness(90%);
+}
+
+
+.engagement-bottom {
+    display: flex;
+    gap: 20px;
+    background-color: var(--silk);
+    height: 40px;
+
+}
+
 .engagement-bottom button {
     border:none;
     background-color: var( --silk);
+    border: none;
+    background-color: var(--silk);
     cursor: pointer;
     position: relative;
     left: 30px

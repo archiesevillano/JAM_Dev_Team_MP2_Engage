@@ -26,7 +26,7 @@ export const loadOnlineSource = async (url, apiKey = false) => {
         const data = await fetch(url);
 
         if (data.status == 200) {
-            return data; // return if the data has loaded successfully
+            return await data.json(); // return if the data has loaded successfully
         }
         else {
             const ERROR_OBJECT = { status: data.status, ok: data.ok, url: data.url, statusText: data.statusText };

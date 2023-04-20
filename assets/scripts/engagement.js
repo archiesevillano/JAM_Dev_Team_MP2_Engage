@@ -1,3 +1,6 @@
+import { loadOnlineSource } from "./resources.js";
+
+
 // Objects
 const recruiter = [{
     imageURL: '',
@@ -12,6 +15,12 @@ const recruiter = [{
         }
     },
     {
+    numofapplicants: 433,
+    fullname: () => {
+        return this.firstname + ' ' + this.lastname;
+    }
+},
+{
     firstname: 'June',
     lastname: 'Li',
     timeposted: 'Posted 30 minutes ago',
@@ -23,8 +32,18 @@ const recruiter = [{
         }
     
 }];
+    numofapplicants: 433,
+    fullname: () => {
+        return this.firstname + ' ' + this.lastname;
+    }
+
+}];
+
+
+console.log(recruiter);
+
 // Create Card Function 
-const createCard = () => {
+export const createCard = () => {
     // Card Creation
     // Create Element
     const cards = document.createElement('div');
