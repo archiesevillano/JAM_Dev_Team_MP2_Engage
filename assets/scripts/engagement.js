@@ -1,18 +1,31 @@
 // Objects
-const recruiter = {
+const recruiter = [{
+    imageURL: 'C:\Users\Marc\Desktop',
     firstname: 'James',
     lastname: 'Trinidad',
     timeposted: 'Posted 30 minutes ago',
+    jobtitle: 'Marketing Manager',
     jobdescription: 'We are seeking a talented Marketing Manager to join our team. The Marketing Manager will be responsible for the overseeing the development and implentation of marketing strategies and campaigns to promote our products or services. The successful candidate will have a deep understaing of consumer behavior and market trends, as well as the ability to manage a team of marketing professionals.',
     numofapplicants: "433 Applicants",
-    fullname: function {
-        return this.firstname + ' ' + this.lastname;
-    }
+        fullname: function() {
+            return this.firstname + ' ' + this.lastname;
+        }
+    },
+    {
+    firstname: 'June',
+    lastname: 'Li',
+    timeposted: 'Posted 30 minutes ago',
+    jobtitle: 'Marketing Strategist',
+    jobdescription: 'We are seeking a talented Marketing Strategist to join our team. As a Marketing Strategist, you will be responsible for developing and implementing marketing strategies that drive growth and revenue for our company. You will work closely with our marketing and sales teams to develop campaigns that generate leads and engage customers.',
+    numofapplicants: "433 Applicants",
+        fullname: function() {
+            return this.firstname + ' ' + this.lastname;
+        }
     
-};
-
+}];
+console.log(recruiter);
 // Create Card Function 
-const CreateCard = () => {
+const createCard = () => {
     // Card Creation
     // Create Element
     const cards = document.createElement('div');
@@ -39,8 +52,8 @@ const CreateCard = () => {
     const engBotBtn2 = document.createElement('button');
 
     // Class Adding
-    card.classList.add(".engagement-cards-name");
     cards.classList.add(".engagement-cards");
+    card.classList.add(".engagement-cards-name");
     imgContainer.classList.add(".recruiter-image");
     recNameTime.classList.add(".recruiter-name-timeposted");
     recName.classList.add(".recruiter-name");
@@ -63,11 +76,4 @@ const CreateCard = () => {
     engCardsContent.appendChild("jobTitle", "jobDescript", "hireCompany");
     engInfo.appendChild("engInfoNum");
     engBot.appendChild("engBotBtn", "const engBotBtn2");
-
-
-
-
 };
-
-
-
