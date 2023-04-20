@@ -1,0 +1,262 @@
+/* Google Fonts https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+
+    /* THEME FONTS:
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    */
+
+    /* Theme Colors */
+    --primary: #0E92F2;
+    --secondary: #3066BE;
+    --tertiary: #B4C5E4;
+    --quaternary: #3C3744;
+    --quinary: #FBFFF1;
+
+    /* Theme Fonts */
+    --poppins: 'Poppins', sans-serif;
+    --outfit: 'Outfit', sans-serif;
+
+    /* Shades of white */
+    --clean: #fcf8f8;
+    --dirty: #dddddd;
+    --fade: #e4e4e4;
+    --silk: #cacaca;
+    --milk: #eeeeee;
+    --dark: #353535;
+    --grey: #b9b9b9;
+
+    --black: #0e0e0e;
+
+    --controls-transition: all 0.2s ease-in;
+}
+
+
+/* Layout Groups */
+
+/* Center all items inside the container */
+.centerItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fit Image inside the container */
+.imageFit {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.split-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Button Groups */
+
+.btn-plain {
+    background-color: var(--dirty);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--dark);
+    font-weight: bold;
+    font-family: var(--poppins);
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.btn-plain:hover {
+    filter: brightness(110%);
+}
+
+.btn-plain:active {
+    filter: brightness(90%);
+}
+
+
+.btn-primary {
+    background-color: var(--primary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--clean);
+    font-family: var(--poppins);
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    filter: brightness(110%);
+}
+
+.btn-primary:active {
+    filter: brightness(90%);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--clean);
+    font-family: var(--poppins);
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    filter: brightness(110%);
+}
+
+.btn-secondary:active {
+    filter: brightness(90%);
+}
+
+
+.btn-tertiary {
+    background-color: var(--tertiary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--dark);
+    font-family: var(--poppins);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.btn-tertiary:hover {
+    filter: brightness(110%);
+}
+
+.btn-tertiary:active {
+    filter: brightness(90%);
+}
+
+
+
+.btn-quaternary {
+    background-color: var(--quaternary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--clean);
+    font-family: var(--poppins);
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.btn-quaternary:hover {
+    filter: brightness(110%);
+}
+
+.btn-quaternary:active {
+    filter: brightness(90%);
+}
+
+
+
+.btn-quinary {
+    background-color: var(--quinary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--dark);
+    font-family: var(--poppins);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 1px solid var(--dark);
+}
+
+.btn-quinary:hover {
+    filter: brightness(110%);
+}
+
+.btn-quinary:active {
+    filter: brightness(90%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* loader animation */
+.skeleton {
+    animation-name: skeleton-loader;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skeleton-loader {
+    0% {
+        filter: brightness(100%);
+    }
+
+    45% {
+        filter: brightness(200%);
+    }
+
+    100% {
+        filter: brightness(50%);
+    }
+}

@@ -1,0 +1,3 @@
+1.git clone "{repository link}"
+2.cd "foldername"
+3.git checkout -b {new-branch-name}
