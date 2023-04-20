@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.showcase,
+.form-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase {
+    background: var(--secondary);
+}
+
+.showcase .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.showcase .text-content h1 {
+    font-family: var(--poppins);
+    color: var(--clean);
+    font-size: 45px;
+    line-height: 100%;
+}
+
+.showcase .text-content p {
+    font-family: var(--poppins);
+    color: var(--clean);
+    margin: 10px 0;
+}
+
+.showcase .text-content p a {
+    text-decoration: underline;
+    color: var(--tertiary);
+}
+
+.showcase .text-content .brand-container {
+    filter: grayscale(100%) contrast(0%) brightness(500%);
+    margin-bottom: 30px;
+    transform: translateX(-10px);
+}
+
+.showcase .text-content .brand-container .br-text {
+    font-size: 80px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form h1 {
+    font-family: var(--poppins);
+    color: var(--dark);
+    width: 100%;
+    text-align: left;
+    padding: 0px 0px;
+    transform: translate(-80px, -60px);
+    font-size: 25px;
+}
+
+.signup-form .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.signup-form .row .input-container {
+    width: 100%;
+}
+
+.input-container label {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    color: var(--dark);
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.birthdate-container {
+    display: flex;
+    gap: 5px;
+}
+
+.form-buttons {
+    width: 100%;
+    gap: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.agreement-text {
+    font-family: var(--poppins);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.show-password-btn {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    font-size: 20px;
+}

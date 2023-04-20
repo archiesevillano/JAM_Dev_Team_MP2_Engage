@@ -85,8 +85,8 @@
     font-weight: bold;
     font-family: var(--poppins);
     padding: 10px;
-    font-size: 16px;
-    width: 150px;
+    font-size: 12px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -110,8 +110,8 @@
     color: var(--clean);
     font-family: var(--poppins);
     padding: 10px;
-    font-size: 16px;
-    width: 150px;
+    font-size: 12px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -134,8 +134,8 @@
     color: var(--clean);
     font-family: var(--poppins);
     padding: 10px;
-    font-size: 16px;
-    width: 150px;
+    font-size: 12px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -160,8 +160,8 @@
     font-family: var(--poppins);
     font-weight: bold;
     padding: 10px;
-    font-size: 16px;
-    width: 150px;
+    font-size: 12px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -186,8 +186,8 @@
     color: var(--clean);
     font-family: var(--poppins);
     padding: 10px;
-    font-size: 16px;
-    width: 150px;
+    font-size: 12px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -213,8 +213,8 @@
     font-family: var(--poppins);
     font-weight: bold;
     padding: 10px;
-    font-size: 16px;
-    width: 150px;
+    font-size: 12px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -374,7 +374,7 @@ header.main-header .navigation-bar .button-collection button {
     background: none;
     outline: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
@@ -428,7 +428,7 @@ header.main-header .navigation-bar .button-collection button {
 .main-footer .upper .app-details ul li {
     color: var(--dirty);
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .main-footer .upper .legal-docs {
@@ -460,4 +460,44 @@ header.main-header .navigation-bar .button-collection button {
     color: var(--tertiary);
     font-family: var(--poppins);
     font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INPUT GROUPS */
+
+.field {
+    outline: none;
+    border: 2px solid var(--fade);
+    background-color: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--dark);
+    letter-spacing: 1px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.selection {
+    outline: none;
+    border: 1px solid var(--fade);
+    border-radius: 5px;
+    padding: 8px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--dark);
+    letter-spacing: 1px;
+    font-size: 13px;
 }
