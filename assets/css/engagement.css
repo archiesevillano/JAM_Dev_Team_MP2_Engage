@@ -54,7 +54,6 @@ body ,button {
     width: 40px;
     border-radius: 50%;
     overflow: hidden;
-    
 }
 .recruiter-image img {
     object-fit: contain;
@@ -89,20 +88,28 @@ body ,button {
 .engagement-cards-content {
     height: 200px;
     background-color: var( --clean);
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 10px 10px;
+}
+.job-title {
+    color: var(--primary);
+    font-weight: bold;
 }
 .job-content {
     display:flex; 
     flex-direction: column;
-    
+}
+.job-content .job-sum {
+    font-size: 13px;
+    padding-left: 5px;
+    font-weight: bold;
 }
 .job-content .job-description {
-    font-size: small;
+    font-size: 12px;
     text-align: justify;
-    padding: 10px;
+    padding: 5px 15px 5px 15px;
 }
 .engagement-info {
-    height: 20px;
+    height: 30px;
     color: var( --primary);
     font-size: x-small;
     padding-left: 5px;
@@ -111,25 +118,48 @@ body ,button {
 }
 .hiring-company {
     display: flex;
-    
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
 }
 .hiring-company img{
-    height:40px;
-    width: 40px;
+    width: 150px;
 }
-.hiring-company button {
-    
+.learn-more {
+    border: 1px solid black;
+    height: 27px;
+    width: 100px;
+    background-color: var(--clean);
+    cursor: pointer;
 }
+.learn-more:hover {
+    filter: brightness(110%);
+}
+
+.learn-more:active {
+    filter: brightness(90%);
+}
+
 
 .engagement-bottom {
     display:flex;
     gap: 20px;
     background-color: var( --silk);
-    height: 30px;
+    height: 40px;
     
 }
 .engagement-bottom button {
     border:none;
     background-color: var( --silk);
-    padding-left: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 30px
+}
+
+.engagement-bottom button:hover {
+    filter: brightness(110%);
+}
+
+.engagement-bottom button:active {
+    filter: brightness(90%);
 }
