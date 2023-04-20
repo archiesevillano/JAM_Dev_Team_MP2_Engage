@@ -15,7 +15,7 @@ const recruiter = [{
     firstname: 'June',
     lastname: 'Li',
     timeposted: 'Posted 30 minutes ago',
-    jobtitle: 'Marketing Strategist',
+    jobtitle: 'Magit rketing Strategist',
     jobdescription: 'We are seeking a talented Marketing Strategist to join our team. As a Marketing Strategist, you will be responsible for developing and implementing marketing strategies that drive growth and revenue for our company. You will work closely with our marketing and sales teams to develop campaigns that generate leads and engage customers.',
     numofapplicants: "433",
         fullname: () => {
