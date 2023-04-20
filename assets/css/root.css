@@ -260,3 +260,7 @@
         filter: brightness(50%);
     }
 }
+
+.sampleClass {
+    background-color: black;
+}
