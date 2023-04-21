@@ -329,6 +329,8 @@ header.main-header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 20;
+    background-color: var(--milk);
 }
 
 
@@ -409,9 +411,7 @@ header.main-header .navigation-bar .button-collection button {
     width: 100%;
     padding: 10px;
     background-color: var(--footer-bg-color);
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    margin-top: 50px;
 }
 
 .main-footer .upper {
