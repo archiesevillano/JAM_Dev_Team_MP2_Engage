@@ -33,7 +33,6 @@ export const messageDropDown = () => {
         messageBox.style.display = "flex";
     }
 }
-
 const user_profile = document.querySelector("#user-profile-button");
 user_profile.addEventListener("click", profileDropdown);
 
@@ -43,3 +42,23 @@ notificationBtn.addEventListener("click", notificationDropDown);
 
 const messageBtn = document.querySelector(".message-btn");
 messageBtn.addEventListener("click", messageDropDown);
+
+const searchBar = document.querySelector(".search-bar");
+searchBar.addEventListener("focus", e => {
+    //not yet the final search function
+    const result = document.querySelector(".search-result-box");
+    if (e.target.value) result.style.display = "block";
+});
+searchBar.addEventListener("focusout", () => {
+    document.querySelector(".search-result-box").style.display = "none";
+});
+searchBar.addEventListener("input", e => {
+    //not yet the final search function
+    const result = document.querySelector(".search-result-box");
+    if (e.target.value) {
+        result.style.display = "block";
+    }
+    else {
+        result.style.display = "none";
+    }
+});
