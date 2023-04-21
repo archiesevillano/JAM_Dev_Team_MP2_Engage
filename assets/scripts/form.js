@@ -33,14 +33,12 @@ export const populateProvince = async () => {
 }
 
 export const togglePassword = (textbox, buttonToggle) => {
-    buttonToggle.addEventListener('mouseDown', textbox.type = "text");
-    buttonToggle.addEventListener('mouseUp', textbox.type = "password");
+    buttonToggle.addEventListener('mousedown', () => {
+        textbox.type = "text";
+        buttonToggle.firstElementChild.className = "fa-regular fa-eye-slash";
+    });
+    buttonToggle.addEventListener('mouseup', () => {
+        textbox.type = "password";
+        buttonToggle.firstElementChild.className = "fa-regular fa-eye";
+    });
 }
-
-const btn = document.querySelector(".show-password-btn");
-const field = document.querySelector(".password");
-
-console.log(btn);
-togglePassword(field, btn);
-
-//ADD TOGGLE PASSWORD FUNCTION

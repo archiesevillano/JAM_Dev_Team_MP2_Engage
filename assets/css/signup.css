@@ -127,10 +127,17 @@ body {
     font-weight: bold;
 }
 
-.show-password-btn {
+.password-toggle-btn {
     position: absolute;
-    top: 25px;
-    right: 15px;
+    top: 23px;
+    right: 10px;
     font-size: 12px;
     cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.password-toggle-btn:active {
+    color: var(--fade);
 }

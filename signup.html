@@ -80,6 +80,11 @@
                     <label for="unitNo">Unit Flr/House No.#:</label>
                     <input type="text" class="unitNo field" id="unitNo" name="unitNo">
                 </div>
+                <select class="city-selection selection" style="width:100%;">
+                    <option selected disabled>Sex</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
             </div>
             <div class="row">
                 <select class="city-selection selection" style="width:100%;">
@@ -97,7 +102,9 @@
                 <div class="password-container input-container">
                     <label for="passsword">Password:</label>
                     <input type="password" name="password" id="password" class="password field" autocomplete="off">
-                    <i class="fa-regular fa-eye show-password-btn"></i>
+                    <button type="button" class="new-password-toggle-btn password-toggle-btn">
+                        <i class="fa-regular fa-eye"></i>
+                    </button>
                 </div>
             </div>
             <div class="row">
@@ -105,7 +112,10 @@
                     <label for="confirm-passsword">Confirm Password:</label>
                     <input type="password" name="confirm-password" id="confirm-password" class="confirm-password field"
                         autocomplete="off">
-                    <i class="fa-regular fa-eye show-password-btn"></i>
+
+                    <button type="button" class="confirm-password-toggle-btn password-toggle-btn">
+                        <i class="fa-regular fa-eye"></i>
+                    </button>
                 </div>
             </div>
             <div class="row">
