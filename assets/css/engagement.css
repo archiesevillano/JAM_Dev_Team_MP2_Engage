@@ -25,6 +25,12 @@ a {
     gap: 10px;
 }
 
+.cards-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* ENGAGEMENT FEED */
 .engagement-cards {
     border: 1px solid rgba(0, 0, 0, 0.116);
@@ -64,8 +70,8 @@ a {
     object-fit: contain;
     width: 100%;
     height: 100%;
-    
-    
+
+
 
 
 }
@@ -100,30 +106,18 @@ a {
 
 .engagement-cards-content {
     height: 200px;
-    background-color: var( --clean);
-    padding: 10px 10px 10px 10px;
-}
     background-color: var(--clean);
     padding: 10px 10px 10px 10px;
+}
+
+background-color: var(--clean);
+padding: 10px 10px 10px 10px;
 }
 
 .job-title {
     color: var(--primary);
     font-weight: bold;
 }
-.job-content {
-    display:flex; 
-    flex-direction: column;
-}
-.job-content .job-sum {
-    font-size: 13px;
-    padding-left: 5px;
-    font-weight: bold;
-}
-.job-content .job-description {
-    font-size: 12px;
-    text-align: justify;
-    padding: 5px 15px 5px 15px;
 
 .job-content {
     display: flex;
@@ -140,97 +134,116 @@ a {
     font-size: 12px;
     text-align: justify;
     padding: 5px 15px 5px 15px;
-}
 
-.engagement-info {
-    height: 30px;
-    color: var( --primary);
-    color: var(--primary);
-    font-size: x-small;
-    padding-left: 5px;
-    display: flex;
-    align-items: center;
-}
-<<<<<<< HEAD
-=======
+    .job-content {
+        display: flex;
+        flex-direction: column;
+    }
 
->>>>>>> a62bb094c34c2ea4f13c11d1d9cacaaa2a3ef4d1
-.hiring-company {
-    display: flex;
-    height: 40px;
-    align-items: center;
-    justify-content: space-between;
-}
-.hiring-company img{
-    width: 150px;
-}
-.learn-more {
-    border: 1px solid black;
-    height: 27px;
-    width: 100px;
-    background-color: var(--clean);
-    cursor: pointer;
-}
-.learn-more:hover {
-    filter: brightness(110%);
-}
+    .job-content .job-sum {
+        font-size: 13px;
+        padding-left: 5px;
+        font-weight: bold;
+    }
 
-.learn-more:active {
-    filter: brightness(90%);
-}
+    .job-content .job-description {
+        font-size: 12px;
+        text-align: justify;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .engagement-info {
+        height: 30px;
+        color: var(--primary);
+        color: var(--primary);
+        font-size: x-small;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    <<<<<<< HEAD=======>>>>>>>a62bb094c34c2ea4f13c11d1d9cacaaa2a3ef4d1 .hiring-company {
+        display: flex;
+        height: 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hiring-company img {
+        width: 150px;
+    }
+
+    .learn-more {
+        border: 1px solid black;
+        height: 27px;
+        width: 100px;
+        background-color: var(--clean);
+        cursor: pointer;
+    }
+
+    .learn-more:hover {
+        filter: brightness(110%);
+    }
+
+    .learn-more:active {
+        filter: brightness(90%);
+    }
+
+    .engagement-bottom {
+        display: flex;
+        gap: 20px;
+        background-color: var(--silk);
+        height: 40px;
+
+    }
+
+    .hiring-company img {
+        width: 150px;
+    }
+
+    .learn-more {
+        border: 1px solid black;
+        height: 27px;
+        width: 100px;
+        background-color: var(--clean);
+        cursor: pointer;
+    }
+
+    .learn-more:hover {
+        filter: brightness(110%);
+    }
+
+    .learn-more:active {
+        filter: brightness(90%);
+    }
 
 
-.engagement-bottom {
-    display:flex;
-    gap: 20px;
-    background-color: var( --silk);
-    height: 40px;
-    
-}
+    .engagement-bottom {
+        display: flex;
+        gap: 20px;
+        background-color: var(--silk);
+        height: 40px;
 
-.hiring-company img {
-    width: 150px;
-}
+    }
 
-.learn-more {
-    border: 1px solid black;
-    height: 27px;
-    width: 100px;
-    background-color: var(--clean);
-    cursor: pointer;
-}
+    .engagement-bottom button {
+        border: none;
+        background-color: var(--silk);
+        border: none;
+        background-color: var(--silk);
+        cursor: pointer;
+        position: relative;
+        left: 30px
+    }
 
-.learn-more:hover {
-    filter: brightness(110%);
-}
+    .engagement-bottom button:hover {
+        filter: brightness(110%);
+    }
 
-.learn-more:active {
-    filter: brightness(90%);
-}
+    .engagement-bottom button:active {
+        filter: brightness(90%);
+    }
 
+    /* END OF ENGAGEMENT CARDS */
 
-.engagement-bottom {
-    display: flex;
-    gap: 20px;
-    background-color: var(--silk);
-    height: 40px;
-
-}
-
-.engagement-bottom button {
-    border:none;
-    background-color: var( --silk);
-    border: none;
-    background-color: var(--silk);
-    cursor: pointer;
-    position: relative;
-    left: 30px
-}
-
-.engagement-bottom button:hover {
-    filter: brightness(110%);
-}
-
-.engagement-bottom button:active {
-    filter: brightness(90%);
-}
+    /* TRAINING/CERT CARDS */
