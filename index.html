@@ -18,6 +18,7 @@
 
     <!-- External JS Files -->
     <script defer type="module" src="assets/scripts/index.js"></script>
+    <script defer type="module" src="assets/scripts/header.js"></script>
     <script defer type="module" src="assets/scripts/resources.js"></script>
 
     <!-- FONTS AWESOME CDN -->
@@ -55,10 +56,51 @@
                 </button>
             </div>
             <div class="user_profile">
-                <a href="profile.html">
+                <a id="user-profile-button">
                     <img src="assets/images/user-pic.png">
                 </a>
             </div>
+            <ul class="profile-drop-down">
+                <li style="--delay:.1s">
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <p>My Profile</p>
+                    </a>
+                </li>
+                <li style="--delay:.2s">
+                    <a href="#">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <p>Recent Activities</p>
+                    </a>
+                </li>
+                <li style="--delay:.3s">
+                    <a href="#">
+                        <i class="fa-solid fa-gears"></i>
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li style="--delay:.4s">
+                    <a href="#">
+                        <i class="fa-solid fa-bug"></i>
+                        <p>Report Bug and Feedback</p>
+                    </a>
+                </li>
+                <li style="padding:0px;--delay:.4s">
+                    <hr style="border-color:#3333331c;">
+                </li>
+                <li style="--delay:.5s">
+                    <a href="#">
+                        <i class="fa-solid fa-repeat"></i>
+                        <p>Switch Account</p>
+                    </a>
+                </li>
+                <li style="--delay:.6s">
+                    <a href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <p>Log out</p>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
 
