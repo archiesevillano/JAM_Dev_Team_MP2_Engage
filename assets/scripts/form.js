@@ -32,15 +32,50 @@ export const populateProvince = async () => {
     });
 }
 
-export const togglePassword = (textbox, buttonToggle) => {
-    buttonToggle.addEventListener('mouseDown', textbox.type = "text");
-    buttonToggle.addEventListener('mouseUp', textbox.type = "password");
-}
+// export const togglePassword = (textbox, buttonToggle) => {
+//     buttonToggle.addEventListener('mouseDown', textbox.type = "text");
+//     buttonToggle.addEventListener('mouseUp', textbox.type = "password");
+// }
 
-const btn = document.querySelector(".show-password-btn");
-const field = document.querySelector(".password");
+// const btn = document.querySelector(".show-password-btn");
+// const field = document.querySelector(".password");
 
-console.log(btn);
-togglePassword(field, btn);
+// console.log(btn);
+// togglePassword(field, btn);
 
 //ADD TOGGLE PASSWORD FUNCTION
+// Variables
+const passwordInput = document.querySelector('#password');
+const showPassword = document.querySelector('#show-password');
+const confirmPasswordInput = document.querySelector("#confirm-password")
+const confirmShowPassword = document.querySelector("#confirm-show-password");
+
+// Function
+showPassword.addEventListener("click", () => {
+  const type = passwordInput.getAttribute("type") 
+  === "password" ? "text" : "password";
+  passwordInput.setAttribute("type", type);
+});
+
+confirmShowPassword.addEventListener("click", () => {
+    const type = confirmPasswordInput.getAttribute("type") 
+    === "password" ? "text" : "password";
+    confirmPasswordInput.setAttribute("type", type);
+});
+
+
+// GET AGE FUNC
+const getAge = (month, day, year) => {
+    const today = new Date();
+    const birthdate = new Date(year, month - 1, day);
+    let age = today.getFullYear() - birthdate.getFullYear();
+    const monthDiff = today.getMonth() - birthdate.getMonth()
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())){
+      age--;
+    }
+    return age;
+  };
+  
+  const age = getAge(3, 7, 1999);
+  console.log(age);
+  

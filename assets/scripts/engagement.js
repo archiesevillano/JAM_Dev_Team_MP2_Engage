@@ -32,12 +32,12 @@ const recruiter = [{
         }
     
 }];
-    numofapplicants: 433,
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
-    }
+//     numofapplicants: 433,
+//     fullname: () => {
+//         return this.firstname + ' ' + this.lastname;
+//     }
 
-}];
+// }];
 
 
 console.log(recruiter);
