@@ -316,9 +316,30 @@
 }
 
 
+/*SCROLLBAR */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--tertiary);
+}
 
 
 
+.subheads {
+    text-transform: uppercase;
+    color: var(--secondary);
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: var(--poppins);
+}
 
 header.main-header {
     width: 100%;
