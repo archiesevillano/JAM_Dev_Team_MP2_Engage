@@ -66,12 +66,36 @@ confirmShowPassword.addEventListener("click", () => {
 
 // GET AGE FUNC
 export const getAge = (month, day, year) => {
+    // Declare Variable to get present date
     const today = new Date();
+    // Declare variable for formula of present date -1 because january is presented as 0
     const birthdate = new Date(year, month - 1, day);
+    // Declare age with today and your birthdate
     let age = today.getFullYear() - birthdate.getFullYear();
+    // Declare monthDiff to get difference between today and birthdate
     const monthDiff = today.getMonth() - birthdate.getMonth();
+    // if with lofical operators to check if value is true or false
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
         age--;
     }
+    // return age after function
     return age;
 };
+
+const age = getAge(3, 7, 1999);
+console.log(age);
+
+//   Function max length
+// const textMax = (text, maxLength) => {
+//     if (text.length <= maxLength) {
+//       return text;
+//     } else {
+//       let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
+//       if (nonSpaceCount <= maxLength) {
+//         return text;
+//       }
+//       let textMax = text.slice(0, maxLength);
+//       textMax = textMax.trim().replace(/\s+\S*$/, '');
+//       return textMax + '...';
+//     }
+//   }
