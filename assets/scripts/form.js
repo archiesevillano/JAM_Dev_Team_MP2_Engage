@@ -86,17 +86,17 @@ const getAge = (month, day, year) => {
   console.log(age);
 
 //   Function max length 
-const textMax = (text, maxLength) => {
-    if (text.length <= maxLength) {
-      return text;
-    } else {
-      let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
-      if (nonSpaceCount <= maxLength) {
-        return text;
-      }
-      let textMax = text.slice(0, maxLength);
-      textMax = textMax.trim().replace(/\s+\S*$/, '');
-      return textMax + '...';
-    }
-  }
+// const textMax = (text, maxLength) => {
+//     if (text.length <= maxLength) {
+//       return text;
+//     } else {
+//       let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
+//       if (nonSpaceCount <= maxLength) {
+//         return text;
+//       }
+//       let textMax = text.slice(0, maxLength);
+//       textMax = textMax.trim().replace(/\s+\S*$/, '');
+//       return textMax + '...';
+//     }
+//   }
   

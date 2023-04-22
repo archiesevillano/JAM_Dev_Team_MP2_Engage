@@ -24,10 +24,11 @@
         "workExp": 6,
         "certificates": 3,
         "responseRate": "89.12%",
-        "workExperience": [
+        "workExperience": [ 
           {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
+          
         "dateAccountCreated": "2023-04-21T17:30:00Z",
         "verificationStatus": true,
         "gender": "Female"
@@ -45,17 +46,24 @@
         "Email": "emilysmith97@gmail.com",
         "Phone": "+1 (555) 234-5678",
         "Password": "kZp*9$lTf",
-        "education": [],
+        "education": [
+          {"schoolName": "University of San Francisco", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+          {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+        ],
         "resumeSource": "assets/files/resume/user_cv1.docx",
         "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-        "skillSet": {},
-        "recentJobTitle": "",
-        "workExp": null,
-        "certificates": null,
-        "responseRate": "",
-        "workExperience": [],
+        "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+        "recentJobTitle": "UX/UI Designer",
+        "workExp": 6,
+        "certificates": 3,
+        "responseRate": "89.12%",
+        "workExperience": [ 
+          {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
+          
         "dateAccountCreated": "",
-        "verificationStatus": null,
+        "verificationStatus": true,
         "gender": "Female"
     },
     {
@@ -71,17 +79,23 @@
       "Email": "jacobjohnson91@hotmail.com",
       "Phone": "+1 (555) 345-6789",
       "Password": "xA4&nGmS#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -97,17 +111,23 @@
       "Email": "sophiahernandez94@yahoo.com",
       "Phone": "+1 (555) 456-7890",
       "Password": "hY6!jBcQe",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -123,17 +143,23 @@
       "Email": "ethanbrown98@gmail.com",
       "Phone": "+1 (555) 567-8901",
       "Password": "dX9%gVpZ*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -149,17 +175,23 @@
       "Email": "oliviadavis01@hotmail.com",
       "Phone": "+1 (555) 678-9012",
       "Password": "sF7*qNlE#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -175,17 +207,23 @@
       "Email": "williamtaylor05@yahoo.com",
       "Phone": "+1 (555) 789-0123",
       "Password": "aH8@rKmP$",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -201,17 +239,23 @@
       "Email": "avarobinson92@gmail.com",
       "Phone": "+1 (555) 890-1234",
       "Password": "mT5!fJpW#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -227,17 +271,23 @@
       "Email": "robwilson03@hotmail.com",
       "Phone": "+1 (555) 901-2345",
       "Password": "cD6#bRnY@",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -253,17 +303,23 @@
       "Email": "isabellascott07@yahoo.com",
       "Phone": "+1 (555) 012-3456",
       "Password": "lZ9%jVhX*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -279,17 +335,23 @@
       "Email": "samuelanderson99@gmail.com",
       "Phone": "+1 (555) 123-4567",
       "Password": "pB2@qNfW#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -305,17 +367,23 @@
       "Email": "mialoupark@gmail.com",
       "Phone": "+1 (555) 234-5678",
       "Password": "sM7$gYtL*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -331,17 +399,23 @@
       "Email": "danielcooper04@yahoo.com",
       "Phone": "+1 (555) 345-6789",
       "Password": "uK8#hXnD@",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -357,17 +431,23 @@
       "Email": "chloemartinez95@gmail.com",
       "Phone": "+1 (555) 456-7890",
       "Password": "eJ6!rNfT#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -383,17 +463,23 @@
       "Email": "matthewramirez02@hotmail.com",
       "Phone": "+1 (555) 567-8901",
       "Password": "tA5%bRmP$",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -409,17 +495,23 @@
       "Email": "charlottenelson93@yahoo.com",
       "Phone": "+1 (555) 678-9012",
       "Password": "gZ9&hVcX*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -435,17 +527,23 @@
       "Email": "christopherclark07@gmail.com",
       "Phone": "+1 (555) 789-0123",
       "Password": "wQ2@kLpF#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -461,17 +559,23 @@
       "Email": "harperwright98@hotmail.com",
       "Phone": "+1 (555) 890-1234",
       "Password": "yT3#sNnG@",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -487,17 +591,23 @@
       "Email": "andrewturner05@yahoo.com",
       "Phone": "+1 (555) 901-2345",
       "Password": "fU1$eJhX#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -513,17 +623,23 @@
       "Email": "ameliahill01@gmail.com",
       "Phone": "+1 (555) 012-3456",
       "Password": "rV7%bSjP*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -539,17 +655,23 @@
       "Email": "josephinecollins94@hotmail.com",
       "Phone": "+1 (555) 123-4567",
       "Password": "kY4!mGtL#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -565,17 +687,23 @@
       "Email": "ryanmurphy03@yahoo.com",
       "Phone": "+1 (555) 234-5678",
       "Password": "xD2&nHfW*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -591,17 +719,23 @@
       "Email": "lillianbailey95@gmail.com",
       "Phone": "+1 (555) 345-6789",
       "Password": "hB8@pKcQ#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -617,17 +751,23 @@
       "Email": "nathanbaker02@hotmail.com",
       "Phone": "+1 (555) 456-7890",
       "Password": "jS5!fNtM*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -643,17 +783,23 @@
       "Email": "harperhall99@yahoo.com",
       "Phone": "+1 (555) 567-8901",
       "Password": "nZ9#gVhX@",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -669,17 +815,23 @@
       "Email": "joshuaking01@gmail.com",
       "Phone": "+1 (555) 678-9012",
       "Password": "qW6$eRfP#",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -695,17 +847,23 @@
       "Email": "ariareed97@hotmail.com",
       "Phone": "+1 (555) 789-0123",
       "Password": "vT3%kLsN!",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -721,17 +879,23 @@
       "Email": "gabrieladams94@yahoo.com",
       "Phone": "+1 (555) 890-1234",
       "Password": "cJ7!bFpX@",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     },
     {
@@ -747,17 +911,23 @@
       "Email": "addisonfisher05@gmail.com",
       "Phone": "+1 (555) 901-2345",
       "Password": "mG8&hKtV$",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Female"
     },
     {
@@ -773,17 +943,23 @@
       "Email": "elijahgreen98@hotmail.com",
       "Phone": "+1 (555) 012-3456",
       "Password": "pR5#nSfM*",
-      "education": [],
+      "education": [
+        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+      ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
-      "skillSet": {},
-      "recentJobTitle": "",
-      "workExp": null,
-      "certificates": null,
-      "responseRate": "",
-      "workExperience": [],
+      "skillSet": {"Video Editing": 87, "Photo Editing": 89, "Graphic Design": 95, "Web Development": 80, "Copywriting": 75},
+      "recentJobTitle": "UX/UI Designer",
+      "workExp": 6,
+      "certificates": 3,
+      "responseRate": "89.12%",
+      "workExperience": [ 
+        {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
+          {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
+        ],
       "dateAccountCreated": "",
-      "verificationStatus": null,
+      "verificationStatus": true,
       "gender": "Male"
     }
     ]
