@@ -166,6 +166,16 @@
     margin: 50px 0;
     display: flex;
     justify-content: space-evenly;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.what-we-do-section .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .what-we-do-section .right .what-we-do-list {
@@ -238,6 +248,7 @@
 .what-we-do-section .left p {
     font-family: var(--outfit);
     color: var(--secondary);
+    transform: translateY(50px);
 }
 
 .what-we-do-section .left p:first-child {
