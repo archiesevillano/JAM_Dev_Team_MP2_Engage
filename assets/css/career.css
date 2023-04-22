@@ -32,3 +32,23 @@ body, button {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+.herobanner {
+    position: absolute;
+width: 1600px;
+height: 245px;
+left: 0px;
+top: 60px;
+
+background: #3066BE;
+}
+.career-hero  {
+    height: 230px;
+    background: #3066BE;
+}
+.hero-content {
+    display:flex;
+}
+
