@@ -19,7 +19,18 @@ body ,button {
     color: var(--black);
     text-decoration: none;
     list-style-type: none;
-    gap: 10px;
+    padding-bottom: 13px;
+}
+.side-navigation li:hover {
+    filter: brightness(110%);
+    color: var(--primary)
+}
+.side-navigation li:active {
+    filter: brightness(90%);
+}
+.side-navigation i {
+    color: var(--secondary);
+    padding-right: 5px;
 }
 
 .cards-container {
@@ -29,11 +40,12 @@ body ,button {
 }
 
 /* ENGAGEMENT FEED */
+
 .engagement-cards {
     border: 1px solid rgba(0, 0, 0, 0.116);
-    border-radius: 3px;
+    
     width: 600px;
-    height: 300px;
+    
     box-shadow:
     0.7px 0.6px 2.2px rgba(0, 0, 0, 0.021),
     1.8px 1.5px 5.3px rgba(0, 0, 0, 0.032),
@@ -42,37 +54,38 @@ body ,button {
     11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
     27px 22px 80px rgba(0, 0, 0, 0.09)
     ;
+    
 
 }
 
 /* engagement cards */
 
-.engagement-cards-name {
+.engagement-cards-name, .training-cards-name, .interview-cards-name {
     background-color: var( --silk);
     height: 50px;
     display:flex;
-    align-items: center;
-    
+    align-items: center; 
 }
-.recruiter-image {
+.recruiter-image, .training-image, .interview-image {
     margin-left: 10px;
     border: 4px solid var(--secondary);
     height: 40px;
     width: 40px;
     border-radius: 50%;
     overflow: hidden;
+    
 }
-.recruiter-image img {
+.recruiter-image img, .training-image img, .interview-image img {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
-.recruiter-name-timeposted {
-    display:flex;
+.recruiter-name-timeposted, .training-name-timeposted, .interview-name-timeposted {
+    display: flex;
     flex-direction: column;
     padding-left: 10px;
 }
-.recruiter-name {
+.recruiter-name, .training-name, .interview-name {
     font-size: small;
     color: var( --primary)
 }
@@ -80,11 +93,11 @@ body ,button {
     font-size: 8px;
     color: var( --black)
 }
-.recruiter-options {
+.recruiter-options, .training-options, .interview-options {
     position: relative;
     left: 400px;
 }
-.recruiter-options button {
+.recruiter-options button, .training-options button, .interview-options button{
     border: none;
     color: var(--dark);
     background-color: var( --silk);
@@ -93,7 +106,8 @@ body ,button {
 .engagement-cards-content {
     height: 200px;
     background-color: var( --clean);
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
+    
 }
 .job-title {
     color: var(--primary);
@@ -116,7 +130,7 @@ body ,button {
 .engagement-info {
     height: 30px;
     color: var( --primary);
-    font-size: x-small;
+    font-size: 13px;
     padding-left: 5px;
     display:flex; 
     align-items: center;
@@ -144,8 +158,8 @@ body ,button {
 .learn-more:active {
     filter: brightness(90%);
 }
-.engagement-bottom {
-    display:flex;
+.engagement-bottom , .training-bottom, .interview-bottom{
+    display: flex;
     gap: 20px;
     background-color: var( --silk);
     height: 40px;
@@ -165,6 +179,94 @@ body ,button {
 .engagement-bottom button:active {
     filter: brightness(90%);
 }
-/* END OF ENGAGEMENT CARDS */
 
-/* TRAINING/CERT CARDS */
+.trainingcards-info {
+    height: 20px;
+    color: var( --primary);
+    font-size: 14px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+   
+}
+.training-cards-content{
+    position: relative;
+}
+.training-content img {
+    object-fit:inherit;
+    height: 100%;
+    width:100%;
+}
+.training-cards-content button {
+    position: absolute;
+    bottom: 15px;
+    left: 490px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 27px;
+    width: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--clean)
+}
+
+.training-cards-content button:hover {
+    filter: brightness(110%);
+    background-color: var(--dark);
+    color: var(--clean)
+}
+.training-cards-content button:active {
+    filter: brightness(90%);
+}
+
+.training-bottom button {
+    border:none;
+    background-color: var( --silk);
+    cursor: pointer;
+    position: relative;
+    left: 30px
+}
+
+.training-bottom button:hover {
+    filter: brightness(110%);
+    background-color: var(--silk);
+    
+}
+.training-bottom button:active {
+    filter: brightness(90%);
+}
+
+/* INTERVIEW CARDS */
+.interview-content {
+    padding: 10px 15px
+}
+.video-link-content {
+    padding-bottom: 10px;
+}
+
+.video-content-title {
+    display:flex;
+    
+}
+.vid-content {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.vid-content .vid-title {
+    color: var(--primary);
+    font-weight: bold;
+}
+.vid-content .vid-description {
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px 5px 0 0;
+}
+
+
+/* END OF ENGAGEMENT/TRAINING CARDS/INTERVIEW */
+
+
+
+
