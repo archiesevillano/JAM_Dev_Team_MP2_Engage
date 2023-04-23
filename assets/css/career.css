@@ -1,11 +1,17 @@
-body, button {
+body, button, input {
     font-family: 'Poppins', sans-serif;
 }
+
+/* CAREER HERO */
+.career-hero {
+    padding-left: 70px
+}
+
 .drop-btn {
-    padding: 5px 10px;
+    padding: 3px 10px;
     font-size: 12px;
     border: 1px solid rgba(0, 0, 0, 0.452);
-    background-color: var(--white);
+    background-color: var(--clean);
     cursor: pointer;
 }
 .dropdown {
@@ -36,19 +42,338 @@ body, button {
 
 
 .herobanner {
-    position: absolute;
-width: 1600px;
-height: 245px;
-left: 0px;
-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondary);
+    height: 250px;
+}
 
-background: #3066BE;
-}
-.career-hero  {
-    height: 230px;
-    background: #3066BE;
-}
+
 .hero-content {
     display:flex;
+    column-gap: 5px;
+}
+.hero-text {
+    color: var(--clean);
+    padding-bottom: 10px;
+}
+.search-bar{
+  padding-left:3px;
+  
+}
+.search-bar {
+    width: 280px
 }
 
+.search-content button {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+}
+.search-content button:hover {
+    filter: brightness(110%);
+}
+.search-content span {
+    padding-left: 5px;
+}
+.hero-image {
+    height: 100%
+}
+
+/* END OF CAREER HERO */
+
+/* JOB POSTED CONTENT */
+
+.job-posted {
+    padding: 50px;
+    
+}
+.job-posted-text {
+    padding-bottom: 20px;
+}
+.cards-container{
+    display:flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+
+/* Cards */
+.jobposted-cards {
+    width: 270px;
+    height: 380px;
+    border: 1px solid rgba(0, 0, 0, 0.150);
+    border-radius: 5px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    margin: 20px;
+}
+.jobtext-content {
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.job-image {
+    width: 100%;
+    
+}
+.job-name-text{
+    font-weight: bold;
+    font-size: 15px;
+}
+.company-hiring {
+    font-size: 13px;
+}
+.job-description-text{
+    
+    font-size: 10px;
+    text-align:justify;
+    height: 105px;
+}
+.viewjob-btn {
+    display:flex;
+    justify-content: center;
+}
+.viewjob-btn button {
+    background-color: var(--secondary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--clean);
+    font-family: var(--poppins);
+    padding: 8px;
+    font-size: 11px;
+    width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.viewjob-btn button:hover {
+    filter: brightness(110%);
+}
+
+.viewjob-btn button:active {
+    filter: brightness(90%);
+}
+/*  END JOB POSTED CONTENT */
+
+
+
+/* MEDIA QUERIES */
+
+    /* extra large WIDTH:1200px */
+@media screen and (max-width:1200px) {
+    .herobanner {
+        height: 230px;
+    }
+
+    .drop-btn {
+        width: 100px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 100%
+    }
+
+    .career-hero {
+        padding: 17px
+    }
+    .drop-btn, .search-bar ,.search-content button {
+        height: 35px;
+    }
+    .search-bar {
+        width: 250px;
+    }
+    .jobposted-cards {
+        width: 220px;
+        height: 350px
+    }
+    .job-name-text{
+        font-size: 12px;
+    }
+    .company-hiring {
+        font-size: 12px;
+    }
+    .jobtext-content {
+        padding: 10px
+    }
+    .job-description-text {
+        font-size: 9px;
+        height: 110px;
+    }
+    .
+    
+}
+
+    /* large WIDTH:992px */
+@media screen and (max-width:992px) {
+    .herobanner {
+        height: 200px;
+    }
+    .drop-btn {
+        width: 90px;
+        font-size: 11px;
+        padding: 1px;
+    }
+    .search-bar {
+        width: 155px;
+    }
+    .hero-image img {
+        width: 100%;
+    }
+    .search-bar :placeholder-shown{
+        font-size: 11px;
+    }
+    .job-posted {
+        justify-content: center;
+    }
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    } 
+    .company-hiring {
+        font-size: 11px;
+    }
+    .job-description-text {
+        height:110px;
+    }
+}
+
+    /* medium WIDTH:768px */
+@media screen and (max-width:768px) {
+    .herobanner {
+        height: 150px
+    }
+    .hero-image img {
+        width: 100%;
+    }
+    .drop-btn  {
+        width: 70px;
+        font-size: 9px;
+    }
+    .hero-content {
+        display:flex;
+        align-items: center;
+    }
+    .search-bar {
+        width: 90px;
+    }
+    .search-bar::placeholder{
+        font-size: 9.5px;
+        padding: 1px
+    }
+    .job-posted {
+        padding: 20px;
+    }
+    .job-posted-text {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    .company-hiring {
+        font-size: 11px;
+    }
+    .job-description-text {
+        height: 110px;
+    }
+}
+    /* small width: 576px */
+@media screen and (max-width:576px) {
+    .herobanner {
+        height: 120px;
+    }
+    .hero-image img {
+        display:none
+    }
+    .drop-btn {
+        width: 90px;
+        font-size: 11px
+    }
+    .search-bar {
+        width: 240px;
+    }
+    .search-bar::placeholder{
+        font-size: 13px;
+    }
+    .job-posted {
+        padding: 13px;
+    }
+    .cards-container {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .jobposted-cards { 
+        width: 230px;
+        height: 330px
+    }
+    .jobtext-content {
+       
+    }
+    .job-description-text {
+        font-size: 9px;
+        padding-top: 2px;  
+        height: 105px;     
+    }
+    .company-hiring {
+        font-size: 11px;
+
+    }
+}
+
+    /* media width:414px Mobile */
+@media screen and (max-width:414px){
+    .hero-text {
+        padding: 3px;
+    }
+    .hero-content {
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 4px;
+    }
+    .dropdown {
+        padding-bottom: 3px;
+    }
+    .cards-container {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding:0px;
+    }
+    .job-posted-text {
+        font-size: 12px;
+    }
+    .jobposted-cards {
+        display:flex;
+        flex-direction: row;
+        width: 350px;
+        height: 150px;
+    }
+    .job-image {
+        display:none
+    }
+    .company-hiring {
+        font-size: 11px;
+
+    }
+    .job-description-text {
+        padding-top: 2px;
+        font-size: 9.5px
+    }
+    .viewjob-btn button{
+        width: 50px;
+        height: 100%;
+    }
+}
