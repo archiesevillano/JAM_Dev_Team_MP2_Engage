@@ -74,7 +74,7 @@ export const getAge = (month, day, year) => {
     let age = today.getFullYear() - birthdate.getFullYear();
     // Declare monthDiff to get difference between today and birthdate
     const monthDiff = today.getMonth() - birthdate.getMonth();
-    // if with lofical operators to check if value is true or false
+    // if with logical operators to check if value is true or false
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
         age--;
     }
@@ -85,17 +85,25 @@ export const getAge = (month, day, year) => {
 const age = getAge(3, 7, 1999);
 console.log(age);
 
+
+
+
+const idGenerate = () => {
+    
+}
+
 //   Function max length
-// const textMax = (text, maxLength) => {
-//     if (text.length <= maxLength) {
-//       return text;
-//     } else {
-//       let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
-//       if (nonSpaceCount <= maxLength) {
-//         return text;
-//       }
-//       let textMax = text.slice(0, maxLength);
-//       textMax = textMax.trim().replace(/\s+\S*$/, '');
-//       return textMax + '...';
-//     }
-//   }
+const textMax = (text, maxLength) => {
+    if (text.length <= maxLength) {
+      return text;
+    } else {
+      let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
+      if (nonSpaceCount <= maxLength) {
+        return text;
+      }
+      let textMax = text.slice(0, maxLength);
+      textMax = textMax.trim().replace(/\s+\S*$/, '');
+      return textMax + '...';
+    }
+  }
+  console.log(textMax);

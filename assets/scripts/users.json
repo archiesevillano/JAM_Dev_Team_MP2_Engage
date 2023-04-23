@@ -14,8 +14,8 @@
         "Phone": "+1 (555) 123-4567",
         "Password": "p@sSw0rd$tr0nG",
         "education": [
-          {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
-          {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+          {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2013-2017"},
+          {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2017-2019"}
         ],
         "resumeSource": "assets/files/resume/user_cv1.docx",
         "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
@@ -47,8 +47,8 @@
         "Phone": "+1 (555) 234-5678",
         "Password": "kZp*9$lTf",
         "education": [
-          {"schoolName": "University of San Francisco", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
-          {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+          {"schoolName": "University of California, Berkeley", "studentTitle": "Bachelor of Science in Data Science", "yearInSchool": "2013-2017"},
+          {"schoolName": "Stanford University", "studentTitle": "Master of Science in Information Science: Machine Learning", "yearInSchool": "2017-2019"}
         ],
         "resumeSource": "assets/files/resume/user_cv1.docx",
         "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
@@ -62,7 +62,7 @@
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
           
-        "dateAccountCreated": "",
+        "dateAccountCreated": "2023-04-21T17:30:00Z",
         "verificationStatus": true,
         "gender": "Female"
     },
@@ -80,8 +80,7 @@
       "Phone": "+1 (555) 345-6789",
       "Password": "xA4&nGmS#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
-        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+        {"schoolName": "New York University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
@@ -94,7 +93,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -112,7 +111,7 @@
       "Phone": "+1 (555) 456-7890",
       "Password": "hY6!jBcQe",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Princeton University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -126,7 +125,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -144,7 +143,7 @@
       "Phone": "+1 (555) 567-8901",
       "Password": "dX9%gVpZ*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Wilmington University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -158,7 +157,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -176,7 +175,7 @@
       "Phone": "+1 (555) 678-9012",
       "Password": "sF7*qNlE#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Columbia University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -190,7 +189,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -208,7 +207,7 @@
       "Phone": "+1 (555) 789-0123",
       "Password": "aH8@rKmP$",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Temple University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -222,7 +221,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -240,7 +239,7 @@
       "Phone": "+1 (555) 890-1234",
       "Password": "mT5!fJpW#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Duke University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -254,7 +253,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -272,7 +271,7 @@
       "Phone": "+1 (555) 901-2345",
       "Password": "cD6#bRnY@",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of Chicago", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -286,7 +285,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -304,7 +303,7 @@
       "Phone": "+1 (555) 012-3456",
       "Password": "lZ9%jVhX*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Georgia State University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -318,7 +317,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -336,7 +335,7 @@
       "Phone": "+1 (555) 123-4567",
       "Password": "pB2@qNfW#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Columbia University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -350,7 +349,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -368,8 +367,8 @@
       "Phone": "+1 (555) 234-5678",
       "Password": "sM7$gYtL*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
-        {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
+        {"schoolName": "California Institute of Technology", "studentTitle": "Bachelor of Arts in Creative Writing", "yearInSchool": "2010-2014"},
+        {"schoolName": "California State University", "studentTitle": "Bachelor of Arts in Journalism", "yearInSchool": "2015-2019"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
       "coverLetterSource": "assets/files/coverLetter/user_cvl1.docx",
@@ -382,7 +381,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -400,7 +399,7 @@
       "Phone": "+1 (555) 345-6789",
       "Password": "uK8#hXnD@",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of Minnesota", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -414,7 +413,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -432,7 +431,7 @@
       "Phone": "+1 (555) 456-7890",
       "Password": "eJ6!rNfT#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Rutgers University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -446,7 +445,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -464,7 +463,7 @@
       "Phone": "+1 (555) 567-8901",
       "Password": "tA5%bRmP$",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Saint Louis University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -478,7 +477,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -496,7 +495,7 @@
       "Phone": "+1 (555) 678-9012",
       "Password": "gZ9&hVcX*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "San Diego State University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -510,7 +509,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -528,7 +527,7 @@
       "Phone": "+1 (555) 789-0123",
       "Password": "wQ2@kLpF#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of North Carolina", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -542,7 +541,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -560,7 +559,7 @@
       "Phone": "+1 (555) 890-1234",
       "Password": "yT3#sNnG@",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of Miami", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -574,7 +573,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -592,7 +591,7 @@
       "Phone": "+1 (555) 901-2345",
       "Password": "fU1$eJhX#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of California", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -606,7 +605,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -624,7 +623,7 @@
       "Phone": "+1 (555) 012-3456",
       "Password": "rV7%bSjP*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of Pennsylvania", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -638,7 +637,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -656,7 +655,7 @@
       "Phone": "+1 (555) 123-4567",
       "Password": "kY4!mGtL#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Arizona State University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -670,7 +669,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -688,7 +687,7 @@
       "Phone": "+1 (555) 234-5678",
       "Password": "xD2&nHfW*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of North Carolina at Charlotte", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -702,7 +701,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -720,7 +719,7 @@
       "Phone": "+1 (555) 345-6789",
       "Password": "hB8@pKcQ#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "New York University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -734,7 +733,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -752,7 +751,7 @@
       "Phone": "+1 (555) 456-7890",
       "Password": "jS5!fNtM*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of San Francisco", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -766,7 +765,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -784,7 +783,7 @@
       "Phone": "+1 (555) 567-8901",
       "Password": "nZ9#gVhX@",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of Southern California", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -798,7 +797,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -816,7 +815,7 @@
       "Phone": "+1 (555) 678-9012",
       "Password": "qW6$eRfP#",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Harvard University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -830,7 +829,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -848,7 +847,7 @@
       "Phone": "+1 (555) 789-0123",
       "Password": "vT3%kLsN!",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "Rockefeller University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -862,7 +861,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -880,7 +879,7 @@
       "Phone": "+1 (555) 890-1234",
       "Password": "cJ7!bFpX@",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of Memphis", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -894,7 +893,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     },
@@ -912,7 +911,7 @@
       "Phone": "+1 (555) 901-2345",
       "Password": "mG8&hKtV$",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "George Washington University", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -926,7 +925,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Female"
     },
@@ -944,7 +943,7 @@
       "Phone": "+1 (555) 012-3456",
       "Password": "pR5#nSfM*",
       "education": [
-        {"schoolName": "Springfield College", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
+        {"schoolName": "University of California, Los Angeles", "studentTitle": "Bachelor of Science in Computer Science", "yearInSchool": "2011-2015"},
         {"schoolName": "Springfield College", "studentTitle": "Master of Science in Information Technology", "yearInSchool": "2016-2018"}
       ],
       "resumeSource": "assets/files/resume/user_cv1.docx",
@@ -958,7 +957,7 @@
         {"companyName": "ABC Inc.", "workingYears": "2018-2019", "title": "UX/UI Designer"},
           {"companyName": "XYZ Corp.", "workingYears": "2020-2023", "title": "Web Designer"}
         ],
-      "dateAccountCreated": "",
+      "dateAccountCreated": "2023-04-21T17:30:00Z",
       "verificationStatus": true,
       "gender": "Male"
     }
