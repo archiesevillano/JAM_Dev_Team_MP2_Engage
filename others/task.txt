@@ -1,0 +1,1 @@
+ID Generator = return format: [year] [month] [day] [hour] [minute] [seconds] [random 5 characters from A-z0-1]

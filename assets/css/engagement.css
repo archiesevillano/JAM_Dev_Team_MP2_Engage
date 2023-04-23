@@ -1,9 +1,11 @@
-body ,button {
+body,
+button {
     font-family: 'Poppins', sans-serif;
 }
+
 /* ENGAGEMENT CONTENT */
 .engagement-content {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -12,138 +14,170 @@ body ,button {
 .side-navigation {
     width: 280px;
     height: 100vh;
-    
+
 }
 
-.side-navigation ul li , a{
+.side-navigation ul li,
+a {
     color: var(--black);
     text-decoration: none;
     list-style-type: none;
     padding-bottom: 13px;
 }
+
 .side-navigation li:hover {
     filter: brightness(110%);
     color: var(--primary)
 }
+
 .side-navigation li:active {
     filter: brightness(90%);
 }
+
 .side-navigation i {
     color: var(--secondary);
     padding-right: 5px;
 }
 
 .cards-container {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    
+
 }
 
 /* ENGAGEMENT FEED */
 
 .engagement-cards {
     border: 1px solid rgba(0, 0, 0, 0.116);
-    
+
     width: 600px;
-    
+
     box-shadow:
-    0.7px 0.6px 2.2px rgba(0, 0, 0, 0.021),
-    1.8px 1.5px 5.3px rgba(0, 0, 0, 0.032),
-    3.4px 2.8px 10px rgba(0, 0, 0, 0.04),
-    6px 4.9px 17.9px rgba(0, 0, 0, 0.047),
-    11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
-    27px 22px 80px rgba(0, 0, 0, 0.09)
-    ;
-    
+        0.7px 0.6px 2.2px rgba(0, 0, 0, 0.021),
+        1.8px 1.5px 5.3px rgba(0, 0, 0, 0.032),
+        3.4px 2.8px 10px rgba(0, 0, 0, 0.04),
+        6px 4.9px 17.9px rgba(0, 0, 0, 0.047),
+        11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
+        27px 22px 80px rgba(0, 0, 0, 0.09);
 
 }
 
 /* engagement cards */
 
-.engagement-cards-name, .training-cards-name, .interview-cards-name {
-    background-color: var( --silk);
+.engagement-cards-name,
+.training-cards-name,
+.interview-cards-name {
+    background-color: var(--silk);
     height: 50px;
-    display:flex;
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
-.recruiter-image, .training-image, .interview-image {
+
+.recruiter-image,
+.training-image,
+.interview-image {
     margin-left: 10px;
     border: 4px solid var(--secondary);
     height: 40px;
     width: 40px;
     border-radius: 50%;
     overflow: hidden;
-    
+
 }
-.recruiter-image img, .training-image img, .interview-image img {
+
+.recruiter-image img,
+.training-image img,
+.interview-image img {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
-.recruiter-name-timeposted, .training-name-timeposted, .interview-name-timeposted {
+
+.recruiter-name-timeposted,
+.training-name-timeposted,
+.interview-name-timeposted {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
 }
-.recruiter-name, .training-name, .interview-name {
+
+.recruiter-name,
+.training-name,
+.interview-name {
     font-size: small;
-    color: var( --primary)
+    color: var(--primary)
 }
+
 .time-posted {
     font-size: 8px;
-    color: var( --black)
+    color: var(--black)
 }
-.recruiter-options, .training-options, .interview-options {
+
+.recruiter-options,
+.training-options,
+.interview-options {
     position: relative;
     left: 400px;
 }
-.recruiter-options button, .training-options button, .interview-options button{
+
+.recruiter-options button,
+.training-options button,
+.interview-options button {
     border: none;
     color: var(--dark);
-    background-color: var( --silk);
+    background-color: var(--silk);
     cursor: pointer;
 }
+
 .engagement-cards-content {
     height: 200px;
-    background-color: var( --clean);
+    background-color: var(--clean);
     padding: 10px;
-    
+
 }
+
 .job-title {
     color: var(--primary);
     font-weight: bold;
 }
+
 .job-content {
-    display:flex; 
+    display: flex;
     flex-direction: column;
 }
+
 .job-content .job-sum {
     font-size: 13px;
     padding-left: 5px;
     font-weight: bold;
 }
+
 .job-content .job-description {
     font-size: 12px;
     text-align: justify;
     padding: 5px 15px 5px 15px;
 }
+
 .engagement-info {
     height: 30px;
-    color: var( --primary);
+    color: var(--primary);
     font-size: 13px;
     padding-left: 5px;
-    display:flex; 
+    display: flex;
     align-items: center;
 }
+
 .hiring-company {
     display: flex;
     height: 40px;
     align-items: center;
     justify-content: space-between;
 }
-.hiring-company img{
+
+.hiring-company img {
     width: 150px;
 }
+
 .learn-more {
     border: 1px solid black;
     height: 27px;
@@ -151,6 +185,7 @@ body ,button {
     background-color: var(--clean);
     cursor: pointer;
 }
+
 .learn-more:hover {
     filter: brightness(110%);
 }
@@ -158,20 +193,25 @@ body ,button {
 .learn-more:active {
     filter: brightness(90%);
 }
-.engagement-bottom , .training-bottom, .interview-bottom{
+
+.engagement-bottom,
+.training-bottom,
+.interview-bottom {
     display: flex;
     gap: 20px;
-    background-color: var( --silk);
+    background-color: var(--silk);
     height: 40px;
-    
+
 }
+
 .engagement-bottom button {
-    border:none;
-    background-color: var( --silk);
+    border: none;
+    background-color: var(--silk);
     cursor: pointer;
     position: relative;
     left: 30px
 }
+
 .engagement-bottom button:hover {
     filter: brightness(110%);
 }
@@ -182,23 +222,26 @@ body ,button {
 
 .trainingcards-info {
     height: 20px;
-    color: var( --primary);
+    color: var(--primary);
     font-size: 14px;
     padding-left: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
-   
+
 }
-.training-cards-content{
+
+.training-cards-content {
     position: relative;
 }
+
 .training-content img {
-    object-fit:inherit;
+    object-fit: inherit;
     height: 100%;
-    width:100%;
+    width: 100%;
 }
+
 .training-cards-content button {
     position: absolute;
     bottom: 15px;
@@ -216,13 +259,14 @@ body ,button {
     background-color: var(--dark);
     color: var(--clean)
 }
+
 .training-cards-content button:active {
     filter: brightness(90%);
 }
 
 .training-bottom button {
-    border:none;
-    background-color: var( --silk);
+    border: none;
+    background-color: var(--silk);
     cursor: pointer;
     position: relative;
     left: 30px
@@ -231,8 +275,9 @@ body ,button {
 .training-bottom button:hover {
     filter: brightness(110%);
     background-color: var(--silk);
-    
+
 }
+
 .training-bottom button:active {
     filter: brightness(90%);
 }
@@ -241,23 +286,27 @@ body ,button {
 .interview-content {
     padding: 10px 15px
 }
+
 .video-link-content {
     padding-bottom: 10px;
 }
 
 .video-content-title {
-    display:flex;
-    
+    display: flex;
+
 }
+
 .vid-content {
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding: 10px;
 }
+
 .vid-content .vid-title {
     color: var(--primary);
     font-weight: bold;
 }
+
 .vid-content .vid-description {
     font-size: 13px;
     text-align: justify;
@@ -266,7 +315,3 @@ body ,button {
 
 
 /* END OF ENGAGEMENT/TRAINING CARDS/INTERVIEW */
-
-
-
-

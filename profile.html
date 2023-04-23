@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Tab Title -->
+    <title>My Profile - Engage</title>
+
+    <!-- App Icon - SVG FORMAT -->
+    <link rel="icon" href="assets/images/logo.svg">
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/root.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/profile.css">
+
+    <!-- External JS Files -->
+    <script defer type="module" src="assets/scripts/index.js"></script>
+    <script defer type="module" src="assets/scripts/resources.js"></script>
+
+    <!-- FONTS AWESOME CDN -->
+    <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="brand-container col" data-sub="none">
+            <div class="app-logo">
+                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+            </div>
+            <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+        </div>
+        <div class="search-bar-container">
+            <div class="search-bar-content">
+                <button type="button" class="main-header-btn search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" class="search-bar input-search" name="search-bar" autocomplete="on"
+                    placeholder="Search for Jobs">
+            </div>
+        </div>
+        <div class="navigation-bar col">
+            <div class="button-collection">
+                <button type="button" class="main-nav-btns todo-btn">
+                    <i class="fa-solid fa-table-list"></i>
+                </button>
+                <button type="button" class="main-nav-btns message-btn">
+                    <i class="fa-solid fa-comment"></i>
+                </button>
+                <button type="button" class="main-nav-btns notification-btn">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+            </div>
+            <div class="user_profile">
+                <a href="profile.html">
+                    <img src="assets/images/user-pic.png">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="profile-page">
+        <section class="upper-content">
+            <div class="cover-photo-container">
+            </div>
+            <div class="front-display">
+                <section class="education">
+                    <ul class="user-education-list">
+                        <li>Education</li>
+                        <li>
+                            <div class="education-record">
+                                <div class="icon-container">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="content-container">
+                                    <p class="education-title">Bachelor of Science - Major in Vulcanizing</p>
+                                    <p class="education-school">San Antonio University</p>
+                                    <p class="education-duration">2020 - 2016</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="education-record">
+                                <div class="icon-container">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="content-container">
+                                    <p class="education-title">Bachelor of Science - Major in Vulcanizing</p>
+                                    <p class="education-school">San Antonio University</p>
+                                    <p class="education-duration">2020 - 2016</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="center-content">
+                    <div class="user-details-container">
+                        <div class="plain-panel"></div>
+                        <div class="user-details">
+                            <div class="upper">
+                                <div class="user_profile" style="width:200px;height:200px;">
+                                    <img src="assets/images/user-pic.png">
+                                </div>
+                                <div class="career-names">
+                                    <p class="user-fullname">John Steven Doe</p>
+                                    <p class="user-career-title">UX/UI Designer</p>
+                                </div>
+                            </div>
+                            <div class="lower">
+                                <div class="work-exp">
+                                    <p class="exp-value value">12</p>
+                                    <p class="user-details-label">Work Experience</p>
+                                </div>
+                                <div class="response-rate">
+                                    <p class="response-rate-value value">89.56%</p>
+                                    <p class="user-details-label">Response Rate</p>
+                                </div>
+                                <div class="certificate">
+                                    <p class="certificate-value value">6</p>
+                                    <p class="user-details-label">Certificate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="verification-status">
+                        <i class="fa-regular fa-circle-check"></i>
+                        Verified
+                    </div>
+                </section>
+                <section class="user-docs">
+                    <button class="btn-primary download-resume-btn" style="width:300px;padding:13px;">
+                        <i class="fa-solid fa-circle-down" style="margin-right:5px;"></i>
+                        Download Resume
+                    </button>
+                    <button class="btn-quaternary download-cover-letter-btn" style="width:300px;padding:13px;">
+                        <i class="fa-solid fa-envelope-open" style="margin-right:5px;"></i>
+                        Download Cover Letter
+                    </button>
+                </section>
+            </div>
+        </section>
+        <section class="lower-content">
+            <div class="profile-content">
+                <div class="left">
+                    <ul class="skill-set">
+                        <li>Skills</li>
+                        <li>
+                            <div class="skill-gauge-container">
+                                <p class="skill-name">Computer Literate</p>
+                                <div class="gauge-bar">
+                                    <div class="gauge-value">
+                                        <span class="gauge-num-value">96</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-gauge-container">
+                                <p class="skill-name">Computer Literate</p>
+                                <div class="gauge-bar">
+                                    <div class="gauge-value">
+                                        <span class="gauge-num-value">96</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-gauge-container">
+                                <p class="skill-name">Computer Literate</p>
+                                <div class="gauge-bar">
+                                    <div class="gauge-value">
+                                        <span class="gauge-num-value">96</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-gauge-container">
+                                <p class="skill-name">Computer Literate</p>
+                                <div class="gauge-bar">
+                                    <div class="gauge-value">
+                                        <span class="gauge-num-value">96</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-gauge-container">
+                                <p class="skill-name">Computer Literate</p>
+                                <div class="gauge-bar">
+                                    <div class="gauge-value">
+                                        <span class="gauge-num-value">96</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="project-collections-container">
+                        <h1 class="subheads">Projects</h1>
+                        <div class="project-collections">
+                            <div class="row">
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                            </div>
+                            <div class="row">
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                            </div>
+                            <div class="row">
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                            </div>
+                            <div class="row">
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                                <div class="project"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="legal-links">
+                        <li>
+                            <a href="#">
+                                Back to top
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                About Engage
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Careers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="about-section">
+                        <h1 class="subheads">About</h1>
+                        <div class="about-content">
+                            <textarea class="about-text"></textarea>
+                            <div class="button-collection">
+                                <button class="btn-primary">
+                                    Edit About
+                                </button>
+                                <div class="edit-button-collection">
+                                    <button class="btn-primary save-edit-btn">
+                                        Save Changes
+                                    </button>
+                                    <button class="btn-plain cancel-edit-btn">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-exp-container">
+                        <h1 class="subheads">Work Experience</h1>
+                        <ul class="work-exp-list">
+                            <li>
+                                <div class="work-experience-item">
+                                    <div class="main-content">
+                                        <div class="work-exp-index-container">
+                                            <h1 class="work-exp-index">01</h1>
+                                        </div>
+                                        <h1 class="company-name">Accenture Inc.</h1>
+                                        <h1 class="work-experience-value">3 yrs experience</h1>
+                                        <h1 class="job-position">UI/UX Designer</h1>
+                                    </div>
+                                    <button type="button">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                    <!-- CREATE A DROP DOWN FOR EDIT, DELETE -->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="work-experience-item">
+                                    <div class="main-content">
+                                        <div class="work-exp-index-container">
+                                            <h1 class="work-exp-index">01</h1>
+                                        </div>
+                                        <h1 class="company-name">Accenture Inc.</h1>
+                                        <h1 class="work-experience-value">3 yrs experience</h1>
+                                        <h1 class="job-position">UI/UX Designer</h1>
+                                    </div>
+                                    <button type="button">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                    <!-- CREATE A DROP DOWN FOR EDIT, DELETE -->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="work-experience-item">
+                                    <div class="main-content">
+                                        <div class="work-exp-index-container">
+                                            <h1 class="work-exp-index">01</h1>
+                                        </div>
+                                        <h1 class="company-name">Accenture Inc.</h1>
+                                        <h1 class="work-experience-value">3 yrs experience</h1>
+                                        <h1 class="job-position">UI/UX Designer</h1>
+                                    </div>
+                                    <button type="button">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                    <!-- CREATE A DROP DOWN FOR EDIT, DELETE -->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="work-experience-item">
+                                    <div class="main-content">
+                                        <div class="work-exp-index-container">
+                                            <h1 class="work-exp-index">01</h1>
+                                        </div>
+                                        <h1 class="company-name">Accenture Inc.</h1>
+                                        <h1 class="work-experience-value">3 yrs experience</h1>
+                                        <h1 class="job-position">UI/UX Designer</h1>
+                                    </div>
+                                    <button type="button">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
+                                    <!-- CREATE A DROP DOWN FOR EDIT, DELETE -->
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="upper">
+            <div class="app-details">
+                <ul class="app-address-container">
+                    <li class="footer-headings">Address</li>
+                    <li class="app_address">
+                        Epifanio Bldg. 02 St. Manila Mexico,
+                        Metro Manila Philippines
+                    </li>
+                </ul>
+                <ul class="app-contacts-container">
+                    <li class="footer-headings">Contact us</li>
+                    <li>Email: <span class="app_email">engageph@gmail.com</span></li>
+                    <li>Phone: <span class="app_phone">(+63) 978 954 8554</span></li>
+                </ul>
+            </div>
+            <ul class="legal-docs">
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms and Condition</a>
+                </li>
+            </ul>
+        </div>
+        <div class="lower">
+            <div class="brand-container col" data-sub="none">
+                <div class="app-logo">
+                    <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+                </div>
+                <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+            </div>
+            <div class="copyright-details">
+                <p class="app_copyright">Copyright © JAM April 2023 MP2 - WD54</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
