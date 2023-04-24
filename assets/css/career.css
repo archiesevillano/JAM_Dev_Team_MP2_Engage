@@ -65,9 +65,10 @@ body, button, input {
 }
 .careerhero-text {
     font-size: 35px;
+    font-weight: bold
 }
 .search-bar{
-  padding-left:3px;
+  
   
 }
 .search-bar {
@@ -76,8 +77,9 @@ body, button, input {
 }
 
 .search-bar:placeholder-shown{
-    font-size: 20px;
-    padding-left: 10px;
+    font-size: 22px;
+    padding-left: 5px;
+    
 }
 
 .search-content button {
@@ -138,9 +140,11 @@ body, button, input {
     display:flex;
     flex-direction: column;
 }
+.job-image-container {
+    height: 145px;
+}
 .job-image {
-    width: 100%;
-    
+    width: 100%
 }
 .job-name-text{
     font-weight: bold;
@@ -191,9 +195,10 @@ body, button, input {
 @media screen and (max-width:1400px){
     .careerhero-text {
         font-size:30px;
+        font-weight: bold
     }
     .drop-btn {
-        font-size: 16px;
+        font-size: 14px;
         width: 140px
     }
     .search-bar {
