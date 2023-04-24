@@ -1,4 +1,5 @@
 import { loadOnlineSource } from "./resources.js";
+import { BrowserDate } from "./dateUtil.js";
 
 export const populateCities = async () => {
     const ISLAND_GROUP_CODES = ["luzon", "visayas", "mindanao"];
@@ -41,6 +42,37 @@ export const togglePassword = (textbox, buttonToggle) => {
         textbox.type = "password";
         buttonToggle.firstElementChild.className = "fa-regular fa-eye";
     });
+}
+
+export const populateMonths = () => {
+    const mos = document.querySelector(".birth-month");
+    const dt = new BrowserDate(new Date());
+
+    dt._months.forEach(month => {
+        const item = document.createElement('option');
+        item.textContent = month.monthName;
+        mos.appendChild(item);
+    })
+}
+
+export const populateDays = () => {
+    const day = document.querySelector(".birth-day");
+
+    for (let i = 0; i < 31; i++) {
+        const item = document.createElement('option');
+        item.textContent = i + 1;
+        day.appendChild(item);
+    }
+}
+
+export const populateYears = () => {
+    const year = document.querySelector(".birth-year");
+
+    for (let i = 0; i < 149; i++) {
+        const item = document.createElement('option');
+        item.textContent = i + 1969;
+        year.appendChild(item);
+    }
 }
 
 // //ADD TOGGLE PASSWORD FUNCTION
