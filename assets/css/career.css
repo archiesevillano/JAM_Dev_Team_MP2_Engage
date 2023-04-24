@@ -9,10 +9,12 @@ body, button, input {
 
 .drop-btn {
     padding: 3px 10px;
-    font-size: 12px;
+    font-size: 20px;
     border: 1px solid rgba(0, 0, 0, 0.452);
     background-color: var(--clean);
     cursor: pointer;
+    height: 40px;
+    width: 160px
 }
 .dropdown {
     position: relative;
@@ -46,7 +48,10 @@ body, button, input {
     justify-content: space-between;
     align-items: center;
     background: var(--secondary);
-    height: 250px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -58,12 +63,21 @@ body, button, input {
     color: var(--clean);
     padding-bottom: 10px;
 }
+.careerhero-text {
+    font-size: 35px;
+}
 .search-bar{
   padding-left:3px;
   
 }
 .search-bar {
-    width: 280px
+    width: 500px;
+    height: 40px
+}
+
+.search-bar:placeholder-shown{
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 .search-content button {
@@ -71,16 +85,20 @@ body, button, input {
     color: white;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.384);
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
 }
 .search-content button:hover {
     filter: brightness(110%);
 }
-.search-content span {
-    padding-left: 5px;
+.search-content i {
+    padding-right: 5px;
 }
-.hero-image {
-    height: 100%
-}
+
+
+
 
 /* END OF CAREER HERO */
 
@@ -169,15 +187,40 @@ body, button, input {
 
 
 /* MEDIA QUERIES */
-
+    /* xxl width:1400px */
+@media screen and (max-width:1400px){
+    .careerhero-text {
+        font-size:30px;
+    }
+    .drop-btn {
+        font-size: 16px;
+        width: 140px
+    }
+    .search-bar {
+        width: 400px;
+    }
+    .search-bar::placeholder  {
+        font-size: 14px;
+        
+    }
+    .hero-content {
+        display:flex;
+        align-items: center;
+    }
+    .search-content button {
+        font-size: 17px
+        
+        
+    }
+    
+}
     /* extra large WIDTH:1200px */
 @media screen and (max-width:1200px) {
-    .herobanner {
-        height: 230px;
-    }
+    
 
     .drop-btn {
-        width: 100px;
+        width: 140px;
+        font-size: 15px;
     }
 
     .hero-image img {
@@ -186,13 +229,20 @@ body, button, input {
     }
 
     .career-hero {
-        padding: 17px
+        padding-left: 70px
+    }
+    .careerhero-text {
+        font-size: 23px;
     }
     .drop-btn, .search-bar ,.search-content button {
         height: 35px;
+        font-size: 15px;
     }
     .search-bar {
-        width: 250px;
+        width: 350px;
+    }
+    .search-bar:placeholder-shown {
+        font-size: 15px;
     }
     .jobposted-cards {
         width: 220px;
@@ -218,7 +268,7 @@ body, button, input {
     /* large WIDTH:992px */
 @media screen and (max-width:992px) {
     .herobanner {
-        height: 200px;
+        height: 300px
     }
     .drop-btn {
         width: 90px;
@@ -230,6 +280,9 @@ body, button, input {
     }
     .hero-image img {
         width: 100%;
+    }
+    .search-bar {
+        width: 290px;
     }
     .search-bar :placeholder-shown{
         font-size: 11px;
@@ -254,26 +307,33 @@ body, button, input {
     /* medium WIDTH:768px */
 @media screen and (max-width:768px) {
     .herobanner {
-        height: 150px
+        
     }
-    .hero-image img {
-        width: 100%;
+    .careerhero-text {
+        font-size: 18px;
     }
     .drop-btn  {
-        width: 70px;
-        font-size: 9px;
+        width: 90px;
+        
     }
     .hero-content {
         display:flex;
         align-items: center;
     }
     .search-bar {
-        width: 90px;
+        width: 210px;
+
     }
     .search-bar::placeholder{
-        font-size: 9.5px;
-        padding: 1px
+        font-size: 13px;
+        
     }
+    .search-content button {
+        font-size: 14px;
+        width: 100px;
+        padding: 0px
+    }
+    
     .job-posted {
         padding: 20px;
     }
@@ -334,8 +394,14 @@ body, button, input {
 
     /* media width:414px Mobile */
 @media screen and (max-width:414px){
+    .career-hero {
+        padding: 5px
+    }
     .hero-text {
         padding: 3px;
+    }
+    .careerhero-text {
+        font-size: 14px;
     }
     .hero-content {
         display:flex;
@@ -343,9 +409,15 @@ body, button, input {
         align-items: start;
         padding: 4px;
     }
+    .drop-btn {
+        font-size: 10px;
+        width: 80px;
+        padding: 5px;
+    }
     .dropdown {
         padding-bottom: 3px;
     }
+    
     .cards-container {
         display:flex;
         flex-wrap: wrap;
