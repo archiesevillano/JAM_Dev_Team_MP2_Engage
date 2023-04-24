@@ -105,5 +105,5 @@ const textMax = (text, maxLength) => {
       textMax = textMax.trim().replace(/\s+\S*$/, '');
       return textMax + '...';
     }
-  }
-  console.log(textMax);
+}
+  
