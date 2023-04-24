@@ -1,4 +1,5 @@
 import { loadOnlineSource } from "./resources.js";
+import { BrowserDate } from "./dateUtil.js";
 
 export const populateCities = async () => {
     const ISLAND_GROUP_CODES = ["luzon", "visayas", "mindanao"];
@@ -43,25 +44,56 @@ export const togglePassword = (textbox, buttonToggle) => {
     });
 }
 
-//ADD TOGGLE PASSWORD FUNCTION
-// Variables
-const passwordInput = document.querySelector('#password');
-const showPassword = document.querySelector('#show-password');
-const confirmPasswordInput = document.querySelector("#confirm-password")
-const confirmShowPassword = document.querySelector("#confirm-show-password");
+export const populateMonths = () => {
+    const mos = document.querySelector(".birth-month");
+    const dt = new BrowserDate(new Date());
 
-// Function
-showPassword.addEventListener("click", () => {
-    const type = passwordInput.getAttribute("type")
-        === "password" ? "text" : "password";
-    passwordInput.setAttribute("type", type);
-});
+    dt._months.forEach(month => {
+        const item = document.createElement('option');
+        item.textContent = month.monthName;
+        mos.appendChild(item);
+    })
+}
 
-confirmShowPassword.addEventListener("click", () => {
-    const type = confirmPasswordInput.getAttribute("type")
-        === "password" ? "text" : "password";
-    confirmPasswordInput.setAttribute("type", type);
-});
+export const populateDays = () => {
+    const day = document.querySelector(".birth-day");
+
+    for (let i = 0; i < 31; i++) {
+        const item = document.createElement('option');
+        item.textContent = i + 1;
+        day.appendChild(item);
+    }
+}
+
+export const populateYears = () => {
+    const year = document.querySelector(".birth-year");
+
+    for (let i = 0; i < 149; i++) {
+        const item = document.createElement('option');
+        item.textContent = i + 1969;
+        year.appendChild(item);
+    }
+}
+
+// //ADD TOGGLE PASSWORD FUNCTION
+// // Variables
+// const passwordInput = document.querySelector('#password');
+// const showPassword = document.querySelector('#show-password');
+// const confirmPasswordInput = document.querySelector("#confirm-password")
+// const confirmShowPassword = document.querySelector("#confirm-show-password");
+
+// // Function
+// showPassword.addEventListener("click", () => {
+//     const type = passwordInput.getAttribute("type")
+//         === "password" ? "text" : "password";
+//     passwordInput.setAttribute("type", type);
+// });
+
+// confirmShowPassword.addEventListener("click", () => {
+//     const type = confirmPasswordInput.getAttribute("type")
+//         === "password" ? "text" : "password";
+//     confirmPasswordInput.setAttribute("type", type);
+// });
 
 
 // GET AGE FUNC
@@ -82,8 +114,6 @@ export const getAge = (month, day, year) => {
     return age;
 };
 
-const age = getAge(3, 7, 1999);
-console.log(age);
 
 //   Function max length
 // const textMax = (text, maxLength) => {
@@ -99,3 +129,28 @@ console.log(age);
 //       return textMax + '...';
 //     }
 //   }
+export const contentChecker = (content, max) => {
+    let newText = "";
+
+    if (content.length > max) {
+        for (let i = 0; i < (max - 3); i++) {
+            newText += content[i];
+        }
+
+        if (newText[newText.length - 1] == " ") {
+            let txt = newText.substring(0, newText.length - 1);
+
+            return txt.concat("...");
+        }
+        else {
+            return newText.concat("...");
+        }
+    }
+
+}
+
+export const noWhiteSpace = text => {
+    let newText = "";
+    text.forEach(letter => letter != " " ? newText += letter : newText += "");
+    return newText;
+}

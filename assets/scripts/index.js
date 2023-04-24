@@ -1,10 +1,21 @@
-import { loadLocalSource, sourceLoad } from "./resources.js";
+import { loadLogin } from "./login.js";
 
-// const image = document.querySelector("#sample");
+const init = () => {
+    loadLogin(document.body);//add loginform in this html document
 
-// const initSource = async () => {
-//     sourceLoad({ object: image, source: await loadLocalSource("image", "logo.svg") });
-// }
+    const loginBtn = document.querySelector('#index-login-btn');
+    loginBtn.addEventListener('click', () => {
+        const blackScreen = document.querySelector(".modal-overlay");
+        const loginForm = document.querySelector(".login-form ");
 
-// initSource();
+        blackScreen.classList.add('active');
+        loginForm.classList.add('active');
+    });
 
+    const signUpBtn = document.querySelector("#index-signup-btn");
+    signUpBtn.addEventListener('click', () => {
+        location.href = "signup.html";
+    });
+}
+
+init();
