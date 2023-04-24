@@ -43,25 +43,25 @@ export const togglePassword = (textbox, buttonToggle) => {
     });
 }
 
-//ADD TOGGLE PASSWORD FUNCTION
-// Variables
-const passwordInput = document.querySelector('#password');
-const showPassword = document.querySelector('#show-password');
-const confirmPasswordInput = document.querySelector("#confirm-password")
-const confirmShowPassword = document.querySelector("#confirm-show-password");
+// //ADD TOGGLE PASSWORD FUNCTION
+// // Variables
+// const passwordInput = document.querySelector('#password');
+// const showPassword = document.querySelector('#show-password');
+// const confirmPasswordInput = document.querySelector("#confirm-password")
+// const confirmShowPassword = document.querySelector("#confirm-show-password");
 
-// Function
-showPassword.addEventListener("click", () => {
-    const type = passwordInput.getAttribute("type")
-        === "password" ? "text" : "password";
-    passwordInput.setAttribute("type", type);
-});
+// // Function
+// showPassword.addEventListener("click", () => {
+//     const type = passwordInput.getAttribute("type")
+//         === "password" ? "text" : "password";
+//     passwordInput.setAttribute("type", type);
+// });
 
-confirmShowPassword.addEventListener("click", () => {
-    const type = confirmPasswordInput.getAttribute("type")
-        === "password" ? "text" : "password";
-    confirmPasswordInput.setAttribute("type", type);
-});
+// confirmShowPassword.addEventListener("click", () => {
+//     const type = confirmPasswordInput.getAttribute("type")
+//         === "password" ? "text" : "password";
+//     confirmPasswordInput.setAttribute("type", type);
+// });
 
 
 // GET AGE FUNC
@@ -82,8 +82,6 @@ export const getAge = (month, day, year) => {
     return age;
 };
 
-const age = getAge(3, 7, 1999);
-console.log(age);
 
 //   Function max length
 // const textMax = (text, maxLength) => {
@@ -99,3 +97,28 @@ console.log(age);
 //       return textMax + '...';
 //     }
 //   }
+export const contentChecker = (content, max) => {
+    let newText = "";
+
+    if (content.length > max) {
+        for (let i = 0; i < (max - 3); i++) {
+            newText += content[i];
+        }
+
+        if (newText[newText.length - 1] == " ") {
+            let txt = newText.substring(0, newText.length - 1);
+
+            return txt.concat("...");
+        }
+        else {
+            return newText.concat("...");
+        }
+    }
+
+}
+
+export const noWhiteSpace = text => {
+    let newText = "";
+    text.forEach(letter => letter != " " ? newText += letter : newText += "");
+    return newText;
+}

@@ -98,3 +98,26 @@ export const createCard = () => {
 
 
 };
+
+
+const jobInfo = () => {
+    const jobBox = document.querySelector(".job-information");
+    const jobPosition = document.querySelector(".job-position");
+    const qualifications = document.querySelector(".qualification-list");
+    const applyBtn = document.querySelector(".apply-btn");
+    const savePost = document.querySelector(".save-btn");
+    const more = document.querySelector(".more-job-details");
+    const clsBtn = document.querySelector(".close-btn");
+    const overlay = document.querySelector(".modal-overlay");
+
+    jobBox.classList.add("active");
+    overlay.classList.add("active");
+    clsBtn.addEventListener('click', () => {
+        jobBox.classList.remove('active');
+        overlay.classList.remove('active');
+    })
+
+}
+
+const jb = document.getElementById("jobInfo");
+jb.addEventListener('click', jobInfo);

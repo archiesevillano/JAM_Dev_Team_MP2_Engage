@@ -653,13 +653,11 @@ input[type=number]::-webkit-outer-spin-button {
     appearance: none;
 }
 
-
-
 .notification-box,
 .messages-box {
     background-color: var(--milk);
     position: absolute;
-    top: 63px;
+    top: 60px;
     right: -60px;
     display: none;
     flex-direction: column;
@@ -756,4 +754,306 @@ input[type=number]::-webkit-outer-spin-button {
     color: var(--secondary);
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/*Login Section*/
+
+.modal-overlay {
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    z-index: 25;
+}
+
+.modal-overlay.active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.login-form.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.login-form {
+    opacity: 0;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    left: 50%;
+    top: 50%;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:
+        0px 0px 2.2px rgba(0, 0, 0, 0.067),
+        0px 0px 5.3px rgba(0, 0, 0, 0.097),
+        0px 0px 10px rgba(0, 0, 0, 0.12),
+        0px 0px 17.9px rgba(0, 0, 0, 0.143),
+        0px 0px 33.4px rgba(0, 0, 0, 0.173),
+        0px 0px 80px rgba(0, 0, 0, 0.24);
+    z-index: 26;
+    overflow: hidden;
+    height: 650px;
+    background-color: #fcfcfc;
+    border-radius: 30px;
+    transition: all 0.7s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+.login-form .close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-in;
+    background: none;
+    font-size: 30px;
+    color: var(--dark);
+}
+
+.login-form .left,
+.login-form .right {
+    height: 100%;
+}
+
+.login-form .left {
+    width: 50%;
+    position: relative;
+}
+
+.login-form .left .text-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: var(--outfit);
+    color: var(--clean);
+    padding: 20px;
+    transform: translate(30px, -100px);
+    font-size: 20px;
+}
+
+.login-form .left .text-content h1 {
+    font-size: 45px;
+}
+
+.login-form .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    width: 50%;
+}
+
+.login-form .right .form-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: var(--outfit);
+    border-bottom: 1px solid var(--silk);
+    padding-bottom: 20px;
+}
+
+.login-form .right .form-header .icon-container i {
+    font-size: 40px;
+    display: inline-block;
+    padding: 25px;
+    color: var(--secondary);
+}
+
+.login-form .right .form-header h1 {
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.login-form .right form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.login-form .right .login-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-family: var(--outfit);
+    color: var(--dark);
+    font-size: 14px;
+}
+
+.login-form .right .login-footer a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-form .left img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: left;
+}
+
+.login-form .field {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0;
+    padding: 5;
+    border-radius: 30px;
+    padding-left: 8px;
+}
+
+.login-form .email-field,
+.login-form .password-field {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-family: var(--outfit);
+}
+
+.login-form .field .input-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.login-form .right .form-content .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--outfit);
+    font-size: 14px;
+    width: 90%;
+    color: var(--dark);
+}
+
+.login-form .right .form-content .row a {
+    color: var(--secondary);
+}
+
+.login-form .right .form-content .button-collections {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.page-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-header>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-header>ul li {
+    display: inline-block;
+}
+
+.page-header .header-nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--outfit);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.page-header .button-collections {
+    width: 17%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--outfit);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.page-header .header-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--clean);
+}
+
+.hero-section {
+    width: 100%;
+    height: 600px;
+    background-image: url(./../images/hero.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-section .hero-text {
+    font-size: 60px;
+    font-family: var(--outfit);
+    width: 50%;
+    padding-left: 100px;
+    color: var(--clean);
+}
+
+.brand-container {
+    filter: grayscale(150%) brightness(200%);
+}
+
+.hero-section .hero-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-family: var(--outfit);
+    color: var(--clean);
+    letter-spacing: 1px;
+}
+
+.hero-section .hero-list li {
+    margin: 10px 0;
 }
