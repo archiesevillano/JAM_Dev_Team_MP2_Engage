@@ -34,6 +34,7 @@ const load = () => {
         //check if the user has already picked a value in the dropdown selection e.g (City, Month, Day, Year)
         //Middle name is optional
     }
-}
+    )
+};
 
 load();
