@@ -1,3 +1,4 @@
+import { contentChecker, noWhiteSpace } from "./form.js";
 
 export class Post {
     static totalPost = 0;
@@ -6,9 +7,9 @@ export class Post {
     #edited = false;
 
     //private variables
-    #contentText = []; //the last object will be the latest change
-    #imageBanner = []; //the source path for the image file
-    #actionUrl = []; //href for post button
+    #contentText = new Array; //the last object will be the latest change
+    #imageBanner = new Array; //the source path for the image file
+    #actionUrl = new Array; //href for post button
     #postID = "";
 
     #userID = "null";
@@ -17,7 +18,6 @@ export class Post {
     #datePosted = "";
     #profilePicture = "";
     #postType = "";
-
 
 
     constructor(
@@ -31,15 +31,17 @@ export class Post {
         Post.totalPost++; // increase the count each time a post is created
 
         this.#userID = userID;
-        this.#contentText = contentText;
-        this.#imageBanner = imageBanner;
-        this.#actionUrl = actionUrl;
+        this.#contentText.push(contentText);
+        this.#imageBanner.push(imageBanner);
+        this.#actionUrl.push(actionUrl);
         this.#postType = postType;
         this.#postID = "samplePostID";
 
     }
     create() {
         const PARENT = document.createElement('div');
+
+
 
     }
     set update(dataObject) {
@@ -98,3 +100,4 @@ a.update = {
     imageBanner: "Update Image",
     actionUrl: "Update Action",
 }
+

@@ -316,6 +316,7 @@ a {
 
 /* END OF ENGAGEMENT/TRAINING CARDS/INTERVIEW */
 
+<<<<<<< HEAD
 /* Styles for screens up to 600px */
 @media (max-width: 600px) {
     
@@ -343,3 +344,134 @@ a {
     
   }
   
+=======
+
+
+
+
+/* Modal - Job Box */
+
+.job-information {
+    min-width: 250px;
+    max-width: 550px;
+    height: 600px;
+    background-color: var(--clean);
+    box-shadow:
+        0px 0px 3.5px rgba(0, 0, 0, 0.045),
+        0px 0px 8.4px rgba(0, 0, 0, 0.065),
+        0px 0px 15.9px rgba(0, 0, 0, 0.08),
+        0px 0px 28.4px rgba(0, 0, 0, 0.095),
+        0px 0px 53.1px rgba(0, 0, 0, 0.115),
+        0px 0px 127px rgba(0, 0, 0, 0.16);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
+    opacity: 0;
+    transition-delay: 0.2s;
+}
+
+.job-header {
+    border-bottom: 1px solid var(--silk);
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.job-header h1 {
+    font-family: var(--outfit);
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.job-header button {
+    outline: none;
+    border: none;
+    font-size: 30px;
+    background: none;
+    cursor: pointer;
+}
+
+.job-information .content {
+    padding: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.job-information .content .summary {
+    width: 100%;
+}
+
+.job-information .content .j-summary {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    font-family: var(--poppins);
+    font-weight: 15px;
+}
+
+.job-information .button-collection {
+    padding: 20px;
+}
+
+.job-information .content .j-qualifications {
+    width: 100%;
+}
+
+.job-information .content .j-qualifications .qualification-list li {
+    font-size: 13px;
+    color: var(--dark);
+    margin: 5px 0;
+}
+
+.job-information .content p {
+    font-size: 13px;
+    font-family: var(--poppins);
+    width: 100%;
+    text-align: justify;
+}
+
+.job-labels {
+    font-weight: bold;
+    font-family: var(--poppins);
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+.job-information.active {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 162, 255, 0.9);
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.modal-overlay.active {
+    pointer-events: all;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    pointer-events: all;
+}
+>>>>>>> 3d194e4b05f990913a91c1623d7920a4866108c5
