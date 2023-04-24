@@ -75,26 +75,6 @@ export const populateYears = () => {
     }
 }
 
-// //ADD TOGGLE PASSWORD FUNCTION
-// // Variables
-// const passwordInput = document.querySelector('#password');
-// const showPassword = document.querySelector('#show-password');
-// const confirmPasswordInput = document.querySelector("#confirm-password")
-// const confirmShowPassword = document.querySelector("#confirm-show-password");
-
-// // Function
-// showPassword.addEventListener("click", () => {
-//     const type = passwordInput.getAttribute("type")
-//         === "password" ? "text" : "password";
-//     passwordInput.setAttribute("type", type);
-// });
-
-// confirmShowPassword.addEventListener("click", () => {
-//     const type = confirmPasswordInput.getAttribute("type")
-//         === "password" ? "text" : "password";
-//     confirmPasswordInput.setAttribute("type", type);
-// });
-
 
 // GET AGE FUNC
 export const getAge = (month, day, year) => {
@@ -115,20 +95,6 @@ export const getAge = (month, day, year) => {
 };
 
 
-//   Function max length
-// const textMax = (text, maxLength) => {
-//     if (text.length <= maxLength) {
-//       return text;
-//     } else {
-//       let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
-//       if (nonSpaceCount <= maxLength) {
-//         return text;
-//       }
-//       let textMax = text.slice(0, maxLength);
-//       textMax = textMax.trim().replace(/\s+\S*$/, '');
-//       return textMax + '...';
-//     }
-//   }
 export const contentChecker = (content, max) => {
     let newText = "";
 
@@ -154,3 +120,4 @@ export const noWhiteSpace = text => {
     text.forEach(letter => letter != " " ? newText += letter : newText += "");
     return newText;
 }
+

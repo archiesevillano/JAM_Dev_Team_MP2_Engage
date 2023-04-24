@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Page Tab Title -->
     <title>Get Started - Engage</title>
 
@@ -15,12 +14,14 @@
     <!-- External CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/root.css">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!-- External JS Files -->
     <script defer type="module" src="assets/scripts/login.js"></script>
     <script defer type="module" src="assets/scripts/index.js"></script>
-    <script defer type="module" src="assets/scripts/header.js"></script>
     <script defer type="module" src="assets/scripts/resources.js"></script>
+    <script type="module" defer src="assets/scripts/header.js"></script>
 
     <!-- FONTS AWESOME CDN -->
     <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
@@ -30,77 +31,38 @@
 <body>
     <header class="main-header">
         <div class="brand-container col" data-sub="none">
-            <div class="app-logo">
-                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
-            </div>
-            <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+            <a href="index.html" style="text-decoration:none;cursor:default;display:flex;">
+                <div class="app-logo">
+                    <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+                </div>
+                <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+            </a>
         </div>
-        <div class="search-bar-container">
-            <div class="search-bar-content">
-                <button type="button" class="main-header-btn search-btn">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <input type="text" class="search-bar input-search" name="search-bar" autocomplete="on"
-                    placeholder="Search for Jobs">
-            </div>
-            <div class="search-result-box">
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <button class="see-all-search-result-btn">See all result</button>
-            </div>
+
+        <div class="searchBar">
+            <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+            <ul class="search-result">
+                <li class="first-result-item"></li>
+            </ul>
+            <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="#666666"
+                        d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                </svg>
+            </button>
         </div>
+
         <div class="navigation-bar col">
             <div class="button-collection">
-                <button type="button" class="main-nav-btns todo-btn">
-                    <i class="fa-solid fa-table-list"></i>
-                </button>
                 <button type="button" class="main-nav-btns message-btn">
-                    <i class="fa-solid fa-comment"></i>
+                    <span class="material-symbols-rounded">
+                        chat
+                    </span>
                 </button>
                 <button type="button" class="main-nav-btns notification-btn">
-                    <i class="fa-solid fa-bell"></i>
+                    <span class="material-symbols-rounded">
+                        notifications
+                    </span>
                 </button>
             </div>
             <div class="user_profile">
@@ -150,6 +112,14 @@
                 </li>
             </ul>
             <div class="notification-box">
+                <h1 class="subheads" style="width:100%;text-transform:capitalize;text-align:left;font-size:20px;padding:15px;box-shadow:
+                0px 0.9px 0.6px rgba(0, 0, 0, 0.008),
+                0px 2.2px 1.4px rgba(0, 0, 0, 0.012),
+                0px 4.1px 2.6px rgba(0, 0, 0, 0.015),
+                0px 7.4px 4.7px rgba(0, 0, 0, 0.018),
+                0px 13.8px 8.8px rgba(0, 0, 0, 0.022),
+                0px 33px 21px rgba(0, 0, 0, 0.03)
+              ;">Notifications</h1>
                 <div class="notif-item">
                     <div class="icon-container">
                         <i class="fa-solid fa-comments"></i>
@@ -202,8 +172,15 @@
                 </div>
                 <button type="button" class="see-all-notif-btn">See all notifications</button>
             </div>
-
             <div class="messages-box">
+                <h1 class="subheads" style="width:100%;text-align:left;text-transform:capitalize;font-size:20px;padding:15px;box-shadow:
+                0px 0.9px 0.6px rgba(0, 0, 0, 0.008),
+                0px 2.2px 1.4px rgba(0, 0, 0, 0.012),
+                0px 4.1px 2.6px rgba(0, 0, 0, 0.015),
+                0px 7.4px 4.7px rgba(0, 0, 0, 0.018),
+                0px 13.8px 8.8px rgba(0, 0, 0, 0.022),
+                0px 33px 21px rgba(0, 0, 0, 0.03)
+              ;">Messages</h1>
                 <div class="message-item">
                     <div class="icon-container">
                         <i class="fa-solid fa-message"></i>
@@ -229,169 +206,87 @@
             </div>
         </div>
     </header>
-    <section class="hero">
-        <div class="wrapper">
-            <div class="banner">
-                <img src="assets/images/banner/banner_four.jpg" class="banner-image">
-            </div>
-            <div class="banner">
-                <img src="assets/images/banner/banner_one.jpg" class="banner-image">
-            </div>
-            <div class="banner">
-                <img src="assets/images/banner/banner_three.jpg" class="banner-image">
-            </div>
-        </div>
+
+    <section class="hero-section">
+        <h1 class="hero-text">
+            Discover companies in need of your unique skills and expertise
+        </h1>
+        <ul class="hero-list">
+            <li>
+                <i class="fa-regular fa-circle-check"></i>
+                We will assist you in finding companies that are currently hiring
+            </li>
+            <li>
+                <i class="fa-regular fa-circle-check"></i>
+                We will assist you in improving your skills to align with your desired career path
+            </li>
+            <li>
+                <i class="fa-regular fa-circle-check"></i>
+                Our tips and tricks will help you ace your next interview
+            </li>
+        </ul>
     </section>
 
-    <section class="feature-section">
-        <h1>Features</h1>
-        <div class="wrapper">
-            <div class="feature-card">
-                <img class="card-image" src="assets/images/pexels-brayden-law-1829191.jpg">
-                <div class="overlay">
-                    <div class="round-container">
-                        <img class="round-image">
+    <section class="features">
+        <h1>Featured Partners</h1>
+        <div class="content-row">
+            <div class="partners">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/images/item1.png" class="feature-image">
+                        <p class="openingText">9+ Job Opening</p>
                     </div>
-                    <div class="text-content">
-                        <p>Search</p>
-                        <p>
-                            <a href="#" class="learn-more">
-                                Learn more
-                            </a>
-                        </p>
+                    <div class="content">
+                        <p class="title">Concentrix PH</p>
+                        <p class="sub-title">Joined 3 years ago</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/images/item2.png" class="feature-image">
+                        <p class="openingText">13+ Job Opening</p>
+                    </div>
+                    <div class="content">
+                        <p class="title">Accenture Inc.</p>
+                        <p class="sub-title">Joined 1 year ago</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/images/item3.png" class="feature-image">
+                        <p class="openingText">6+ Job Opening</p>
+                    </div>
+                    <div class="content">
+                        <p class="title">Capital One Office</p>
+                        <p class="sub-title">Joined 2 years ago</p>
                     </div>
                 </div>
             </div>
-            <div class="feature-card">
-                <img class="card-image" src="assets/images/pexels-brayden-law-1829191.jpg">
-                <div class="overlay">
-                    <div class="round-container">
-                        <img class="round-image">
-                    </div>
+            <div class="stats">
+                <div class="item1 items">
+                    <h3>1</h3>
                     <div class="text-content">
-                        <p>Search</p>
-                        <p>
-                            <a href="#" class="learn-more">
-                                Learn more
-                            </a>
-                        </p>
+                        <p class="title">Be part of our thriving community.</p>
+                        <p class="sub-title">201.k people joined us</p>
                     </div>
                 </div>
-            </div>
-            <div class="feature-card">
-                <img class="card-image" src="assets/images/pexels-brayden-law-1829191.jpg">
-                <div class="overlay">
-                    <div class="round-container">
-                        <img class="round-image">
-                    </div>
+                <div class="item2 items">
+                    <h3>2</h3>
                     <div class="text-content">
-                        <p>Search</p>
-                        <p>
-                            <a href="#" class="learn-more">
-                                Learn more
-                            </a>
-                        </p>
+                        <p class="title">Explore thousands of job postings on our platform.</p>
+                        <p class="sub-title">65.3k Job posts</p>
+                    </div>
+                </div>
+                <div class="item3 items">
+                    <h3>3</h3>
+                    <div class="text-content">
+                        <p class="title">Receive free interview tips and tricks.</p>
+                        <p class="sub-title">2.3k article links and videos</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="what-we-do-section">
-        <div class="left">
-            <p>ALL OF THESE ARE AVAILABLE<br>
-                <b>FREE OF CHARGE</b>
-            </p>
-            <div class="person-image-container">
-                <img class="person-image" src="assets/images/women.png">
-            </div>
-        </div>
-        <div class="right">
-            <h1 class="subheads" style="color:var(--clean);width:80%;text-align:left;">What we do</h1>
-            <ul class="what-we-do-list">
-                <li>
-                    <div class="list-icon">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <p>
-                        Allows recruiter to search your
-                        profile almost instantly
-                    </p>
-                </li>
-                <li>
-                    <div class="list-icon">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <p>
-                        Interview Tips and Guides
-                    </p>
-                </li>
-                <li>
-                    <div class="list-icon">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <p>
-                        Provides list of training and
-                        certification programs
-                    </p>
-                </li>
-                <li>
-                    <div class="list-icon">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <p>
-                        Search and Post Job Opportunities
-                    </p>
-                </li>
-                <li>
-                    <div class="list-icon">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <p>
-                        Post your recent works and Resume
-                        on your Profile
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="partners-section">
-        <div class="left">
-            <div class="text-content">
-                <p>
-                    <b>OVER 30+</b><br>
-                    PARTNER COMPANIES
-                </p>
-            </div>
-            <div style="height:100%;">
-                <img src="assets/images/building.png"
-                    style="height:100%;object-fit:cover;opacity: 0.9;filter:grayscale(100%) contrast(150%) brightness(40%);">
-            </div>
-        </div>
-        <div class="right">
-            <div class="company-partners">
-                <img src="assets/images/concentrix_big_no_bg.png">
-                <img src="assets/images/concentrix_big_no_bg.png">
-                <img src="assets/images/concentrix_big_no_bg.png">
-                <img src="assets/images/concentrix_big_no_bg.png">
-                <img src="assets/images/concentrix_big_no_bg.png">
-            </div>
-        </div>
-    </section>
-
-    <section class="get-started-section">
-        <div class="left">
-            <div class="text-content">
-                <p>Become a part of the Engage community and get hired</p>
-                <button class="get-started-btn">Get Started</button>
-            </div>
-        </div>
-        <div class="right">
-            <img src="assets/images/getStarted.png" style="height:100%;object-fit:cover;">
-        </div>
-    </section>
-
     <footer class="main-footer">
         <div class="upper">
             <div class="app-details">
@@ -432,7 +327,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
