@@ -316,39 +316,6 @@ a {
 
 /* END OF ENGAGEMENT/TRAINING CARDS/INTERVIEW */
 
-<<<<<<< HEAD
-/* Styles for screens up to 600px */
-@media (max-width: 600px) {
-    
-  }
-  
-  /* Styles for screens between 601px and 768px */
-  @media (min-width: 601px) and (max-width: 768px) {
-    
-  }
-  
-  /* Styles for screens between 769px and 992px */
-  @media (min-width: 769px) and (max-width: 992px) {
-   
-  }
-  
-  /* Styles for screens between 993px and 1200px */
-  @media (min-width: 993px) and (max-width: 1200px) {
-    .hiring-company img {
-        width: 120px;
-    }
-  }
-  
-  /* Styles for screens larger than 1200px */
-  @media (min-width: 1201px) {
-    
-  }
-  
-=======
-
-
-
-
 /* Modal - Job Box */
 
 .job-information {
@@ -474,4 +441,3 @@ a {
     opacity: 1;
     pointer-events: all;
 }
->>>>>>> 3d194e4b05f990913a91c1623d7920a4866108c5

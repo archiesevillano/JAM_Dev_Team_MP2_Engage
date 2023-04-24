@@ -123,7 +123,6 @@ const idGenerate = () => {
 }
 
 //   Function max length
-<<<<<<< HEAD
 const textMax = (text, maxLength) => {
     if (text.length <= maxLength) {
       return text;
@@ -138,7 +137,6 @@ const textMax = (text, maxLength) => {
     }
 }
   
-=======
 // const textMax = (text, maxLength) => {
 //     if (text.length <= maxLength) {
 //       return text;
@@ -177,4 +175,3 @@ export const noWhiteSpace = text => {
     text.forEach(letter => letter != " " ? newText += letter : newText += "");
     return newText;
 }
->>>>>>> 3d194e4b05f990913a91c1623d7920a4866108c5
