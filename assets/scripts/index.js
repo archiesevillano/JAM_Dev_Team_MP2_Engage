@@ -11,6 +11,11 @@ const init = () => {
         blackScreen.classList.add('active');
         loginForm.classList.add('active');
     });
+
+    const signUpBtn = document.querySelector("#index-signup-btn");
+    signUpBtn.addEventListener('click', () => {
+        location.href = "signup.html";
+    });
 }
 
 init();
