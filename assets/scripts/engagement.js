@@ -32,6 +32,8 @@ const recruiter = [{
     }
 
 }];
+
+
 //     numofapplicants: 433,
 //     fullname: () => {
 //         return this.firstname + ' ' + this.lastname;
@@ -39,8 +41,6 @@ const recruiter = [{
 
 // }];
 
-
-console.log(recruiter);
 
 // Create Card Function 
 export const createCard = () => {
@@ -116,8 +116,42 @@ const jobInfo = () => {
         jobBox.classList.remove('active');
         overlay.classList.remove('active');
     })
-
 }
 
-const jb = document.getElementById("jobInfo");
-jb.addEventListener('click', jobInfo);
+// const cards = document.querySelectorAll(".engagement-card");
+
+// const cardObserver = new IntersectionObserver(entries => {
+//     entries.forEach(entry => {
+//         console.log(entry);
+//         entry.target.classList.toggle("show", entry.isIntersecting);
+//     });
+// },
+//     {
+//         threshold: 0.2,
+//         rootMargin: "-150px",
+//     }
+// );
+
+// cards.forEach(card => {
+//     cardObserver.observe(card);
+// });
+
+// const lastCard = document.querySelector(".card:last-child");
+
+// const lastCardObserver = new IntersectionObserver(
+//     entries => {
+//         const myLastCard = entries[0];
+//     }
+// )
+
+// lastCardObserver.observe(lastCard);
+
+// function generateNewCard() {
+//     const container = document.querySelector(".card-container");
+
+//     for (let i = 0; i < cards.length; i++) {
+//         const card = document.createElement("div");
+//         card.textContent = "New Card";
+//         container.appendChild(card);
+//     }
+// }

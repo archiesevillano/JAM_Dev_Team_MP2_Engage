@@ -75,26 +75,6 @@ export const populateYears = () => {
     }
 }
 
-// //ADD TOGGLE PASSWORD FUNCTION
-// // Variables
-// const passwordInput = document.querySelector('#password');
-// const showPassword = document.querySelector('#show-password');
-// const confirmPasswordInput = document.querySelector("#confirm-password")
-// const confirmShowPassword = document.querySelector("#confirm-show-password");
-
-// // Function
-// showPassword.addEventListener("click", () => {
-//     const type = passwordInput.getAttribute("type")
-//         === "password" ? "text" : "password";
-//     passwordInput.setAttribute("type", type);
-// });
-
-// confirmShowPassword.addEventListener("click", () => {
-//     const type = confirmPasswordInput.getAttribute("type")
-//         === "password" ? "text" : "password";
-//     confirmPasswordInput.setAttribute("type", type);
-// });
-
 
 // GET AGE FUNC
 export const getAge = (month, day, year) => {
@@ -115,6 +95,7 @@ export const getAge = (month, day, year) => {
 };
 
 
+<<<<<<< HEAD
 
 
 
@@ -150,6 +131,8 @@ const textMax = (text, maxLength) => {
 //       return textMax + '...';
 //     }
 //   }
+=======
+>>>>>>> f3ce55a238a7ceceebd7264f9f0256b4f75c5bbb
 export const contentChecker = (content, max) => {
     let newText = "";
 
@@ -175,3 +158,7 @@ export const noWhiteSpace = text => {
     text.forEach(letter => letter != " " ? newText += letter : newText += "");
     return newText;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f3ce55a238a7ceceebd7264f9f0256b4f75c5bbb

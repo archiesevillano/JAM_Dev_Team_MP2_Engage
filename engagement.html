@@ -15,6 +15,8 @@
     <!-- External CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/root.css">
     <link rel="stylesheet" href="assets/css/engagement.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!-- External JS Files -->
     <script defer type="module" src="assets/scripts/header.js"></script>
@@ -29,77 +31,38 @@
 <body>
     <header class="main-header">
         <div class="brand-container col" data-sub="none">
-            <div class="app-logo">
-                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
-            </div>
-            <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+            <a href="index.html" style="text-decoration:none;cursor:default;display:flex;">
+                <div class="app-logo">
+                    <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+                </div>
+                <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+            </a>
         </div>
-        <div class="search-bar-container">
-            <div class="search-bar-content">
-                <button type="button" class="main-header-btn search-btn">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <input type="text" class="search-bar input-search" name="search-bar" autocomplete="on"
-                    placeholder="Search for Jobs">
-            </div>
-            <div class="search-result-box">
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="profile.html">
-                    <div class="search-result-item">
-                        <div class="user-image-container user_profile" style="border:none">
-                            <img src="assets/images/user-pic.png">
-                        </div>
-                        <div class="text-content">
-                            <p>Marie Cerebrum Hilda</p>
-                            <p>Mexico City, Pampanga</p>
-                        </div>
-                    </div>
-                </a>
-                <button class="see-all-search-result-btn">See all result</button>
-            </div>
+
+        <div class="searchBar">
+            <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+            <ul class="search-result">
+                <li class="first-result-item"></li>
+            </ul>
+            <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="#666666"
+                        d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                </svg>
+            </button>
         </div>
+
         <div class="navigation-bar col">
             <div class="button-collection">
-                <button type="button" class="main-nav-btns todo-btn">
-                    <i class="fa-solid fa-table-list"></i>
-                </button>
                 <button type="button" class="main-nav-btns message-btn">
-                    <i class="fa-solid fa-comment"></i>
+                    <span class="material-symbols-rounded">
+                        chat
+                    </span>
                 </button>
                 <button type="button" class="main-nav-btns notification-btn">
-                    <i class="fa-solid fa-bell"></i>
+                    <span class="material-symbols-rounded">
+                        notifications
+                    </span>
                 </button>
             </div>
             <div class="user_profile">
@@ -149,6 +112,14 @@
                 </li>
             </ul>
             <div class="notification-box">
+                <h1 class="subheads" style="width:100%;text-transform:capitalize;text-align:left;font-size:20px;padding:15px;box-shadow:
+                0px 0.9px 0.6px rgba(0, 0, 0, 0.008),
+                0px 2.2px 1.4px rgba(0, 0, 0, 0.012),
+                0px 4.1px 2.6px rgba(0, 0, 0, 0.015),
+                0px 7.4px 4.7px rgba(0, 0, 0, 0.018),
+                0px 13.8px 8.8px rgba(0, 0, 0, 0.022),
+                0px 33px 21px rgba(0, 0, 0, 0.03)
+              ;">Notifications</h1>
                 <div class="notif-item">
                     <div class="icon-container">
                         <i class="fa-solid fa-comments"></i>
@@ -201,8 +172,15 @@
                 </div>
                 <button type="button" class="see-all-notif-btn">See all notifications</button>
             </div>
-
             <div class="messages-box">
+                <h1 class="subheads" style="width:100%;text-align:left;text-transform:capitalize;font-size:20px;padding:15px;box-shadow:
+                0px 0.9px 0.6px rgba(0, 0, 0, 0.008),
+                0px 2.2px 1.4px rgba(0, 0, 0, 0.012),
+                0px 4.1px 2.6px rgba(0, 0, 0, 0.015),
+                0px 7.4px 4.7px rgba(0, 0, 0, 0.018),
+                0px 13.8px 8.8px rgba(0, 0, 0, 0.022),
+                0px 33px 21px rgba(0, 0, 0, 0.03)
+              ;">Messages</h1>
                 <div class="message-item">
                     <div class="icon-container">
                         <i class="fa-solid fa-message"></i>
@@ -228,51 +206,49 @@
             </div>
         </div>
     </header>
-    <section class="engagement-content">
+    <section class="engagement-content" style="padding-top:50px;">
         <!-- SIDE NAVIGATION -->
         <div class="side-navigation">
             <ul>
-                <a href="#">
-                    <li>
-                        <i class="fa-solid fa-house fa-xs"></i></i>
-                        Home
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        <i class="fa-solid fa-newspaper fa-xs"></i>
-                        Application Status
-                    </li>
-                </a>
-                <a href="#">
-                    <li><i class="fa-solid fa-paperclip fa-xs"></i> Saved Posts
-                    </li>
-                </a>
-                <hr>
-            </ul>
-            <ul>
-                <a href="#">
-                    <li><i class="fa-solid fa-certificate fa-xs"></i> Training and Certifications
-                    </li>
-                </a>
-                <a href="#">
-                    <li><i class="fa-solid fa-lightbulb fa-xs"></i> Interview Tips and FAQs</li>
-                </a>
-                <a href="#">
-                    <li><i class="fa-solid fa-file fa-xs"></i> Create new resume</li>
-                </a>
-                <hr>
-            </ul>
-            <ul>
-                <a href="#">
-                    <li><i class="fa-solid fa-chart-line fa-xs"></i> Recent Activities</li>
-                </a>
+                <li>
+                    <i class="fa-solid fa-house fa-xs"></i></i>
+                    Home
+                </li>
+                <li>
+                    <i class="fa-solid fa-newspaper fa-xs"></i>
+                    Application Status
+                </li>
+                <li>
+                    <i class="fa-solid fa-paperclip fa-xs"></i>
+                    Saved Posts
+                </li>
+                <li class="divider">
+                    <hr>
+                </li>
+                <li>
+                    <i class="fa-solid fa-certificate fa-xs"></i>
+                    Training
+                </li>
+                <li>
+                    <i class="fa-solid fa-lightbulb fa-xs"></i>
+                    Interview Tips
+                </li>
+                <li>
+                    <i class="fa-solid fa-file fa-xs"></i>
+                    Add new resume
+                </li>
+                <li class="divider">
+                    <hr>
+                </li>
+                <li>
+                    <i class="fa-solid fa-chart-line fa-xs"></i> Recent Activities
+                </li>
             </ul>
         </div>
         <!-- END OF SIDE NAVIGATION -->
         <!-- ENGAGEMENT CARDS -->
         <div class="cards-container">
-            <div class="engagement-collection">
+            <!-- <div class="engagement-collection">
                 <div class="engagement-cards">
                     <div class="engagement-cards-name">
                         <div class="recruiter-image">
@@ -393,64 +369,133 @@
                     <div class="interview-bottom">
                     </div>
                 </div>
+            </div> -->
+
+            <div class="engagement-card">
+                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
+                    <div class="user_profile">
+                        <img src="assets/images/user-pic.png">
+                    </div>
+                    <div class="post-header">
+                        <h3>Julies Sarmiento</h3>
+                        <p>Posted 15 minutes ago</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </button>
+                </div>
+                <div class="body">
+                    <img src="assets/images/job/FB_IMG_1682290828586.jpg" style="width:100%;margin-top:20px;">
+                </div>
+                <button class="apply-now-btn btn-primary">Apply now</button>
+                <button class="details-btn btn-plain">Details</button>
             </div>
+
+            <div class="engagement-card">
+                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
+                    <div class="user_profile">
+                        <img src="assets/images/user-pic.png">
+                    </div>
+                    <div class="post-header">
+                        <h3>Julies Sarmiento</h3>
+                        <p>Posted 15 minutes ago</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </button>
+                </div>
+                <div class="body">
+                    <img src="assets/images/job/FB_IMG_1682289955948.jpg" style="width:100%;margin-top:20px;">
+                </div>
+                <button class="apply-now-btn btn-primary">Apply now</button>
+                <button class="details-btn btn-plain">Details</button>
+            </div>
+
+
+            <div class="engagement-card">
+                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
+                    <div class="user_profile">
+                        <img src="assets/images/user-pic.png">
+                    </div>
+                    <div class="post-header">
+                        <h3>Julies Sarmiento</h3>
+                        <p>Posted 15 minutes ago</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </button>
+                </div>
+                <div class="body">
+                    <img src="assets/images/job/FB_IMG_1682290347766.jpg" style="width:100%;margin-top:20px;">
+                </div>
+                <button class="apply-now-btn btn-primary">Apply now</button>
+                <button class="details-btn btn-plain">Details</button>
+            </div>
+
+
+            <div class="engagement-card">
+                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
+                    <div class="user_profile">
+                        <img src="assets/images/user-pic.png">
+                    </div>
+                    <div class="post-header">
+                        <h3>Julies Sarmiento</h3>
+                        <p>Posted 15 minutes ago</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </button>
+                </div>
+                <div class="body">
+                    <img src="assets/images/job/FB_IMG_1682290803809.jpg" style="width:100%;margin-top:20px;">
+                </div>
+                <button class="apply-now-btn btn-primary">Apply now</button>
+                <button class="details-btn btn-plain">Details</button>
+            </div>
+
+
+            <div class="engagement-card">
+                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
+                    <div class="user_profile">
+                        <img src="assets/images/user-pic.png">
+                    </div>
+                    <div class="post-header">
+                        <h3>Julies Sarmiento</h3>
+                        <p>Posted 15 minutes ago</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </button>
+                </div>
+                <div class="body">
+                    <img src="assets/images/job/FB_IMG_1682290808800.jpg" style="width:100%;margin-top:20px;">
+                </div>
+                <button class="apply-now-btn btn-primary">Apply now</button>
+                <button class="details-btn btn-plain">Details</button>
+            </div>
+
         </div>
+
         <!-- HIRING BOARDS -->
         <div class="hiring-board">
-            <div>
+            <h1 style="text-align:left;width:100%;font-size:16px;">Advertisements</h1>
+            <div class="board">
                 <img src="assets/images/Jolibee Ads.jpg">
             </div>
-            <div><img src="assets/images/accentureads.jpg">
+            <div class="board">
+                <img src="assets/images/accentureads.jpg">
             </div>
-            <div>
+            <div class="board">
                 <img src="assets/images/tv5ads.jpg">
             </div>
-            <div>
+            <div class="board">
                 <img src="assets/images/metaads.jpg">
             </div>
         </div>
         <!-- END OF HRING BOARDS -->
     </section>
-    <footer class="main-footer">
-        <div class="upper">
-            <div class="app-details">
-                <ul class="app-address-container">
-                    <li class="footer-headings">Address</li>
-                    <li class="app_address">
-                        Epifanio Bldg. 02 St. Manila Mexico,
-                        Metro Manila Philippines
-                    </li>
-                </ul>
-                <ul class="app-contacts-container">
-                    <li class="footer-headings">Contact us</li>
-                    <li>Email: <span class="app_email">engageph@gmail.com</span></li>
-                    <li>Phone: <span class="app_phone">(+63) 978 954 8554</span></li>
-                </ul>
-            </div>
-            <ul class="legal-docs">
-                <li>
-                    <a href="#">Cookies</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Terms and Condition</a>
-                </li>
-            </ul>
-        </div>
-        <div class="lower">
-            <div class="brand-container col" data-sub="none">
-                <div class="app-logo">
-                    <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
-                </div>
-                <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
-            </div>
-            <div class="copyright-details">
-                <p class="app_copyright">Copyright © JAM April 2023 MP2 - WD54</p>
-            </div>
-        </div>
-    </footer>
+
+
 
     <div class="job-information">
         <div class="job-header">
@@ -499,6 +544,101 @@
             <button class="save-btn btn-plain">Save Post</button>
         </div>
     </div>
+
+    <div class="profile-box">
+        <div class="header">
+            <div class="left">
+                <p>Hello Again!</p>
+            </div>
+            <h1>Profile</h1>
+            <div class="right">
+                <p class="profile-cls-btn" style="font-size:35px;cursor:pointer;">&times;</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="content">
+                    <h1 id="profile-name">Vinna rou Ruth</h1>
+                    <div class="upper-details">
+                        <div class="col">
+                            <p>City</p>
+                            <p id="profile-city">New Yolk City</p>
+                        </div>
+                        <div class="col">
+                            <p>Online Portfolio</p>
+                            <p id="profile-city">www.vinna-compilation.com</p>
+                        </div>
+                    </div>
+                    <p id="profile-description">
+                        IT professional skilled in network administration, database management, and software
+                        development.
+                    </p>
+                    <div class="lower-details">
+                        <div class="item">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <div class="text-content">
+                                <p>Work Experience</p>
+                                <p id="profile-work-exp">
+                                    Over 3 years of work experience
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="text-content">
+                                <p>Education</p>
+                                <p id="profile-work-exp">
+                                    Over 3 years of work experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size:13px; font-weight:bold;font-family:var(--outfit); margin:30px 0;">For more
+                        details, you can
+                        download my resume and cover
+                        letter below.</p>
+                    <div class="button-collections">
+                        <button type="button" class="btn-primary">
+                            Download Resume
+                        </button>
+                        <button type="button" class="btn-primary">
+                            Download Cover Letter
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <img src="assets/images/recruiterImage.jpg">
+                    <div class="socials">
+                        <p style="font-size:14px;">Follow me</p>
+                        <ul class="soc-links">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="modal-overlay"></div>
 
 </body>

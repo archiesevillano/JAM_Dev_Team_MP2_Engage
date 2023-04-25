@@ -12,22 +12,33 @@ button {
 
 /* SIDE NAVIGATION */
 .side-navigation {
-    width: 280px;
-    height: 100vh;
-
+    width: 300px;
+    height: 80vh;
+    background: var(--primary);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
 
-.side-navigation ul li,
-a {
-    color: var(--black);
+.side-navigation ul {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.side-navigation ul li {
+    color: var(--clean);
     text-decoration: none;
     list-style-type: none;
-    padding-bottom: 13px;
+    padding: 13px 5px;
+    margin: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .side-navigation li:hover {
-    filter: brightness(110%);
-    color: var(--primary)
+    background-color: var(--secondary)
 }
 
 .side-navigation li:active {
@@ -35,15 +46,24 @@ a {
 }
 
 .side-navigation i {
-    color: var(--secondary);
     padding-right: 5px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 3px 10px;
+    transform: translateY(3px);
+    margin-right: 8px;
 }
 
-.cards-container {
-    display: flex;
-    flex-direction: column;
-
+.side-navigation hr {
+    border: 1px solid var(--secondary);
+    opacity: 0.4;
+    padding: 0;
 }
+
+.side-navigation li.divider:hover {
+    background-color: none;
+}
+
 
 /* ENGAGEMENT FEED */
 
@@ -441,3 +461,157 @@ a {
     opacity: 1;
     pointer-events: all;
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+.cards-container {
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cards-container::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.engagement-card {
+    width: 500px;
+    box-shadow:
+        0px 0px 0.4px rgba(0, 0, 0, 0.042),
+        0px 0px 0.9px rgba(0, 0, 0, 0.055),
+        0px 0px 1.8px rgba(0, 0, 0, 0.064),
+        0px 0px 3.1px rgba(0, 0, 0, 0.07),
+        0px 0px 5.8px rgba(0, 0, 0, 0.076),
+        0px 0px 14px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    margin: 10px 0;
+    /* opacity: 0;
+    transition: all 0.5s ease-in-out; */
+}
+
+/* .engagement-card:nth-child(odd) {
+    transform: translateX(100%);
+}
+
+.engagement-card:nth-child(even) {
+    transform: translateX(-100%);
+} */
+
+/* .engagement-card.show {
+    transform: translateX(0);
+    opacity: 1;
+} */
+
+.engagement-card .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--fade);
+    padding-bottom: 10px;
+}
+
+.engagement-card .header .post-header {
+    text-align: left;
+    width: 75%;
+    font-size: 15px;
+}
+
+.engagement-card .header .post-header p {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.engagement-card .header .post-header h3 {
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.engagement-card .header .dots {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border-radius: 30px;
+}
+
+.engagement-card .header .dots:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.engagement-card .body {
+    width: 100%;
+}
+
+.engagement-card .apply-now-btn {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--clean);
+    outline: none;
+    border: none;
+    padding: 10px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.engagement-card .details-btn {
+    width: 100%;
+    background-color: var(--plain);
+    color: var(--dark);
+    outline: none;
+    border: none;
+    padding: 10px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    border: 1px solid var(--dark);
+}
+
+.engagement-card .apply-now-btn:hover {
+    background-color: var(--secondary);
+}
+
+.engagement-card .details-btn:hover {
+    background-color: var(--silk);
+}
+
+
+/* Hiring Board */
+.hiring-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hiring-board .board {
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    height: 130px;
+    margin: 10px 0;
+    box-shadow:
+        0px 0px 0.4px rgba(0, 0, 0, 0.026),
+        0px 0px 0.9px rgba(0, 0, 0, 0.035),
+        0px 0px 1.8px rgba(0, 0, 0, 0.04),
+        0px 0px 3.1px rgba(0, 0, 0, 0.044),
+        0px 0px 5.8px rgba(0, 0, 0, 0.047),
+        0px 0px 14px rgba(0, 0, 0, 0.05);
+}
+
+.hiring-board .board img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+>>>>>>> f3ce55a238a7ceceebd7264f9f0256b4f75c5bbb
