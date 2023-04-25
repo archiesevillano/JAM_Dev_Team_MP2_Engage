@@ -10,7 +10,6 @@ export const profileDropdown = () => {
     else {
         dropDown.style.display = "block";
     }
-
 }
 
 export const notificationDropDown = () => {

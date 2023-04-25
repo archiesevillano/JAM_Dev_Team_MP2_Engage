@@ -96,12 +96,6 @@ export const getAge = (month, day, year) => {
 
 
 
-
-
-const idGenerate = () => {
-
-}
-
 export const contentChecker = (content, max) => {
     let newText = "";
 

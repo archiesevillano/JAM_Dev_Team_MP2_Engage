@@ -75,17 +75,15 @@ const load = () => {
 load();
 
 
-const generateID = () => {
-  const now = new Date();
-  const year = now.getFullYear().toString();
-  const month = (now.getMonth() + 1).toString().padStart(2, '0');
-  const day = now.getDate().toString().padStart(2, '0');
-  const hour = now.getHours().toString().padStart(2, '0');
-  const minute = now.getMinutes().toString().padStart(2, '0');
-  const seconds = now.getSeconds().toString().padStart(2, '0');
-  const randomChars = Array.from({ length: 5 }, () =>
-    Math.random().toString(36).charAt(2)).join('').toUpperCase();
-  const id = `${year} ${month} ${day} ${hour} ${minute} ${seconds} ${randomChars}`;
-  console.log(id);
-  return id;
-};
+const generateRandomId = () => {
+  const chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const idLength = 8; // You can adjust the length of the ID here
+
+  let randomId = '';
+  for (let i = 0; i < idLength; i++) {
+    const randomIndex = Math.floor(Math.random() * chars.length);
+    randomId += chars[randomIndex];
+  }
+
+  return randomId;
+}

@@ -1,5 +1,14 @@
 import { togglePassword } from "./form.js";
 
+
+/*
+{
+    email: value,
+    password: value,
+    userID: value,
+}
+*/
+
 export const isLogin = () => {
     if (localStorage.getItem("account") != null || undefined) {
         return true;
@@ -8,9 +17,8 @@ export const isLogin = () => {
     }
 }
 
-export const loadLogin = body => {
+export const loadLogin = async body => {
     const blackScreen = document.createElement("div");
-
 
     const loginFormContainer = document.createElement("div");
     const left = document.createElement("div");
