@@ -86,7 +86,7 @@ export const getAge = (month, day, year) => {
     let age = today.getFullYear() - birthdate.getFullYear();
     // Declare monthDiff to get difference between today and birthdate
     const monthDiff = today.getMonth() - birthdate.getMonth();
-    // if with lofical operators to check if value is true or false
+    // if with logical operators to check if value is true or false
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
         age--;
     }
@@ -94,6 +94,13 @@ export const getAge = (month, day, year) => {
     return age;
 };
 
+
+
+
+
+const idGenerate = () => {
+
+}
 
 export const contentChecker = (content, max) => {
     let newText = "";
