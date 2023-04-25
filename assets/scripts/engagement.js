@@ -1,46 +1,4 @@
-import { loadOnlineSource } from "./resources.js";
-
-
-// Objects
-const recruiter = [{
-    imageURL: '',
-    firstname: 'James',
-    lastname: 'Trinidad',
-    timeposted: 'Posted 30 minutes ago',
-    jobtitle: 'Marketing Manager',
-    jobdescription: 'We are seeking a talented Marketing Manager to join our team. The Marketing Manager will be responsible for the overseeing the development and implentation of marketing strategies and campaigns to promote our products or services. The successful candidate will have a deep understaing of consumer behavior and market trends, as well as the ability to manage a team of marketing professionals.',
-    numofapplicants: "433",
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
-    }
-},
-{
-    numofapplicants: 433,
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
-    }
-},
-{
-    firstname: 'June',
-    lastname: 'Li',
-    timeposted: 'Posted 30 minutes ago',
-    jobtitle: 'Magit rketing Strategist',
-    jobdescription: 'We are seeking a talented Marketing Strategist to join our team. As a Marketing Strategist, you will be responsible for developing and implementing marketing strategies that drive growth and revenue for our company. You will work closely with our marketing and sales teams to develop campaigns that generate leads and engage customers.',
-    numofapplicants: "433",
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
-    }
-
-}];
-
-
-//     numofapplicants: 433,
-//     fullname: () => {
-//         return this.firstname + ' ' + this.lastname;
-//     }
-
-// }];
-
+import { loadOnlineSource, loadLocalSource } from "./resources.js";
 
 // Create Card Function 
 export const createCard = () => {
@@ -268,7 +226,7 @@ const createTrainingPost = () => {
     wrapper.appendChild(engagementCardDiv);
 }
 
-const createInterview = async (src, title, allow, allowF) => {
+const createInterview = async (src, _title, allow, allowF) => {
 
     const wrapper = document.querySelector(".cards-container");
 
@@ -320,7 +278,7 @@ const createInterview = async (src, title, allow, allowF) => {
     youtubeIframe.width = '100%';
     youtubeIframe.height = '270px';
     youtubeIframe.src = await src;
-    youtubeIframe.title = title;
+    youtubeIframe.title = _title;
     youtubeIframe.frameBorder = 0;
     youtubeIframe.allow = allow;
     youtubeIframe.allowFullscreen = true;
@@ -330,6 +288,10 @@ const createInterview = async (src, title, allow, allowF) => {
     const watchNowBtn = document.createElement('button');
     watchNowBtn.classList.add('enroll-now-btn', 'btn-primary');
     watchNowBtn.textContent = 'Watch now';
+    watchNowBtn.addEventListener('click', () => {
+        location.href = src;
+    });
+
     const savePostBtn = document.createElement('button');
     savePostBtn.classList.add('save-post-btn', 'btn-plain');
     savePostBtn.textContent = 'Save Post';
@@ -343,3 +305,14 @@ const createInterview = async (src, title, allow, allowF) => {
     // append the engagement card to the document body or another desired parent element
     wrapper.appendChild(engagementCard);
 }
+
+
+const loadPosts = async () => {
+    const dataset = await loadLocalSource("json", "interviewVideos.json");
+
+    dataset.forEach(data => {
+        createInterview();
+    });
+}
+
+loadPosts();
