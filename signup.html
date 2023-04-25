@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="form-container">
-        <form class="signup-form" name="signup-form" id="signup-form" action="#" method="post">
+        <div class="signup-form" name="signup-form" id="signup-form" action="#" method="post">
             <h1>Create an account</h1>
             <div class="row">
                 <div class="firstname-container input-container">
@@ -95,7 +95,7 @@
                     <option selected disabled>Province</option>
                 </select>
                 <div class="zip-container input-container">
-                    <label for="street1">Zip Code:</label>
+                    <label for="zipcode">Zip Code:</label>
                     <input type="number" name="zipcode1" id="zipcode" class="zipcode field" autocomplete="off">
                 </div>
             </div>
@@ -126,10 +126,14 @@
                         Conditions</a></label>
             </div>
             <div class="form-buttons">
+                <p class="error-message"> <i class="fa-solid fa-circle-exclamation" style="margin-right:5px"></i>Please
+                    fill out all necesssary
+                    fields
+                </p>
                 <button class="sign-up-cancel-btn btn-tertiary">Cancel</button>
                 <button class="sign-up-btn btn-primary">Sign up</button>
             </div>
-        </form>
+        </div>
     </div>
 </body>
 

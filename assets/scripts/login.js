@@ -1,16 +1,15 @@
 import { togglePassword } from "./form.js";
 
 export const isLogin = () => {
-    if (localStorage.getItem("account") != null || undefined) {
+    if (localStorage.getItem("userAccount") != null || undefined) {
         return true;
     } else {
         return false;
     }
 }
 
-export const loadLogin = body => {
+export const loadLogin = async body => {
     const blackScreen = document.createElement("div");
-
 
     const loginFormContainer = document.createElement("div");
     const left = document.createElement("div");
@@ -145,6 +144,39 @@ export const loadLogin = body => {
     body.appendChild(blackScreen);
     body.appendChild(loginFormContainer);
 
+
+    loginBtn.addEventListener('click', async () => {
+        try {
+            //check if the emailField and PasswordField is not empty
+            if (emailField.value && passwordField) {
+                const credentials = await JSON.parse(localStorage.getItem("userAccount"));
+                if (credentials.account.email == emailField.value) {
+                    if (credentials.account.password == passwordField.value) {
+                        alert("Logging In");
+                    }
+                    else {
+                        throw "Incorrect Password";
+                    }
+                }
+                else {
+                    throw "Invalid Email and Password";
+                }
+            }
+            else {
+                if (!emailField.value) {
+                    throw "Please enter your email";
+                }
+                else if (!passwordField.value) {
+                    throw "Please enter your password";
+                }
+                else {
+                    throw "Please enter your email and password";
+                }
+            }
+        } catch (e) {
+            alert(e);
+        }
+    });
     closeBtn.addEventListener('click', () => {
         loginForm.reset();
         blackScreen.classList.remove("active");
