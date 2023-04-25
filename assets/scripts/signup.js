@@ -29,47 +29,114 @@ const load = () => {
        
           const firstName = document.querySelector("#firstname");
           const lastName = document.querySelector("#lastname");
+          const birthMonth = document.querySelector(".birth-month").value;
+          const birthDay = document.querySelector(".birth-day").value;
+          const birthYear = document.querySelector(".birth-year").value;
+          const birthdate = new Date(`${birthMonth}/${birthDay}/${birthYear}`);
+          const ageDiffMs = Date.now() - birthdate.getTime();
+          const ageDate = new Date(ageDiffMs); 
+          const age = Math.abs(ageDate.getUTCFullYear() - 1970);
           const email = document.querySelector("#email");
+          const street = document.getElementById("street").value;
+          const unitNo = document.getElementById("unitNo").value;
+          const zipCode = document.getElementById("zipcode").value;
+          const sexSelection = document.querySelector(".sex-selection");
+          const citySelection = document.querySelector(".city-selection");
+          const provinceSelection = document.querySelector(".province-selection");
           const password = document.querySelector("#password");
           const confirmPassword = document.querySelector("#confirm-password");
+          const agreementChecked = document.querySelector("#sign-up-agreement");
           const specialChars = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
           const uppercaseChars = /[A-Z]/;
           const lowercaseChars = /[a-z]/;
           const emailRegex = /^[A-Za-z0-9]+[\w.-]*[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z]{2,}$/;
           
-            if (firstName.value() === '' || lastName.value() === '' || email.value() === '' || password.value() === '' || confirmPassword.value() === '' || dropdownValue === '') {
-              console.log('Error: All fields are required');
+            if (firstName.value === '' || lastName.value === '' || email.value === '' || password.value === '' || confirmPassword.value === '') {
+              alert('Error: All fields are required');
               return false;
             }
-            if (!emailRegex.test(email.value)) {
-              console.log('Error: Invalid email format');
+            else if (!emailRegex.test(email.value)) {
+              alert('Error: Invalid email format');
               return false;
             }
-            if (!specialChars.test(password.value) || !uppercaseChars.test(password.value) || !lowercaseChars.test(password.value) || password.value.length < 8 || /\s/.test(password.value)) {
-              console.log('Error: Password must contain at least one special character, one uppercase letter, one lowercase letter, no whitespace and be at least 8 characters long');
+            else if (!birthMonth || !birthDay || !birthYear) {
+              alert("Please select your birthdate.");
               return false;
             }
-            if (!agreementChecked) {
-              console.log('Error: You must agree to the terms and conditions');
+            else if (age < 18) {
+              alert("You must be at least 18 years old to create an account.");
               return false;
             }
-            if (password.value !== confirmPassword.value) {
-              console.log('Error: Passwords do not match');
+            else if (street.trim() === "") {
+              alert("Please enter your street address.");
               return false;
             }
-            if (dropdownValue === '') {
-              console.log('Error: Please select a value from the dropdown');
+            else if (unitNo.trim() === "") {
+              alert("Please enter your unit or floor number, or house number.");
               return false;
             }
+            else if (sexSelection.selectedIndex === 0) {
+              alert("Please select your gender.");
+              return false;
+            }
+            else if (citySelection.selectedIndex === 0) {
+              alert("Please select your city.");
+              return false;
+            }
+            else if (provinceSelection.selectedIndex === 0) {
+              alert("Please select your province.");
+              return false;
+            }
+            else if (zipCode.trim() === "") {
+              alert("Please enter your zip code.");
+              return false;
+            }
+            else if (!birthMonth || !birthDay || !birthYear) {
+              alert("Please select your birthdate.");
+              return false;
+            }
+            else if (age < 18) {
+              alert("You must be at least 18 years old to create an account.");
+              return false;
+            }
+            else if (street.trim() === "") {
+              alert("Please enter your street address.");
+              return false;
+            }
+            else if (unitNo.trim() === "") {
+              alert("Please enter your unit or floor number, or house number.");
+              return false;
+            }
+            else if (zipCode.trim() === "") {
+              alert("Please enter your zip code.");
+              return false;
+            }
+            else if (citySelection.selectedIndex === 0) {
+              alert("Please select your city.");
+              return false;
+            }
+            else if (provinceSelection.selectedIndex === 0) {
+              alert("Please select your province.");
+              return false;
+            }
+            else if (password.value !== confirmPassword.value) {
+              alert('Error: Passwords do not match');
+              return false;
+            }
+            else if (!specialChars.test(password.value) || !uppercaseChars.test(password.value) || !lowercaseChars.test(password.value) || password.value.length < 8 || /\s/.test(password.value)) {
+              alert('Error: Password must contain at least one special character, one uppercase letter, one lowercase letter, no whitespace and be at least 8 characters long');
+              return false;
+            }
+            else if (!agreementChecked) {
+              alert('Error: You must agree to the terms and conditions');
+              return false;
+            }
+            
             console.log('Success: Form validated!');
             return true;
-          // Example usage:
           }
           // End of sign up
-    
-);
-
-load();
+)};
 
 
 const generateID = () => {
@@ -85,4 +152,9 @@ const generateID = () => {
   const id = `${year} ${month} ${day} ${hour} ${minute} ${seconds} ${randomChars}`;
   console.log(id);
   return id;
-}};
+};
+
+
+load();
+
+
