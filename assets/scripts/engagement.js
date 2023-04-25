@@ -116,26 +116,25 @@ const jobInfo = () => {
         jobBox.classList.remove('active');
         overlay.classList.remove('active');
     })
-
 }
 
-const cards = document.querySelectorAll(".engagement-card");
+// const cards = document.querySelectorAll(".engagement-card");
 
-const cardObserver = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        console.log(entry);
-        entry.target.classList.toggle("show", entry.isIntersecting);
-    });
-},
-    {
-        threshold: 0.2,
-        rootMargin: "-150px",
-    }
-);
+// const cardObserver = new IntersectionObserver(entries => {
+//     entries.forEach(entry => {
+//         console.log(entry);
+//         entry.target.classList.toggle("show", entry.isIntersecting);
+//     });
+// },
+//     {
+//         threshold: 0.2,
+//         rootMargin: "-150px",
+//     }
+// );
 
-cards.forEach(card => {
-    cardObserver.observe(card);
-});
+// cards.forEach(card => {
+//     cardObserver.observe(card);
+// });
 
 // const lastCard = document.querySelector(".card:last-child");
 

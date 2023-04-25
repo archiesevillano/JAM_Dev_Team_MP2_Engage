@@ -495,22 +495,22 @@ button {
         0px 0px 14px rgba(0, 0, 0, 0.08);
     padding: 10px;
     margin: 10px 0;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+    /* opacity: 0;
+    transition: all 0.5s ease-in-out; */
 }
 
-.engagement-card:nth-child(odd) {
+/* .engagement-card:nth-child(odd) {
     transform: translateX(100%);
 }
 
 .engagement-card:nth-child(even) {
     transform: translateX(-100%);
-}
+} */
 
-.engagement-card.show {
+/* .engagement-card.show {
     transform: translateX(0);
     opacity: 1;
-}
+} */
 
 .engagement-card .header {
     display: flex;
