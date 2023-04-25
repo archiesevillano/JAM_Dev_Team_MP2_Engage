@@ -7,18 +7,17 @@ button {
 .engagement-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* SIDE NAVIGATION */
 .side-navigation {
     width: 300px;
     height: 80vh;
-    background: var(--primary);
+    background: var(--milk);
     padding: 20px 10px;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
 }
 
 .side-navigation ul {
@@ -27,7 +26,7 @@ button {
 }
 
 .side-navigation ul li {
-    color: var(--clean);
+    color: var(--dark);
     text-decoration: none;
     list-style-type: none;
     padding: 13px 5px;
@@ -35,14 +34,37 @@ button {
     font-size: 15px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    position: relative;
 }
 
 .side-navigation li:hover {
-    background-color: var(--secondary)
+    background-color: var(--fade);
 }
 
 .side-navigation li:active {
     filter: brightness(90%);
+}
+
+.side-navigation li.active {
+    color: var(--primary);
+}
+
+.side-navigation li:before {
+    content: '';
+    background-color: var(--primary);
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    opacity: 0;
+    width: 4px;
+    height: 100%;
+    transform: translateY(-50%) scaleY(0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.side-navigation li.active::before {
+    left: 0px;
+    opacity: 1;
 }
 
 .side-navigation i {
@@ -79,7 +101,7 @@ button {
         6px 4.9px 17.9px rgba(0, 0, 0, 0.047),
         11.3px 9.2px 33.4px rgba(0, 0, 0, 0.059),
         27px 22px 80px rgba(0, 0, 0, 0.09);
-    
+
 }
 
 /* engagement cards */
@@ -355,10 +377,9 @@ button {
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     overflow: hidden;
-    z-index: 1;
-    transition: all 0.7s ease-in-out;
+    z-index: 26;
+    transition: all 0.4s ease-in-out;
     opacity: 0;
-    transition-delay: 0.2s;
 }
 
 .job-header {
@@ -463,8 +484,6 @@ button {
 }
 
 
-
-
 .cards-container {
     height: 80vh;
     overflow-y: auto;
@@ -550,7 +569,8 @@ button {
     width: 100%;
 }
 
-.engagement-card .apply-now-btn {
+.engagement-card .apply-now-btn,
+.engagement-card .enroll-now-btn {
     width: 100%;
     background-color: var(--primary);
     color: var(--clean);
@@ -562,7 +582,8 @@ button {
     margin-bottom: 5px;
 }
 
-.engagement-card .details-btn {
+.engagement-card .details-btn,
+.save-post-btn {
     width: 100%;
     background-color: var(--plain);
     color: var(--dark);
@@ -589,6 +610,8 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background: var(--milk);
+    padding: 20px 30px;
 }
 
 .hiring-board .board {

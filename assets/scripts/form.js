@@ -99,7 +99,7 @@ export const getAge = (month, day, year) => {
 
 
 const idGenerate = () => {
-    
+
 }
 
 //   Function max length

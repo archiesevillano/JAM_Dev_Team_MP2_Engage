@@ -44,6 +44,16 @@ notificationBtn.addEventListener("click", notificationDropDown);
 const messageBtn = document.querySelector(".message-btn");
 messageBtn.addEventListener("click", messageDropDown);
 
+const my_profile = document.querySelector("#my-profile");
+my_profile.addEventListener('click', () => {
+    const profileBox = document.querySelector(".profile-box");
+    const overlay = document.querySelector(".modal-overlay");
+
+    profileBox.classList.add('active');
+    overlay.classList.add("active");
+
+});
+
 const searchBox = document.querySelector("#searchQueryInput");
 const resultBox = document.querySelector(".search-result");
 const inputResult = document.querySelector(".first-result-item");
@@ -83,4 +93,6 @@ const searchData = async e => {
 searchBox.addEventListener('focus', searchData);
 searchBox.addEventListener('keyup', searchData);
 searchBox.addEventListener('focus', searchData);
+
+
 

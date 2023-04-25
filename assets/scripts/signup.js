@@ -12,8 +12,8 @@ const load = () => {
     const passwordField = document.querySelector(".password");
     const confirmPasswordField = document.querySelector(".confirm-password");
 
-    togglePassword(passwordField, togglePs);
-    togglePassword(confirmPasswordField, toggleConfirmPs);
+  togglePassword(passwordField, togglePs);
+  togglePassword(confirmPasswordField, toggleConfirmPs);
 
     populateCities();
     populateProvince();
@@ -37,7 +37,7 @@ const load = () => {
           const lowercaseChars = /[a-z]/;
           const emailRegex = /^[A-Za-z0-9]+[\w.-]*[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z]{2,}$/;
           
-            if (firstName.value.trim() === '' || lastName.value.trim() === '' || email.value.trim() === '' || password.value.trim() === '' || confirmPassword.value.trim() === '' || dropdownValue === '') {
+            if (firstName.value() === '' || lastName.value() === '' || email.value() === '' || password.value() === '' || confirmPassword.value() === '' || dropdownValue === '') {
               console.log('Error: All fields are required');
               return false;
             }
@@ -73,7 +73,6 @@ load();
 
 
 const generateID = () => {
-
   const now = new Date();
   const year = now.getFullYear().toString();
   const month = (now.getMonth() + 1).toString().padStart(2, '0');
