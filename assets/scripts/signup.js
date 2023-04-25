@@ -27,43 +27,46 @@ const load = () => {
         e.preventDefault();
 
         const validateForm = (firstName, lastName, email, password, confirmPassword, agreementChecked, dropdownValue, middleName = '') => {
-          
           const specialChars = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
           const uppercaseChars = /[A-Z]/;
           const lowercaseChars = /[a-z]/;
           const emailRegex = /^[A-Za-z0-9]+[\w.-]*[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z]{2,}$/;
           
-            if (firstName.value === '' || lastName.value === '' || email.value === '' || password.value === '' || confirmPassword.value === '' || dropdownValue === '') {
+          function validateForm() {
+            if (firstName.value.trim() === '' || lastName.value.trim() === '' || email.value.trim() === '' || password.value.trim() === '' || confirmPassword.value.trim() === '' || dropdownValue === '') {
               console.log('Error: All fields are required');
-              
+              return false;
             }
-            if (!emailRegex.test(email)) {
+            else if (!emailRegex.test(email.value)) {
               console.log('Error: Invalid email format');
-              
+              return false;
             }
-            if (!specialChars.test(password) || !uppercaseChars.test(password) || !lowercaseChars.test(password) || password.length < 8 || /\s/.test(password)) {
+            else if (!specialChars.test(password.value) || !uppercaseChars.test(password.value) || !lowercaseChars.test(password.value) || password.value.length < 8 || /\s/.test(password.value)) {
               console.log('Error: Password must contain at least one special character, one uppercase letter, one lowercase letter, no whitespace and be at least 8 characters long');
-              
+              return false;
             }
-            if (!agreementChecked) {
+            else if (!agreementChecked) {
               console.log('Error: You must agree to the terms and conditions');
-              
+              return false;
             }
-            if (password !== confirmPassword) {
+            else if (password.value !== confirmPassword.value) {
               console.log('Error: Passwords do not match');
-            
+              return false;
             }
-            if (dropdownValue === '') {
+            else if (dropdownValue === '') {
               console.log('Error: Please select a value from the dropdown');
-              
+              return false;
             }
             console.log('Success: Form validated!');
-            
+            return true;
           };
           
+          
           // Example usage:
-        
-        });
+         
+    }
+    
+});
 
 load();
 
@@ -82,4 +85,4 @@ const generateID = () => {
   const id = `${year} ${month} ${day} ${hour} ${minute} ${seconds} ${randomChars}`;
   console.log(id);
   return id;
-};
+}};

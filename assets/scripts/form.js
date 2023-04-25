@@ -95,7 +95,6 @@ export const getAge = (month, day, year) => {
 };
 
 
-<<<<<<< HEAD
 
 
 
@@ -131,8 +130,6 @@ const textMax = (text, maxLength) => {
 //       return textMax + '...';
 //     }
 //   }
-=======
->>>>>>> f3ce55a238a7ceceebd7264f9f0256b4f75c5bbb
 export const contentChecker = (content, max) => {
     let newText = "";
 
@@ -158,7 +155,4 @@ export const noWhiteSpace = text => {
     text.forEach(letter => letter != " " ? newText += letter : newText += "");
     return newText;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> f3ce55a238a7ceceebd7264f9f0256b4f75c5bbb
