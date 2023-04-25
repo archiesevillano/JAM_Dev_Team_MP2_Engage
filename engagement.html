@@ -19,6 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!-- External JS Files -->
+    <script defer type="module" src="assets/scripts/profile.js"></script>
     <script defer type="module" src="assets/scripts/header.js"></script>
     <script defer type="module" src="assets/scripts/engagement.js"></script>
     <script defer type="module" src="assets/scripts/resources.js"></script>
@@ -35,7 +36,7 @@
                 <div class="app-logo">
                     <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
                 </div>
-                <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+                <h1 style="margin:0;margin-left:3px;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
             </a>
         </div>
 
@@ -72,7 +73,7 @@
             </div>
             <ul class="profile-drop-down">
                 <li>
-                    <a href="#">
+                    <a id="my-profile">
                         <i class="fa-solid fa-user"></i>
                         <p>My Profile</p>
                     </a>
@@ -206,11 +207,11 @@
             </div>
         </div>
     </header>
-    <section class="engagement-content" style="padding-top:50px;">
+    <section class="engagement-content">
         <!-- SIDE NAVIGATION -->
         <div class="side-navigation">
             <ul>
-                <li>
+                <li class="active">
                     <i class="fa-solid fa-house fa-xs"></i></i>
                     Home
                 </li>
@@ -248,231 +249,6 @@
         <!-- END OF SIDE NAVIGATION -->
         <!-- ENGAGEMENT CARDS -->
         <div class="cards-container">
-            <!-- <div class="engagement-collection">
-                <div class="engagement-cards">
-                    <div class="engagement-cards-name">
-                        <div class="recruiter-image">
-                            <img src="assets/images/recruiterImage.jpg">
-                        </div>
-                        <div class="recruiter-name-timeposted">
-                            <span class="recruiter-name"><b>James Trinidad</b></span>
-                            <span class="time-posted">Posted 30 minutes ago</span>
-                        </div>
-                        <div class="recruiter-options">
-                            <button><i class="fa-solid fa-ellipsis fa-xs"></i></button>
-                        </div>
-                    </div>
-                    <div class="engagement-cards-content">
-                        <div class="job-title">
-                            <span>Marketing Manager</span>
-                        </div>
-                        <div class="job-content">
-                            <span class="job-sum">Job Summary</span>
-                            <span class="job-description">We are seeking a talented Marketing Manager to join our team.
-                                The
-                                Marketing Manager will be responsible for the overseeing the development and
-                                implentation of
-                                marketing strategies and campaigns to promote our products or services. The successful
-                                candidate will have a deep understaing of consumer behavior and market trends, as well
-                                as
-                                the ability to manage a team of marketing professionals.</span>
-                        </div>
-                        <div class="hiring-company">
-                            <img class="company-logo" src="assets/images/teletech-inc.png">
-                            <button class="learn-more" id="jobInfo">LEARN MORE</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="engagement-info">
-                    <span> 433 Applicants</span>
-                </div>
-                <div class="engagement-bottom">
-                    <button>Apply Now</button>
-                    <button>Comments</button>
-                </div>
-            </div>
-            <br>
-            <div class="engagement-collection">
-                <div class="engagement-cards">
-                    <div class="training-cards-name">
-                        <div class="training-image">
-                            <img src="assets/images/th (4).jpg">
-                        </div>
-                        <div class="training-name-timeposted">
-                            <span class="training-name"><b>AVION School</b></span>
-                            <span class="time-posted">Posted 30 minutes ago</span>
-                        </div>
-                        <div class="training-options">
-                            <button><i class="fa-solid fa-ellipsis fa-xs"></i></button>
-                        </div>
-                    </div>
-                    <div class="training-cards-content">
-                        <div class="training-content">
-                            <img src="assets/images/trainingcertbanner.jpg">
-                            <button class="learn-more">LEARN MORE</button>
-                        </div>
-                    </div>
-                    <div class="trainingcards-info">
-                        <span> Currently Enrolled 15/20</span>
-                    </div>
-                    <div class="training-bottom">
-                        <button>Enroll Now</button>
-                        <button>Comments</button>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="engagement-collection">
-                <div class="engagement-cards">
-                    <div class="interview-cards-name">
-                        <div class="interview-image">
-                            <img src="assets/images/logo.svg">
-                        </div>
-                        <div class="interview-name-timeposted">
-                            <span class="interview-name"><b>engage</b></span>
-                            <span class="time-posted">Posted 30 minutes ago</span>
-                        </div>
-                        <div class="interview-options">
-                            <button><i class="fa-solid fa-ellipsis fa-xs"></i></button>
-                        </div>
-                    </div>
-                    <div class="interview-cards-content">
-                        <div class="interview-content">
-                            <div class="video-link-content">
-                                <span>
-                                    If you're interested, you can visit this link:
-                                </span>
-                            </div>
-                            <div class="video-content-title">
-                                <div class="video-thumbnail">
-                                    <iframe width="260" height="200" src="https://www.youtube.com/embed/fr-mwiyhZAo"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        allowfullscreen>
-                                    </iframe>
-                                </div>
-                                <div class="vid-content">
-                                    <a class="vid-link" href="https://www.youtube.com/watch?v=fr-mwiyhZAo">
-                                        <span class="vid-title">TOP 21 QUICK ANSWERS TO JOB INTERVIEW
-                                            QUESTIONS!
-                                        </span>
-                                    </a>
-                                    <span class="vid-description">If you have a job interview coming up soon, and you do
-                                        not
-                                        have much time to prepare, make sure you watch this video from start to finish,
-                                        because I will help you to succeed!!
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="interview-bottom">
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="engagement-card">
-                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
-                    <div class="user_profile">
-                        <img src="assets/images/user-pic.png">
-                    </div>
-                    <div class="post-header">
-                        <h3>Julies Sarmiento</h3>
-                        <p>Posted 15 minutes ago</p>
-                    </div>
-                    <button class="dots">
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-                </div>
-                <div class="body">
-                    <img src="assets/images/job/FB_IMG_1682290828586.jpg" style="width:100%;margin-top:20px;">
-                </div>
-                <button class="apply-now-btn btn-primary">Apply now</button>
-                <button class="details-btn btn-plain">Details</button>
-            </div>
-
-            <div class="engagement-card">
-                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
-                    <div class="user_profile">
-                        <img src="assets/images/user-pic.png">
-                    </div>
-                    <div class="post-header">
-                        <h3>Julies Sarmiento</h3>
-                        <p>Posted 15 minutes ago</p>
-                    </div>
-                    <button class="dots">
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-                </div>
-                <div class="body">
-                    <img src="assets/images/job/FB_IMG_1682289955948.jpg" style="width:100%;margin-top:20px;">
-                </div>
-                <button class="apply-now-btn btn-primary">Apply now</button>
-                <button class="details-btn btn-plain">Details</button>
-            </div>
-
-
-            <div class="engagement-card">
-                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
-                    <div class="user_profile">
-                        <img src="assets/images/user-pic.png">
-                    </div>
-                    <div class="post-header">
-                        <h3>Julies Sarmiento</h3>
-                        <p>Posted 15 minutes ago</p>
-                    </div>
-                    <button class="dots">
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-                </div>
-                <div class="body">
-                    <img src="assets/images/job/FB_IMG_1682290347766.jpg" style="width:100%;margin-top:20px;">
-                </div>
-                <button class="apply-now-btn btn-primary">Apply now</button>
-                <button class="details-btn btn-plain">Details</button>
-            </div>
-
-
-            <div class="engagement-card">
-                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
-                    <div class="user_profile">
-                        <img src="assets/images/user-pic.png">
-                    </div>
-                    <div class="post-header">
-                        <h3>Julies Sarmiento</h3>
-                        <p>Posted 15 minutes ago</p>
-                    </div>
-                    <button class="dots">
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-                </div>
-                <div class="body">
-                    <img src="assets/images/job/FB_IMG_1682290803809.jpg" style="width:100%;margin-top:20px;">
-                </div>
-                <button class="apply-now-btn btn-primary">Apply now</button>
-                <button class="details-btn btn-plain">Details</button>
-            </div>
-
-
-            <div class="engagement-card">
-                <div class="header" style="width:100%;display:flex; flex-direction:row; justify-content:space-between;">
-                    <div class="user_profile">
-                        <img src="assets/images/user-pic.png">
-                    </div>
-                    <div class="post-header">
-                        <h3>Julies Sarmiento</h3>
-                        <p>Posted 15 minutes ago</p>
-                    </div>
-                    <button class="dots">
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-                </div>
-                <div class="body">
-                    <img src="assets/images/job/FB_IMG_1682290808800.jpg" style="width:100%;margin-top:20px;">
-                </div>
-                <button class="apply-now-btn btn-primary">Apply now</button>
-                <button class="details-btn btn-plain">Details</button>
-            </div>
 
         </div>
 
@@ -495,8 +271,6 @@
         <!-- END OF HRING BOARDS -->
     </section>
 
-
-
     <div class="job-information">
         <div class="job-header">
             <h1>Job Details</h1>
@@ -507,36 +281,33 @@
                 <p class="job-labels">
                     Job Summary
                 </p>
-                <textarea class="j-summary"></textarea>
+                <p>
+                    We are seeking a highly skilled and motivated software developer to join our team. As a software
+                    developer, you will be responsible for developing and maintaining software applications, ensuring
+                    that
+                    they are functional, reliable, and meet client requirements.
+                </p>
             </section>
             <section class="j-qualifications">
                 <p class="job-labels">
                     Job Qualifications
                 </p>
                 <ul class="qualification-list">
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li>Design, develop, and test software applications according to specifications</li>
+                    <li>Debug and resolve issues in existing software applications</li>
+                    <li>Collaborate with cross-functional teams to identify and implement solutions</li>
+                    <li>Participate in code reviews to ensure code quality and adherence to standards</li>
+                    <li>Document software designs, testing procedures, and user guides</li>
+                    <li>Keep up to date with emerging technologies and industry trends</li>
+                    <li>Communicate effectively with team members, clients, and stakeholders</li>
                 </ul>
             </section>
             <p class="job-labels">
                 More Details:
             </p>
             <p class="more-job-details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellendus eligendi tempora quisquam
-                illo dicta quam similique excepturi consequatur. Suscipit quas mollitia esse libero! Facilis perferendis
-                maxime laborum qui est?
+                If you are a self-starter who is passionate about software development and thrives in a collaborative
+                environment, we would love to hear from you!
             </p>
         </div>
         <div class="button-collection" style="display:flex;justify-content: flex-end;align-items:center;gap:20px;">
@@ -544,7 +315,7 @@
             <button class="save-btn btn-plain">Save Post</button>
         </div>
     </div>
-
+    <!-- Profile Box -->
     <div class="profile-box">
         <div class="header">
             <div class="left">
