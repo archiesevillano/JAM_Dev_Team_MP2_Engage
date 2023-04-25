@@ -63,3 +63,328 @@
     font-family: var(--poppins);
     margin: 20px 0px;
 }
+
+/* MEDIA QUERIES */
+ 
+    /* XL width: 1400px */
+@media screen and (max-width: 1400px) {
+        /* Header */
+    .button-collections button {
+        width: 100px;
+    }
+    .hero-section .upper-text,
+    .purpose-section .left h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 100px;
+    color: var(--tertiary);
+    font-family: var(--outfit);
+    letter-spacing: 2px;
+    font-size: 25px;
+    }
+    .hero-section .hero-text {
+        font-size: 50px;
+    }
+    .hero-section .purpose {
+        margin-top: 20px;
+        font-size: 15px;
+        width: 600px
+    }
+    .purpose-section .right .e-image {
+        height: 500px
+    }
+    .purpose-section .left {
+        padding-left: 100px
+    }
+    .purpose-section .left h1 {
+        padding: 0px
+    }
+    .purpose-section .left p {
+        font-size: 15px;
+    }
+        /* footer */
+    .main-footer .upper .app-details ul li:first-child {
+        font-size: 20px;
+    }
+
+}
+
+    /* L width: 1200px */
+@media screen and (max-width: 1200px) {
+        /* Header */
+    .button-collections button {
+        width: 90px;
+        font-size: 11px;
+    }
+
+    .page-header .header-nav a.active {
+        font-size: 11px;
+    }
+    .brand-container h1{
+        font-size: 27px;
+    }
+        /* banner */
+    .upper-text {
+        font-size: 25px; 
+    }
+    .hero-text {
+        font-size: 47px;
+    }
+    .hero-section {
+        height:500px
+    }
+    .hero-section .hero-text {
+        font-size: 40px;
+    }
+    .hero-section .purpose {
+        width: 600px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    
+    .purpose-section .right .e-image {
+        height: 400px;
+    }
+    /* footer */
+    .main-footer .upper .app-details ul li:first-child  {
+        font-size: 21px;
+    }
+    .main-footer .upper .app-details ul li {
+        font-size: 13px;
+    }
+}
+
+    /* width: 992px */
+@media screen and (max-width: 992px) {
+    .hero-section {
+        background-size: 100%;
+        height: 450px;
+    }
+
+    .page-header .header-nav a {
+        font-size: 11px;
+        padding: 5px;
+    }
+    .page-header .header-nav a.active {
+        font-size: 10px;
+    }
+    .button-collections button {
+        font-size: 10px;
+        width: 73px
+    }
+    
+    .hero-section .upper-text, .purpose-section .left h1 {
+        font-size: 20px;
+    }
+    .hero-section .hero-text {
+        font-size: 35px;
+    }
+    .hero-section .purpose {
+        width: 500px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .purpose-section .left p {
+        font-size: 12px;
+    }
+    .purpose-section .right .e-image {
+        height: 350px;
+    }
+
+    /* footer */
+    .app-logo img {
+        width: 25px;
+        height: 25px;
+    }
+    .brand-container h1 {
+        font-size: 24px;
+    }
+    .main-footer .upper .app-details ul li:first-child  {
+        font-size: 17px;
+    }
+    .main-footer .upper .app-details ul li {
+        font-size: 11px;
+    }
+    .main-footer .upper .legal-docs li a {
+        font-size: 10px;
+    }
+    .copyright-details {
+        font-size: 10px;
+    }
+}
+
+    /* small width: 768 */
+@media screen and (max-width: 768px) {
+    /* header */
+
+    .page-header .header-nav , .page-header .brand-container , .page-header .button-collections{
+        display:none
+    }
+    .page-header {
+        padding: 0px;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    /* HAMBURGER NAVBAR */
+   
+    .app-logo h1 {
+        color: var(--clean)
+    }
+    .topnav .app-logo {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0px 5px 40px;
+        background-color: transparent(0, 0, 0, 0);
+    }
+    .navburgermenu {
+        display: block;
+        width: 100%;
+        margin: auto;
+        
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: transparent;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+        background-color: rgba(34, 34, 34, 0.918);
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      
+      .topnav a {
+        color: var(--clean);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 15px 20px; ;
+        font-size: 25px;
+        
+        display:flex;
+        
+        justify-content: flex-end;
+    
+      }
+      
+      .topnav a:hover {
+        background-color:rgba(34, 34, 34, 0.918);
+        color: white;
+        
+      }
+      
+      .active {
+        background-color: transparent;
+        color: white;
+      }
+
+      .topnav div{
+        padding: 20px
+      }
+      
+    /* END HAMBURGER NAVBAR */
+
+
+    .hero-section .upper-text{
+        padding: 30px 0px 0px 50px;
+    }
+    .hero-section .upper-text, .purpose-section .left h1 {
+        font-size: 15px;
+        
+    }
+    .hero-section .hero-text {
+        padding-left: 50px;
+        font-size: 25px;
+    }
+    .hero-section .purpose {
+        width: 400px;
+        padding-left: 50px;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .hero-section {
+        height: 300px;
+    }
+    .purpose-section .left {
+        padding: 30px 0px 30px 60px
+
+    }
+    .purpose-section .right .e-image {
+        height: 280px
+    }
+    .main-footer .upper .legal-docs {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+}
+
+    /* small width: 576px */
+@media screen and (max-width: 576px) {
+    .topnav .app-logo {
+        padding: 5px 0px 5px 30px;
+    }
+    .topnav div {
+        padding: 10px;
+    }
+    .topnav a.icon {
+        font-size: 24px;
+        padding: 15px 20px;
+    }
+    .hero-section {
+        height: 200px;
+    }
+    .topnav a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .hero-section .upper-text, .purpose-section .left h1 {
+        padding-left: 30px;
+        font-size: 10px
+    }
+    .hero-section .hero-text {
+        font-size: 15px;
+        padding-left: 30px;
+    }
+    .hero-section .purpose {
+        width: 300px;
+        padding-left: 30px;
+        font-size: 9px;
+        margin-top: 2px;
+    }
+    .purpose-section .right .e-image {
+        height: 200px;
+        width: 200px;
+    }
+    .purpose-section .left {
+        padding: 10px 0px 10px 20px;
+    }
+    .purpose-section .left h1 {
+        padding: 0px;
+        font-size: 15px;
+    }
+    .app-logo h1 {
+        font-size: 20px;
+    }
+    .app-logo img {
+        height: 20px;
+        width: 20px;
+    }
+
+}

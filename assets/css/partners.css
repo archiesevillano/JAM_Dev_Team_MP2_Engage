@@ -83,6 +83,14 @@ body {
 
     /* XXL width:1400px */
 @media screen and (max-width:1400px) {
+
+    /* header */
+    .page-header {
+        z-index: 2
+    }
+    .button-collections button {
+        width: 100px;
+    }
     .partners-text-container {
         position:relative;
         bottom: 30px;
@@ -156,6 +164,18 @@ body {
 
     /* XL width:1200px */
 @media screen and (max-width:1200px) {
+     /* Header */
+     .button-collections button {
+        width: 90px;
+        font-size: 11px;
+    }
+    .page-header .header-nav a.active {
+        font-size: 11px;
+    }
+    .brand-container h1{
+        font-size: 27px;
+    }
+
     .partners-text-container {
         position:relative;
         bottom: 55px;
@@ -171,10 +191,29 @@ body {
         height: 300px
         
     }
+    /* footer */
+    .main-footer .upper .app-details ul li:first-child  {
+        font-size: 21px;
+    }
+    .main-footer .upper .app-details ul li {
+        font-size: 13px;
+    }
 }
 
     /* large width:992px */
 @media screen and (max-width:992px) {
+    /* header */
+    .page-header .header-nav a {
+        font-size: 11px;
+        padding: 5px;
+    }
+    .page-header .header-nav a.active {
+        font-size: 10px;
+    }
+    .button-collections button {
+        font-size: 10px;
+        width: 73px
+    }
     .partners-text-container {
         position:relative;
         bottom: 70px;
@@ -238,10 +277,98 @@ body {
     .partners-image-15 {
         width: 140px;
     }
+    /* footer */
+    .app-logo img {
+        width: 25px;
+        height: 25px;
+    }
+    .brand-container h1 {
+        font-size: 24px;
+    }
+    .main-footer .upper .app-details ul li:first-child  {
+        font-size: 17px;
+    }
+    .main-footer .upper .app-details ul li {
+        font-size: 11px;
+    }
+    .main-footer .upper .legal-docs li a {
+        font-size: 10px;
+    }
+    .copyright-details {
+        font-size: 10px;
+    }
 }
 
     /* medium width: 768px */
 @media screen and (max-width:768px) {
+    .page-header .header-nav , .page-header .brand-container , .page-header .button-collections{
+        display:none
+    }
+    .page-header {
+        padding: 0px;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    /* HAMBURGER NAVBAR */
+   
+    .app-logo h1 {
+        color: var(--clean)
+    }
+    .topnav .app-logo {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0px 10px 40px;
+        z-index: 2;
+        background-color: rgba(34, 34, 34, 0.800);
+    }
+    .navburgermenu {
+        display: block;
+        width: 100%;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: transparent;
+        position: relative;
+      }
+      .topnav #myLinks {
+        display: none;
+        background-color: rgba(34, 34, 34, 0.800);
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      
+      .topnav a {
+        color: var(--clean);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 15px 20px; ;
+        font-size: 25px;
+        display:flex;
+        justify-content: flex-end;
+      }
+      .active {
+        background-color: transparent;
+        color: white;
+      }
+      .topnav div{
+        padding: 20px;
+      }
+      
+    /* END HAMBURGER NAVBAR */
     .partners-text-container {
         position:relative;
         bottom: 100px;
@@ -310,6 +437,16 @@ body {
 
     /* small width: 576px */
 @media screen and (max-width:576px) {
+    /* header */
+    .topnav a.icon {
+        font-size: 23px;
+    }
+    .app-logo h1 {
+        font-size: 23px;
+    }
+    .herobanner {
+        height: 250px;
+    }
     .partners-text-container {
         position:relative;
         bottom: 120px;
@@ -374,13 +511,35 @@ body {
     .partners-image-15 {
         width: 80px;
     }
+    /* footer */
+    .main-footer .upper .legal-docs {
+        display:flex;
+        flex-direction: column;
+    }
 }
     /* xsmall width: 414 mobile iphoneXR */
 @media screen and (max-width:414px) {
+    .herobanner {
+        background-image: none;
+    }
+    .topnav a.icon {
+        font-size: 23px;
+    }
+    .app-logo h1 {
+        font-size: 25px;
+    }
+    .topnav #myLinks {
+        padding: 5px;
+        height: 300px;
+    }
+    .topnav a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
     .partners-text-container {
-        position:relative;
-        bottom: 150px;
-        right:100px;
+        position: relative;
+        bottom: 133px;
+        right: 100px;
     }
     .partners-text {
         font-size: 10px;
@@ -442,4 +601,30 @@ body {
     .partners-image-15 {
         width: 50px;
     }
+    /* footer */
+    .main-footer {
+        display:flex;
+        flex-direction: column;
+        margin-top: 2px;
+    }
+    .main-footer .upper {
+        display: flex;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .main-footer .upper .app-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: baseline;
+        padding: 10px 0px;
+        width: 300px;
+    }
+    .main-footer .upper .legal-docs{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    /* end of footer */
 }
