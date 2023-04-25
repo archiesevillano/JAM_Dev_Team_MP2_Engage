@@ -3,6 +3,11 @@ body, button, input {
 }
 
 /* CAREER HERO */
+.app-logo img {
+    width:30px;
+    height:30px
+}
+
 .career-hero {
     padding-left: 70px
 }
@@ -200,6 +205,7 @@ body, button, input {
     .page-header {
         z-index: 2
     }
+    /* header */
     .careerhero-text {
         font-size:30px;
         font-weight: bold
@@ -237,6 +243,7 @@ body, button, input {
     .brand-container h1{
         font-size: 27px;
     }
+        /* Header */
 
     .drop-btn {
         width: 140px;
@@ -283,17 +290,17 @@ body, button, input {
     }
     /* footer */
     .main-footer .upper .app-details ul li:first-child  {
-        font-size: 21px;
+        font-size: 20px;
     }
     .main-footer .upper .app-details ul li {
-        font-size: 13px;
+        font-size: 12px;
     }
     
 }
 
     /* large WIDTH:992px */
 @media screen and (max-width:992px) {
-    /* header */
+    /* Header */
     .page-header .header-nav a {
         font-size: 11px;
         padding: 5px;
@@ -305,6 +312,7 @@ body, button, input {
         font-size: 10px;
         width: 73px
     }
+    /* End of Header */
     .herobanner {
         height: 300px
     }
@@ -402,15 +410,18 @@ body, button, input {
         display: none;
         background-color: rgba(34, 34, 34, 0.800);
         font-family: 'Poppins', sans-serif;
+        padding: 20px;
+        font-weight: bold
         
       }
       
-      .topnav a {
+      .topnav a {   
         color: var(--clean);
-        padding: 14px 16px;
+        padding: 10px 20px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 20px;
         display: block;
+        font-weight: bold;
       }
       
       .topnav a.icon {
@@ -418,27 +429,21 @@ body, button, input {
         position: absolute;
         right: 0;
         top: 0;
-        padding: 15px 20px; ;
+        padding: 17.5px 18px;
         font-size: 25px;
-        
         display:flex;
-        
         justify-content: flex-end;
-    
       }
-      
-      
-      .active {
+     .active {
         background-color: transparent;
         color: white;
       }
-
       .topnav div{
-        padding: 20px;
+        padding: 10px;
       }
-      
     /* END HAMBURGER NAVBAR */
-    
+
+    /* Content */
     .careerhero-text {
         font-size: 18px;
     }
@@ -477,12 +482,14 @@ body, button, input {
     .job-description-text {
         height: 110px;
     }
-    /* footer */
+    /* End of Content */
+    /* Footer */
     .main-footer .upper .legal-docs {
         display:flex;
         flex-wrap:wrap;
         flex-direction: column;
     }
+    /* End of footer */
 }
     /* small width: 576px */
 @media screen and (max-width:576px) {
@@ -493,6 +500,27 @@ body, button, input {
     .app-logo h1 {
         font-size: 23px;
     }
+    .topnav a {
+        color: var(--clean);
+        padding: 7px 25px;
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        font-weight: bold;
+        align-content: space-around;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .topnav a.icon  {
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    .app-logo img {
+        height: 23px;
+        width: 23px
+    }
+    /* End of Header */
+    
 
     .herobanner {
         height: 250px;
@@ -530,31 +558,47 @@ body, button, input {
     .company-hiring {
         font-size: 11px;
     }
-    /* footer */
+    /* Footer */
+    .main-footer .upper .app-details ul li:first-child {
+        font-size: 15px;
+    }
+    .main-footer .upper .app-details ul li {
+        font-size: 9px;
+    }
     .main-footer .upper .legal-docs {
         display:flex;
         flex-direction: column;
-    }
+    } 
+    /* End footer */
 }
 
     /* media width:414px Mobile */
 @media screen and (max-width:414px) {
-    .herobanner {
-        background-image: none;
-    }
-    .topnav a.icon {
-        font-size: 23px;
-    }
-    .app-logo h1 {
-        font-size: 25px;
+    /* NavBar */
+    .topnav a.icon{
+        font-size: 15px;
+        padding: 15px;
     }
     .topnav #myLinks {
-        padding: 5px;
-        height: 300px;
+        padding: 10px;
     }
     .topnav a {
-        padding: 10px 15px;
+        padding: 5px 27px;
         font-size: 15px;
+    }
+    .btn-quaternary, .btn-secondary {
+        font-size: 10px;
+    }
+    .app-logo h1 {
+        font-size: 17px;
+    }
+    .app-logo img {
+        height: 20px;
+        width: 20px;
+    }
+    /* End of NavBar */
+    .herobanner {
+        background-image: none;
     }
     .career-hero {
         padding: 5px
@@ -612,29 +656,21 @@ body, button, input {
         width: 50px;
         height: 100%;
     }
-    /* footer */
-    .main-footer {
+    /* Footer */
+   .main-footer .upper .app-details {
+    display:flex;
+    flex-direction: column;
+    gap: 10px
+    }
+    .main-footer .upper {
         display:flex;
         flex-direction: column;
     }
-    .main-footer .upper {
-        display: flex;
-        padding: 30px 0;
-        flex-direction: column;
+    .main-footer .upper .app-details ul li {
+        font-size: 10px;
     }
-    .main-footer .upper .app-details{
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: baseline;
-        padding: 10px 0px;
-        width: 300px;
+    .main-footer .upper .legal-docs {
+        padding: 5px 0px 0px 13px
     }
-    .main-footer .upper .legal-docs{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding: 0px 15px;
-    }
-    /* end of footer */
+    /* End of Footer */
 }

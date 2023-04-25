@@ -1,7 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+.app-logo img {
+    width:30px;
+    height:30px
+}
 
 .partners-container {
     height:400px
@@ -85,12 +88,13 @@ body {
 @media screen and (max-width:1400px) {
 
     /* header */
-    .page-header {
-        z-index: 2
-    }
     .button-collections button {
         width: 100px;
     }
+    .page-header {
+        z-index: 2
+    }
+    /* End of header */
     .partners-text-container {
         position:relative;
         bottom: 30px;
@@ -160,12 +164,17 @@ body {
     .partners-image-15 {
         width: 110px;
     }
+    /* footer */
+    .main-footer .upper .app-details ul li:first-child {
+        font-size: 23px;
+    }
+    /*End of footer */
 }
 
     /* XL width:1200px */
 @media screen and (max-width:1200px) {
      /* Header */
-     .button-collections button {
+    .button-collections button {
         width: 90px;
         font-size: 11px;
     }
@@ -175,6 +184,7 @@ body {
     .brand-container h1{
         font-size: 27px;
     }
+        /* End of Header */
 
     .partners-text-container {
         position:relative;
@@ -191,18 +201,19 @@ body {
         height: 300px
         
     }
-    /* footer */
+    /* Footer */
     .main-footer .upper .app-details ul li:first-child  {
-        font-size: 21px;
+        font-size: 20px;
     }
     .main-footer .upper .app-details ul li {
-        font-size: 13px;
+        font-size: 12px;
     }
+        /* End of Footer */
 }
 
     /* large width:992px */
 @media screen and (max-width:992px) {
-    /* header */
+    /* Header */
     .page-header .header-nav a {
         font-size: 11px;
         padding: 5px;
@@ -214,6 +225,7 @@ body {
         font-size: 10px;
         width: 73px
     }
+        /* End of Header */
     .partners-text-container {
         position:relative;
         bottom: 70px;
@@ -297,6 +309,7 @@ body {
     .copyright-details {
         font-size: 10px;
     }
+    /* end of footer */
 }
 
     /* medium width: 768px */
@@ -339,15 +352,18 @@ body {
         display: none;
         background-color: rgba(34, 34, 34, 0.800);
         font-family: 'Poppins', sans-serif;
+        padding: 20px;
+        font-weight: bold
         
       }
       
-      .topnav a {
+      .topnav a {   
         color: var(--clean);
-        padding: 14px 16px;
+        padding: 10px 20px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 20px;
         display: block;
+        font-weight: bold;
       }
       
       .topnav a.icon {
@@ -355,19 +371,18 @@ body {
         position: absolute;
         right: 0;
         top: 0;
-        padding: 15px 20px; ;
+        padding: 17.5px 18px;
         font-size: 25px;
         display:flex;
         justify-content: flex-end;
       }
-      .active {
+     .active {
         background-color: transparent;
         color: white;
       }
       .topnav div{
-        padding: 20px;
+        padding: 10px;
       }
-      
     /* END HAMBURGER NAVBAR */
     .partners-text-container {
         position:relative;
@@ -433,6 +448,13 @@ body {
     .partners-image-15 {
         width: 100px;
     }
+    /* Footer */
+    .main-footer .upper .legal-docs {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    /* End of footer */
 }
 
     /* small width: 576px */
@@ -444,6 +466,26 @@ body {
     .app-logo h1 {
         font-size: 23px;
     }
+    .topnav a {
+        color: var(--clean);
+        padding: 7px 25px;
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        font-weight: bold;
+        align-content: space-around;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .topnav a.icon  {
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    .app-logo img {
+        height: 23px;
+        width: 23px
+    }
+    /* End of Header */
     .herobanner {
         height: 250px;
     }
@@ -511,31 +553,44 @@ body {
     .partners-image-15 {
         width: 80px;
     }
-    /* footer */
+    /* Footer */
+    .main-footer .upper .app-details ul li:first-child {
+        font-size: 15px;
+    }
+    .main-footer .upper .app-details ul li {
+        font-size: 9px;
+    }
     .main-footer .upper .legal-docs {
         display:flex;
         flex-direction: column;
-    }
+    } 
+    /* End footer */
 }
     /* xsmall width: 414 mobile iphoneXR */
 @media screen and (max-width:414px) {
-    .herobanner {
-        background-image: none;
-    }
-    .topnav a.icon {
-        font-size: 23px;
-    }
-    .app-logo h1 {
-        font-size: 25px;
+    /* NavBar */
+    .topnav a.icon{
+        font-size: 15px;
+        padding: 15px;
     }
     .topnav #myLinks {
-        padding: 5px;
-        height: 300px;
+        padding: 10px;
     }
     .topnav a {
-        padding: 10px 15px;
+        padding: 5px 27px;
         font-size: 15px;
     }
+    .btn-quaternary, .btn-secondary {
+        font-size: 10px;
+    }
+    .app-logo h1 {
+        font-size: 17px;
+    }
+    .app-logo img {
+        height: 20px;
+        width: 20px;
+    }
+    /* End of NavBar */
     .partners-text-container {
         position: relative;
         bottom: 133px;
@@ -601,30 +656,24 @@ body {
     .partners-image-15 {
         width: 50px;
     }
-    /* footer */
+    /* Footer */
     .main-footer {
-        display:flex;
-        flex-direction: column;
-        margin-top: 2px;
+        margin: 5px
+    }
+   .main-footer .upper .app-details {
+    display:flex;
+    flex-direction: column;
+    gap: 10px
     }
     .main-footer .upper {
-        display: flex;
-        padding: 30px 0;
+        display:flex;
         flex-direction: column;
     }
-    .main-footer .upper .app-details{
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: baseline;
-        padding: 10px 0px;
-        width: 300px;
+    .main-footer .upper .app-details ul li {
+        font-size: 10px;
     }
-    .main-footer .upper .legal-docs{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding: 0px 15px;
+    .main-footer .upper .legal-docs {
+        padding: 5px 0px 0px 13px
     }
-    /* end of footer */
+    /* End of Footer */
 }
