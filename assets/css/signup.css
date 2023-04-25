@@ -141,3 +141,14 @@ body {
 .password-toggle-btn:active {
     color: var(--fade);
 }
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: var(--outfit);
+    width: 80%;
+    display: none;
+}
