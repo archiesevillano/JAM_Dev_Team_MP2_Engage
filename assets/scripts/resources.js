@@ -1,5 +1,6 @@
 const configuration = {
     image: "assets/images/",
+    json: "assets/db/",
 }
 
 const errorHandler = new Array; // Collects all the error data in this module
@@ -41,8 +42,7 @@ export const loadLocalSource = async (fileType, fileName) => {
     const data = await fetch(`${configuration[fileType]}${fileName}`);
 
     if (data.status == 200) {
-        console.log(data);
-        return data; // return if the data has loaded successfully
+        return await data.json(); // return if the data has loaded successfully
     }
     else {
         const ERROR_OBJECT = { status: data.status, ok: data.ok, url: data.url, statusText: data.statusText };
