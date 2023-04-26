@@ -143,17 +143,19 @@ body, button, input {
 /* Cards */
 .jobposted-cards {
     width: 330px;
-    height: 430px;
+    height: 320px;
     border: 1px solid rgba(0, 0, 0, 0.150);
     border-radius: 1rem;
     box-shadow:
-  0.6px 0.6px 2.2px rgba(0, 0, 0, 0.01),
-  1.5px 1.4px 5.3px rgba(0, 0, 0, 0.013),
-  2.9px 2.6px 10px rgba(0, 0, 0, 0.016),
-  5.1px 4.7px 17.9px rgba(0, 0, 0, 0.019),
-  9.6px 8.8px 33.4px rgba(0, 0, 0, 0.024),
-  23px 21px 80px rgba(0, 0, 0, 0.04);
+    0.6px 0.6px 2.2px rgba(0, 0, 0, 0.01),
+    1.5px 1.4px 5.3px rgba(0, 0, 0, 0.013),
+    2.9px 2.6px 10px rgba(0, 0, 0, 0.016),
+    5.1px 4.7px 17.9px rgba(0, 0, 0, 0.019),
+    9.6px 8.8px 33.4px rgba(0, 0, 0, 0.024),
+    23px 21px 80px rgba(0, 0, 0, 0.04);
     margin: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(14,146,242,1) 0%, rgba(62,168,244,1) 0%, rgba(98,184,246,1) 0%, rgba(149,207,249,1) 0%, rgba(154,209,249,1) 18%, rgba(206,233,253,1) 43%, rgba(225,241,254,1) 56%, rgba(248,252,255,1) 71%, rgba(255,255,255,1) 94%);
 }
 .jobtext-content {
     padding: 0px 20px;
@@ -165,15 +167,16 @@ body, button, input {
 }
 .job-image {
     width: 100%;
+    height: 8;
     border-radius: 1rem 1rem 17rem 0;
 }
 .job-name-text{
     padding-top: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
 }
 .company-hiring {
-    font-size: 13px;
+    font-size: 15px;
     color:var(--dark)
 }
 .job-description-text{
@@ -184,7 +187,8 @@ body, button, input {
 }
 .viewjob-btn {
     display:flex;
-    justify-content: center;
+    justify-content: start;
+    padding:10px 0px 0px 20px;
 }
 .viewjob-btn button {
     background-color: var(--secondary);
@@ -209,6 +213,86 @@ body, button, input {
 .viewjob-btn button:active {
     filter: brightness(90%);
 }
+
+/* Modal */
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 370px;
+    border-radius: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(14,146,242,1) 0%, rgba(62,168,244,1) 0%, rgba(98,184,246,1) 0%, rgba(149,207,249,1) 0%, rgba(154,209,249,1) 0%, rgba(14,146,242,1) 0%, rgba(206,233,253,1) 0%, rgba(247,251,255,1) 98%, rgba(248,252,255,1) 100%, rgba(255,255,255,1) 100%);
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .job-description-container {
+    display:flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 10px
+  }
+  .job-description-container h3 {
+    font-size: 25px;
+    
+  }
+  .job-description-container p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .jobdescp-btn button {
+    background-color: var(--primary);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--clean);
+    font-family: var(--poppins);
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
+  .jobdescp-btn{
+    padding: 0px 40px;
+  }
+  
+  .jobdescp-btn:hover {
+        filter: brightness(110%);
+    }
+
+    .jobdescp-btn:active {
+        filter: brightness(90%);
+    }
+  /* end of modal  */
 /*  END JOB POSTED CONTENT */
 
 
@@ -246,6 +330,12 @@ body, button, input {
     .search-content button {
         font-size: 14px  
     }
+
+    /* Modal */
+    .job-description-container p {
+        font-size: 18px;
+    }
+    /* End of Modal */
     
 }
     /* extra large WIDTH:1200px */
@@ -291,11 +381,11 @@ body, button, input {
     }
     .jobposted-cards {
         width: 300px;
-        height: 400px
+        height: 280px
     }
     .job-name-text{
         padding-top: 0px;
-        font-size: 16px;
+        font-size: 13px;
     }
     .company-hiring {
         font-size: 12px;
@@ -313,7 +403,19 @@ body, button, input {
     }
     .main-footer .upper .app-details ul li {
         font-size: 12px;
+        /* end of footer */
     }
+        /* Modal */
+    .job-description-container {
+        padding: 10px 30px;
+    }
+    .job-description-container p {
+        font-size: 16px;
+    }
+    .jobdescp-btn  {
+        padding: 10px 30px;
+    }
+        /* End Modal */
     
 }
 
@@ -392,6 +494,13 @@ body, button, input {
     }
     .copyright-details {
         font-size: 10px;
+    }
+    /* Modal */
+    .job-description-container {
+        padding: 10px;
+    }
+    .jobdescp-btn {
+        padding: 7px;
     }
 }
 
@@ -501,7 +610,7 @@ body, button, input {
     
     .jobposted-cards {
         width: 280px;
-        height: 350px
+        height: 280px
     }
     .company-hiring {
         font-size: 11px;
@@ -522,6 +631,23 @@ body, button, input {
         flex-direction: column;
     }
     /* End of footer */
+
+    /* Modal */
+    .modal-content {
+        padding: 15px;
+    }
+    .job-description-container h3 {
+        font-size: 20px;
+    }
+    .job-description-container p {
+        font-size: 14px;
+    }
+    .jobdescp-btn button {
+        width: 110px;
+        font-size: 13px;
+        padding: 7px
+    }
+    /* End of Modal */
 }
     /* small width: 576px */
 @media screen and (max-width:576px) {
@@ -584,7 +710,7 @@ body, button, input {
     }
     .jobposted-cards { 
         width: 230px;
-        height: 330px
+        height: 230px
     }
     .job-description-text {
         font-size: 9px;
@@ -614,6 +740,18 @@ body, button, input {
         flex-direction: column;
     } 
     /* End footer */
+    /* Modal */
+    .modal-content {
+        padding: 10px;
+        height: 335px;
+    }
+    .job-description-container h3 {
+        font-size: 16px;
+    }
+    .job-description-container p {
+        font-size: 12px;
+    }
+    /* End of Modal */
 }
 
     /* media width:414px Mobile */
@@ -679,15 +817,18 @@ body, button, input {
     .job-posted-text {
         font-size: 12px;
     }
-    .jobposted-cards {
-        display:flex;
-        flex-direction: row;
-        width: 350px;
-        height: 150px;
+    .jobposted-cards { 
+        height: 130px;
+        width: 230px
     }
     .job-image {
-        display:none
+        display:none;
     }
+    .jobtext-content {
+        padding: 20px;
+    }
+    
+   
     .company-hiring {
         font-size: 11px;
 
@@ -695,6 +836,9 @@ body, button, input {
     .job-description-text {
         padding-top: 2px;
         font-size: 9.5px
+    }
+    .viewjob-btn {
+        padding: 0px 17px 5px 17px;
     }
     .viewjob-btn button{
         width: 50px;
@@ -717,4 +861,21 @@ body, button, input {
         padding: 5px 0px 0px 13px
     }
     /* End of Footer */
+    /* Modal */
+    .modal-content {
+        
+        height: 350px;
+    }
+    .job-description-container h3 {
+        font-size: 12px;
+    }
+    .job-description-container p {
+        font-size: 10px
+    }
+    .viewjob-btn button {
+        width: 100px;
+    }
+    /* End of Modal */
 }
+
+
