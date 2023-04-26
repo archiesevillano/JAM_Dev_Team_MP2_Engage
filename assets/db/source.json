@@ -48,6 +48,7 @@
     {
         "userID": "9RQwdSkW",
         "userImage": "assets/images/users/male/2.jpg",
+        "userImage": "assets/images/users/male/2.jpg",
         "personal": {
             "fullname": {
                 "first": "James",
@@ -92,6 +93,7 @@
     },
     {
         "userID": "WIcXakmO",
+        "userImage": "assets/images/users/male/3.jpg",
         "personal": {
             "fullname": {
                 "first": "John",
@@ -135,7 +137,47 @@
         "notifications": []
     },
     {
+        "userID": "9RQwdSkW",
+        "userImage": "assets/images/users/male/4.jpg",
+        "personal": {
+            "fullname": {
+                "first": "James",
+                "middle": "Alexander",
+                "last": "Smith"
+            },
+            "birthday": {
+                "month": "June",
+                "day": "14",
+                "year": "1987"
+            },
+            "address": {
+                "houseNo": "172 blk",
+                "street1": "Oak Avenue",
+                "city": "Dumaguete City",
+                "zip": "4103",
+                "province": "Ilocos Region"
+            },
+            "sex": "Male"
+        },
+        "credential": {
+            "email": "james.smith@email.com",
+            "password": "H2j6a1z9"
+        },
+        "applicationStatus": [],
+        "savedPosts": [],
+        "posts": [],
+        "profile": {
+            "workExperience": "Over 8 years of experience",
+            "education": "Bachelor of Arts in English",
+            "introduction": "Highly skilled in Adobe Creative Suite, with proficiency in graphic design, digital media, and multimedia production.",
+            "portfolioLink": "jamesportfolio.com"
+        },
+        "messages": [],
+        "notifications": []
+    },
+    {
         "userID": "WIcXakmO",
+        "userImage": "assets/images/users/male/5.jpg",
         "personal": {
             "fullname": {
                 "first": "John",
@@ -180,6 +222,7 @@
     },
     {
         "userID": "ggXzRABl",
+        "userImage": "assets/images/users/male/6.jpg",
         "personal": {
             "fullname": {
                 "first": "William",
@@ -224,6 +267,7 @@
     },
     {
         "userID": "9RQwdSkW",
+        "userImage": "assets/images/users/male/7.jpg",
         "personal": {
             "fullname": {
                 "first": "James",
@@ -268,6 +312,7 @@
     },
     {
         "userID": "WIcXakmO",
+        "userImage": "assets/images/users/male/8.jpg",
         "personal": {
             "fullname": {
                 "first": "John",
@@ -312,6 +357,7 @@
     },
     {
         "userID": "ggXzRABl",
+        "userImage": "assets/images/users/male/9.jpg",
         "personal": {
             "fullname": {
                 "first": "William",
@@ -356,6 +402,7 @@
     },
     {
         "userID": "AZehQCBv",
+        "userImage": "assets/images/users/male/10.jpg",
         "personal": {
             "fullname": {
                 "first": "Michael",
@@ -400,6 +447,7 @@
     },
     {
         "userID": "9RQwdSkW",
+        "userImage": "assets/images/users/male/11.jpg",
         "personal": {
             "fullname": {
                 "first": "James",
@@ -444,6 +492,7 @@
     },
     {
         "userID": "WIcXakmO",
+        "userImage": "assets/images/users/male/12.jpg",
         "personal": {
             "fullname": {
                 "first": "John",
@@ -488,6 +537,7 @@
     },
     {
         "userID": "ggXzRABl",
+        "userImage": "assets/images/users/male/13.jpg",
         "personal": {
             "fullname": {
                 "first": "William",
@@ -532,6 +582,7 @@
     },
     {
         "userID": "AZehQCBv",
+        "userImage": "assets/images/users/male/14.jpg",
         "personal": {
             "fullname": {
                 "first": "Michael",
@@ -576,6 +627,7 @@
     },
     {
         "userID": "bOipQTmx",
+        "userImage": "assets/images/users/male/15.jpg",
         "personal": {
             "fullname": {
                 "first": "David",
@@ -620,6 +672,7 @@
     },
     {
         "userID": "9RQwdSkW",
+        "userImage": "assets/images/users/male/16.jpg",
         "personal": {
             "fullname": {
                 "first": "James",
@@ -664,6 +717,7 @@
     },
     {
         "userID": "WIcXakmO",
+        "userImage": "assets/images/users/male/17.jpg",
         "personal": {
             "fullname": {
                 "first": "John",
@@ -708,6 +762,7 @@
     },
     {
         "userID": "ggXzRABl",
+        "userImage": "assets/images/users/male/18.jpg",
         "personal": {
             "fullname": {
                 "first": "William",
@@ -752,6 +807,7 @@
     },
     {
         "userID": "AZehQCBv",
+        "userImage": "assets/images/users/male/19.jpg",
         "personal": {
             "fullname": {
                 "first": "Michael",
@@ -796,6 +852,7 @@
     },
     {
         "userID": "bOipQTmx",
+        "userImage": "assets/images/users/male/20.jpg",
         "personal": {
             "fullname": {
                 "first": "David",
