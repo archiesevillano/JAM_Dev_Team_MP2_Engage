@@ -267,11 +267,9 @@ body {
     }
 
     .signup-form h1 {
-<<<<<<< HEAD
         padding-left: 73px;
 
 
-=======
         padding-left: 80px;
         margin-bottom: 20px;
  
@@ -279,6 +277,5 @@ body {
     .birthdate-container {
        height: 40px;
        width: 20px;
->>>>>>> c2cf9ab297fdc2d04b24e97a118ec25144f05988
     }
 }
