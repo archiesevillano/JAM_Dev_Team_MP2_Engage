@@ -78,7 +78,8 @@
             {
                 "postID": "R98KLO",
                 "imageSource": "assets/images/Job images/2.png",
-                "timePosted": "1hr ago"
+                "timePosted": "1hr ago",
+                "jobPosition": "Admin Assistant"
             }
         ],
         "profile": {
@@ -123,7 +124,8 @@
             {
                 "postID": "W34FDR",
                 "imageSource": "assets/images/Job images/3.png",
-                "timePosted": "7hrs ago"
+                "timePosted": "7hrs ago",
+                "jobPosition": "Admin Manager"
             }
         ],
         "profile": {
@@ -164,7 +166,12 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "jobPosition": "Technical Support Experts"
+            }
+            
+        ],
         "profile": {
             "workExperience": "Over 8 years of experience",
             "education": "Bachelor of Arts in English",
@@ -207,7 +214,8 @@
             {
                 "postID": "T67GTY",
                 "imageSource": "assets/images/Job images/4.png",
-                "timePosted": "12 mins ago"
+                "timePosted": "12 mins ago",
+                "jobPosition": "Barista"
             }
         ],
         "profile": {
@@ -252,7 +260,8 @@
             {
                 "postID": "P23DSW",
                 "imageSource": "assets/images/Job images/5.png",
-                "timePosted": "56 mins ago"
+                "timePosted": "56 mins ago",
+                "jobPosition": "Bureau of Patents"
             }
         ],
         "profile": {
@@ -297,7 +306,9 @@
             {
                 "postID": "I89JIK",
                 "imageSource": "assets/images/Job images/6.png",
-                "timePosted": "4 hrs ago"
+                "timePosted": "4 hrs ago",
+                "jobPosition": "Finance Associate"
+                
             }
         ],
         "profile": {
@@ -342,7 +353,8 @@
             {
                 "postID": "E76DFG",
                 "imageSource": "assets/images/Job images/7.png",
-                "timePosted": "14 hrs ago"
+                "timePosted": "14 hrs ago",
+                "jobPosition": "Service Crew"
             }
         ],
         "profile": {
@@ -387,7 +399,8 @@
             {
                 "postID": "O12HJN",
                 "imageSource": "assets/images/Job images/8.png",
-                "timePosted": "7 hrs ago"
+                "timePosted": "7 hrs ago",
+                "jobPosition": "Guest Poster"
             }
         ],
         "profile": {
@@ -432,7 +445,8 @@
             {
                 "postID": "A45KLP",
                 "imageSource": "assets/images/Job images/9.png",
-                "timePosted": "23 hrs ago"
+                "timePosted": "23 hrs ago",
+                "jobPosition": "Grant Researcher"
             }
         ],
         "profile": {
@@ -477,7 +491,8 @@
             {
                 "postID": "F90GHJ",
                 "imageSource": "assets/images/Job images/10.png",
-                "timePosted": "20 hrs ago"
+                "timePosted": "20 hrs ago",
+                "jobPosition": "Graphic Designer"
             }
         ],
         "profile": {
@@ -522,7 +537,8 @@
             {
                 "postID": "K67UIO",
                 "imageSource": "assets/images/Job images/11.png",
-                "timePosted": "4 hrs ago"
+                "timePosted": "4 hrs ago",
+                "jobPosition": "HR Officer"
             }
         ],
         "profile": {
@@ -567,7 +583,8 @@
             {
                 "postID": "S23CVB",
                 "imageSource": "assets/images/Job images/12.png",
-                "timePosted": "1 hr ago"
+                "timePosted": "1 hr ago",
+                "jobPosition": "Counter Checker"
             }
         ],
         "profile": {
@@ -612,7 +629,8 @@
             {
                 "postID": "D56NHY",
                 "imageSource": "assets/images/Job images/13.png",
-                "timePosted": "8 hrs ago"
+                "timePosted": "8 hrs ago",
+                "jobPosition": "Data Entry Reps"
             }
         ],
         "profile": {
@@ -657,7 +675,8 @@
             {
                 "postID": "M89POI",
                 "imageSource": "assets/images/Job images/14.png",
-                "timePosted": "3 days ago"
+                "timePosted": "3 days ago",
+                "jobPosition": "Account Officer"
             }
         ],
         "profile": {
@@ -702,7 +721,8 @@
             {
                 "postID": "G34ZXC",
                 "imageSource": "assets/images/Job images/15.png",
-                "timePosted": "5 days ago"
+                "timePosted": "5 days ago",
+                "jobPosition": "Liaison Officer"
             }
         ],
         "profile": {
@@ -747,7 +767,8 @@
             {
                 "postID": "B67VBN",
                 "imageSource": "assets/images/Job images/16.png",
-                "timePosted": "2 days ago"
+                "timePosted": "2 days ago",
+                "jobPosition": "Content Producer"
             }
         ],
         "profile": {
@@ -792,7 +813,8 @@
             {
                 "postID": "H23MLK",
                 "imageSource": "assets/images/Job images/17.png",
-                "timePosted": "4 days ago"
+                "timePosted": "4 days ago",
+                "jobPosition": "Chief Engineer"
             }
         ],
         "profile": {
@@ -837,7 +859,8 @@
             {
                 "postID": "C98QWE",
                 "imageSource": "assets/images/Job images/18.png",
-                "timePosted": "1 day ago"
+                "timePosted": "1 day ago",
+                "jobPosition": "Mobile Encoder"
             }
         ],
         "profile": {
@@ -882,7 +905,8 @@
             {
                 "postID": "N12ASD",
                 "imageSource": "assets/images/Job images/19.png",
-                "timePosted": "1 day ago"
+                "timePosted": "1 day ago",
+                "jobPosition": "Product Assistant"
             }
         ],
         "profile": {

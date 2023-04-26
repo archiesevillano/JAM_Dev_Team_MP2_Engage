@@ -3,7 +3,7 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
-.content {
+.main-content {
     display: none;
 }
 
@@ -672,6 +672,7 @@ button {
     justify-content: flex-start;
     background: var(--milk);
     padding: 20px 30px;
+    height: 90vh;
 }
 
 .hiring-board .board {
@@ -805,6 +806,10 @@ button {
         margin: 0px!important;
     }
 } */
+
+
+
+
 
 /* Engagement Media Query */
 

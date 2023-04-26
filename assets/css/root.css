@@ -696,14 +696,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .notification-box .notif-item:hover,
-.messages-box .message-item:hover {
-    background-color: var(--primary);
-    color: var(--clean)
-    
-    
-    
+.messages-box .message-item:hover, .message-body p:hover {
+    background-color: var(--grey);
+    color: var(--clean); 
 }
-
+ 
 .notification-box .notif-item:hover i,
 .messages-box .message-item:hover i {
     color: var(--clean);
@@ -736,6 +733,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: var(--dark);
     width: 100%;
 }
+
 
 .notification-box .notif-item .notif-body .notif-title,
 .messages-box .message-item .message-body .message-title {
