@@ -1,4 +1,5 @@
 import { togglePassword } from "./form.js";
+import { ModalBox } from "./modal.js";
 
 export const isLogin = () => {
     if (localStorage.getItem("userAccount") != null || undefined) {
@@ -152,7 +153,10 @@ export const loadLogin = async body => {
                 const credentials = await JSON.parse(localStorage.getItem("userAccount"));
                 if (credentials.account.email == emailField.value) {
                     if (credentials.account.password == passwordField.value) {
-                        alert("Logging In");
+                        const modBox = new ModalBox("Successful", "information", "Credentials Matched");
+                        if (modBox.show()) {
+                            //pass the value to engagement
+                        }
                     }
                     else {
                         throw "Incorrect Password";
@@ -174,13 +178,16 @@ export const loadLogin = async body => {
                 }
             }
         } catch (e) {
-            alert(e);
+            const a = new ModalBox("Error Found", "warning", e);
+            a.show();
         }
     });
-    closeBtn.addEventListener('click', () => {
+    closeBtn.addEventListener('click', async () => {
         loginForm.reset();
         blackScreen.classList.remove("active");
         loginFormContainer.classList.remove("active");
+        const a = new ModalBox("Error Found", "warning", e);
+        a.show();
     });
 
     togglePassword(passwordField, passwordIcon);

@@ -1,4 +1,5 @@
 import { loadLogin } from "./login.js";
+import { ModalBox } from "./modal.js";
 
 const init = () => {
     loadLogin(document.body);//add loginform in this html document
@@ -19,3 +20,5 @@ const init = () => {
 }
 
 init();
+
+

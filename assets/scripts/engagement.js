@@ -324,8 +324,8 @@ const loadPost = async () => {
             button.classList.add('active');
             handleBtnClick(button);
         });
-    });
 
+    });
 }
 
 const handleBtnClick = async (button) => {
