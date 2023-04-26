@@ -1,4 +1,18 @@
 import { loadLocalSource, loadOnlineSource } from "./resources.js";
+import { generateLoad } from "./form.js";
+
+
+document.addEventListener('readystatechange', e => {
+    if (e.target.readyState === "loading") {
+        generateLoad();
+    } else if (e.target.readyState === "complete") {
+        document.querySelector('.content').style.display = "block";
+    }
+    else {
+        console.log("Error Occured!");
+    }
+});
+
 
 
 // Create Card Function 
@@ -309,7 +323,6 @@ const clearPosts = async () => {
 
     while (wrapper.childElementCount != 0) {
         wrapper.removeChild(wrapper.lastElementChild);
-        console.log("heloo");
     }
 }
 
@@ -324,11 +337,12 @@ const loadPost = async () => {
             button.classList.add('active');
             handleBtnClick(button);
         });
-    });
 
+    });
 }
 
 const handleBtnClick = async (button) => {
+
     clearPosts();
     let dataList = null;
     if (button.classList.contains('active')) {

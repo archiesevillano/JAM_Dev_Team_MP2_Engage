@@ -25,6 +25,21 @@ const headernavburger = () => {
       modal.style.display = "none";
     }
   }
+
+const dropdownBtn = document.querySelector('.drop-btn');
+const dropdownContent = document.querySelector('.dropdown-content');
+
+const selectCategory = () => {
+  dropdownContent.addEventListener('click', event => {
+    if (event.target.tagName === 'A') {
+      const selectedCategory = event.target.textContent;
+      dropdownBtn.textContent = selectedCategory;
+    }
+  });
+}
+
+selectCategory();
+  
   
 
   

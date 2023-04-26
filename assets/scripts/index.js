@@ -1,4 +1,5 @@
 import { loadLogin } from "./login.js";
+import { ModalBox } from "./modal.js";
 
 const init = () => {
     loadLogin(document.body);//add loginform in this html document
@@ -29,4 +30,4 @@ const headernavburger = () => {
         icon.style.display = "block";
     }
     console.log(headernavburger)
-  }
+}
