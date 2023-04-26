@@ -577,7 +577,6 @@ button {
 .engagement-card .apply-now-btn,
 .engagement-card .enroll-now-btn {
     width: 100%;
-    background-color: var(--primary);
     color: var(--clean);
     outline: none;
     border: none;
@@ -640,8 +639,6 @@ button {
     height: 100%;
     object-fit: cover;
 }
-<<<<<<< HEAD
-=======
 
 
 /* Profile - Media Query */
@@ -956,4 +953,3 @@ button {
         top:5px;
     }
 }
->>>>>>> 2a2659e68c5af6b7713c34693ed436010d6e8c6c

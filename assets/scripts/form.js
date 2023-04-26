@@ -96,43 +96,6 @@ export const getAge = (month, day, year) => {
 
 
 
-<<<<<<< HEAD
-
-
-const idGenerate = () => {
-
-}
-
-//   Function max length
-const textMax = (text, maxLength) => {
-    if (text.length <= maxLength) {
-      return text;
-    } else {
-      let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
-      if (nonSpaceCount <= maxLength) {
-        return text;
-      }
-      let textMax = text.slice(0, maxLength);
-      textMax = textMax.trim().replace(/\s+\S*$/, '');
-      return textMax + '...';
-    }
-}
-  
-// const textMax = (text, maxLength) => {
-//     if (text.length <= maxLength) {
-//       return text;
-//     } else {
-//       let nonSpaceCount = text.trim().replace(/\s+/g, '').length;
-//       if (nonSpaceCount <= maxLength) {
-//         return text;
-//       }
-//       let textMax = text.slice(0, maxLength);
-//       textMax = textMax.trim().replace(/\s+\S*$/, '');
-//       return textMax + '...';
-//     }
-//   }
-=======
->>>>>>> 2a2659e68c5af6b7713c34693ed436010d6e8c6c
 export const contentChecker = (content, max) => {
     let newText = "";
 

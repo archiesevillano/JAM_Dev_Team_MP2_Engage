@@ -154,6 +154,14 @@ const createJobPost = async (userImage, name, time, sourceContent) => {
     let applyNowButton = document.createElement("button");
     applyNowButton.className = "apply-now-btn btn-primary";
     applyNowButton.innerHTML = "Apply now";
+    applyNowButton.addEventListener('click', () => {
+        applyNowButton.innerHTML = 'Application sent';
+        applyNowButton.classList.remove('btn-primary');
+        applyNowButton.classList.add('btn-secondary');
+        
+
+});
+
 
     // Create the Details button element
     let detailsButton = document.createElement("button");
