@@ -237,6 +237,7 @@
         </div>
         <!-- END OF SIDE NAVIGATION -->
         <!-- ENGAGEMENT CARDS -->
+
         <div class="cards-container">
 
         </div>
@@ -326,7 +327,11 @@
                         </div>
                         <div class="col">
                             <p>Online Portfolio</p>
-                            <p id="profile-city">www.vinna-compilation.com</p>
+                            <input type="text" id="portFolio" name="workExp" placeholder="Add item" disabled>
+                                <button class="add-btn"><i class="fa-solid fa-circle-plus"></i></button>
+                                <button class="edit-btn"><i class="fa-solid fa-pen"></i></button>
+                                <button class="rem-btn"><i class="fa-solid fa-minus"></i></button>
+                                <button class="saved-btn"><i class="fa-solid fa-circle-check"></i></button>
                         </div>
                     </div>
                     <p id="profile-description">
@@ -340,9 +345,11 @@
                             </div>
                             <div class="text-content">
                                 <p>Work Experience</p>
-                                <p id="profile-work-exp">
-                                    Over 3 years of work experience
-                                </p>
+                                <input type="text" id="workExp" name="workExp" placeholder="Add item"disabled>
+                                <button><i class="fa-solid fa-circle-plus"></i></button>
+                                <button><i class="fa-solid fa-pen"></i></button>
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <button><i class="fa-solid fa-circle-check"></i></button>
                             </div>
                         </div>
                         <div class="item">
@@ -351,9 +358,11 @@
                             </div>
                             <div class="text-content">
                                 <p>Education</p>
-                                <p id="profile-work-exp">
-                                    Over 3 years of work experience
-                                </p>
+                                <input type="text" id="educ" name="workExp" placeholder="Add item" disabled>
+                                <button><i class="fa-solid fa-circle-plus"></i></button>
+                                <button><i class="fa-solid fa-pen"></i></button>
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <button><i class="fa-solid fa-circle-check"></i></button>
                             </div>
                         </div>
                     </div>
@@ -400,7 +409,21 @@
     </div>
 
     <div class="modal-overlay"></div>
-    
+
+    <!-- Application Status -->
+    <br>
+    <br>
+    <div class="appstatus-container">
+        <ul class="appstatus">
+            <li class="appstatus-Index">1</li>
+            <li class="appstatus-job">ADMIN MANAGER</li>
+            <li class="appstatus-date">04/26/2013</li>
+            <li class="appstats-status">PENDING</li>
+            <button class="appstats-btn">Cancel</button>
+        </ul>
+    </div>
+    <!-- End of Application Status -->
+
 </body>
 
 </html>

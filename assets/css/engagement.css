@@ -358,6 +358,62 @@ button {
 
 /* END OF ENGAGEMENT/TRAINING CARDS/INTERVIEW */
 
+/* Application Status */
+.appstatus-container {
+    display:flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+.appstatus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    border-radius: 8px;
+    width: 730px;
+    height: 80px;
+    padding: 10px 5px;
+    box-shadow:
+    1.3px 1px 4.7px -7px rgba(0, 0, 0, 0.009),
+    3.3px 2.6px 11.9px -7px rgba(0, 0, 0, 0.017),
+    6.7px 5.3px 24.3px -7px rgba(0, 0, 0, 0.024),
+    13.9px 11px 50px -7px rgba(0, 0, 0, 0.035),
+    38px 30px 137px -7px rgba(0, 0, 0, 0.06)
+    ;
+}
+.appstats-btn:hover {
+    filter: brightness(110%);
+}
+.appstats-btn:active {
+    filter: brightness(90%);
+}
+.appstats-btn {
+    background-color: var(--grey);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--dark);
+    font-weight: bold;
+    padding: 15px;
+    font-size: 15px;
+    width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-family: var(--dark);
+}
+.appstatus li {
+    list-style-type: none;
+    font-family: var(--outfit);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+
 /* Modal - Job Box */
 
 .job-information {
@@ -485,7 +541,7 @@ button {
 
 
 .cards-container {
-    height: 80vh;
+    height: 90vh;
     overflow-y: auto;
     overflow-x: hidden;
     width: 50%;
@@ -635,6 +691,26 @@ button {
     height: 100%;
     object-fit: cover;
 }
+/* Profile Add Info*/
+#workExp::placeholder, #portFolio::placeholder, #educ::placeholder{
+    font-family: var(--outfit) ;
+    font-size: 14px;
+}
+.col button, .text-content button {
+    border:none; 
+    background-color: var(--clean);
+    cursor:pointer;
+    font-size: 20px;
+}
+.fa-circle-plus, .fa-circle-check {
+    background-color: var(--clean);
+    color: var(--primary)
+}
+.col input, .text-content input,.text-content input {
+    border:none
+    
+}
+
 
 
 /* Profile - Media Query */
