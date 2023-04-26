@@ -90,8 +90,7 @@ const jobInfo = () => {
     })
 }
 
-const createJobPost = async (userImage, name, time, sourceContent) => {
-    console.log(sourceContent);
+const createJobPost = async (id, userImage, name, time, sourceContent) => {
 
     const wrapper = document.querySelector(".cards-container");
 
@@ -149,7 +148,11 @@ const createJobPost = async (userImage, name, time, sourceContent) => {
     // Create the Apply now button element
     let applyNowButton = document.createElement("button");
     applyNowButton.className = "apply-now-btn btn-primary";
+    applyNowButton.setAttribute("data-post-id", id);
     applyNowButton.innerHTML = "Apply now";
+    applyNowButton.addEventListener('click', e => {
+        alert(e.target.getAttribute("data-post-id"));
+    })
 
     // Create the Details button element
     let detailsButton = document.createElement("button");
@@ -348,10 +351,12 @@ const handleBtnClick = async (button) => {
     if (button.classList.contains('active')) {
         switch (button.getAttribute('data-select-type')) {
             case "job":
-                dataList = await loadLocalSource("json", "dummyUsers.json");
+                dataList = await loadLocalSource("json", "source.json");
                 dataList.forEach((content, index) => {
                     // userImage, name, time, sourceContent
-                    createJobPost("assets/images/user-pic.png", content.name, `Posted ${Math.floor((Math.random() * 60))} minutes ago`, `assets/images/Job images/${(index + 1) < 33 ? index + 1 : index - 31}.png`);
+                    if (content.posts.length != 0) {
+                        createJobPost(content.posts[0].postID, `assets/images/users/Male/${index + 1}.jpg`, Object.values(content.personal.fullname).join(" "), content.posts[0].timePosted, content.posts[0].imageSource);
+                    }
                 });
                 break;
             case "savedPost":

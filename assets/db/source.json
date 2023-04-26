@@ -28,7 +28,14 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "U56HJL",
+                "imageSource": "assets/images/Job images/1.png",
+                "timePosted": "1hr ago",
+                "jobPosition": "Talent Fullfillment Intern"
+            }
+        ],
         "profile": {
             "workExperience": "Over 8 years of experience",
             "education": "Bachelor of Arts in English",
@@ -40,6 +47,7 @@
     },
     {
         "userID": "9RQwdSkW",
+        "userImage": "assets/images/users/male/2.jpg",
         "personal": {
             "fullname": {
                 "first": "James",
@@ -66,7 +74,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "R98KLO",
+                "imageSource": "assets/images/Job images/2.png",
+                "timePosted": "1hr ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 8 years of experience",
             "education": "Bachelor of Arts in English",
@@ -104,7 +118,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "W34FDR",
+                "imageSource": "assets/images/Job images/3.png",
+                "timePosted": "7hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 6 years of experience",
             "education": "Master of Business Administration",
@@ -115,44 +135,6 @@
         "notifications": []
     },
     {
-        "userID": "9RQwdSkW",
-        "personal": {
-            "fullname": {
-                "first": "James",
-                "middle": "Alexander",
-                "last": "Smith"
-            },
-            "birthday": {
-                "month": "June",
-                "day": "14",
-                "year": "1987"
-            },
-            "address": {
-                "houseNo": "172 blk",
-                "street1": "Oak Avenue",
-                "city": "Dumaguete City",
-                "zip": "4103",
-                "province": "Ilocos Region"
-            },
-            "sex": "Male"
-        },
-        "credential": {
-            "email": "james.smith@email.com",
-            "password": "H2j6a1z9"
-        },
-        "applicationStatus": [],
-        "savedPosts": [],
-        "posts": [],
-        "profile": {
-            "workExperience": "Over 8 years of experience",
-            "education": "Bachelor of Arts in English",
-            "introduction": "Highly skilled in Adobe Creative Suite, with proficiency in graphic design, digital media, and multimedia production.",
-            "portfolioLink": "jamesportfolio.com"
-        },
-        "messages": [],
-        "notifications": []
-    },
-    {
         "userID": "WIcXakmO",
         "personal": {
             "fullname": {
@@ -180,7 +162,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "T67GTY",
+                "imageSource": "assets/images/Job images/4.png",
+                "timePosted": "12 mins ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 6 years of experience",
             "education": "Master of Business Administration",
@@ -218,7 +206,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "P23DSW",
+                "imageSource": "assets/images/Job images/5.png",
+                "timePosted": "56 mins ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 3 years of experience",
             "education": "Bachelor of Science in Mechanical Engineering",
@@ -256,7 +250,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "I89JIK",
+                "imageSource": "assets/images/Job images/6.png",
+                "timePosted": "4 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 8 years of experience",
             "education": "Bachelor of Arts in English",
@@ -294,7 +294,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "E76DFG",
+                "imageSource": "assets/images/Job images/7.png",
+                "timePosted": "14 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 6 years of experience",
             "education": "Master of Business Administration",
@@ -332,7 +338,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "O12HJN",
+                "imageSource": "assets/images/Job images/8.png",
+                "timePosted": "7 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 3 years of experience",
             "education": "Bachelor of Science in Mechanical Engineering",
@@ -370,7 +382,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "A45KLP",
+                "imageSource": "assets/images/Job images/9.png",
+                "timePosted": "23 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 2 years of experience",
             "education": "Doctor of Medicine",
@@ -408,7 +426,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "F90GHJ",
+                "imageSource": "assets/images/Job images/10.png",
+                "timePosted": "20 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 8 years of experience",
             "education": "Bachelor of Arts in English",
@@ -446,7 +470,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "K67UIO",
+                "imageSource": "assets/images/Job images/11.png",
+                "timePosted": "4 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 6 years of experience",
             "education": "Master of Business Administration",
@@ -484,7 +514,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "S23CVB",
+                "imageSource": "assets/images/Job images/12.png",
+                "timePosted": "1 hr ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 3 years of experience",
             "education": "Bachelor of Science in Mechanical Engineering",
@@ -522,7 +558,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "D56NHY",
+                "imageSource": "assets/images/Job images/13.png",
+                "timePosted": "8 hrs ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 2 years of experience",
             "education": "Doctor of Medicine",
@@ -560,7 +602,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "M89POI",
+                "imageSource": "assets/images/Job images/14.png",
+                "timePosted": "3 days ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 14 years of experience",
             "education": "Bachelor of Fine Arts in Graphic Design",
@@ -598,7 +646,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "G34ZXC",
+                "imageSource": "assets/images/Job images/15.png",
+                "timePosted": "5 days ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 8 years of experience",
             "education": "Bachelor of Arts in English",
@@ -636,7 +690,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "B67VBN",
+                "imageSource": "assets/images/Job images/16.png",
+                "timePosted": "2 days ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 6 years of experience",
             "education": "Master of Business Administration",
@@ -674,7 +734,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "H23MLK",
+                "imageSource": "assets/images/Job images/17.png",
+                "timePosted": "4 days ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 3 years of experience",
             "education": "Bachelor of Science in Mechanical Engineering",
@@ -712,7 +778,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "C98QWE",
+                "imageSource": "assets/images/Job images/18.png",
+                "timePosted": "1 day ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 2 years of experience",
             "education": "Doctor of Medicine",
@@ -750,7 +822,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "N12ASD",
+                "imageSource": "assets/images/Job images/19.png",
+                "timePosted": "1 day ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 14 years of experience",
             "education": "Bachelor of Fine Arts in Graphic Design",
@@ -788,7 +866,13 @@
         },
         "applicationStatus": [],
         "savedPosts": [],
-        "posts": [],
+        "posts": [
+            {
+                "postID": "J45ERT",
+                "imageSource": "assets/images/Job images/20.png",
+                "timePosted": "4 days ago"
+            }
+        ],
         "profile": {
             "workExperience": "Over 19 years of experience",
             "education": "Master of Science in Data Science",
@@ -7976,6 +8060,44 @@
             "education": "Bachelor of Science in Environmental Science",
             "introduction": "Knowledge of project management methodologies, with experience in Agile and Waterfall approaches.",
             "portfolioLink": "jonathanportfolio.com"
+        },
+        "messages": [],
+        "notifications": []
+    },
+    {
+        "userID": "9RQwdSkW",
+        "personal": {
+            "fullname": {
+                "first": "James",
+                "middle": "Alexander",
+                "last": "Smith"
+            },
+            "birthday": {
+                "month": "June",
+                "day": "14",
+                "year": "1987"
+            },
+            "address": {
+                "houseNo": "172 blk",
+                "street1": "Oak Avenue",
+                "city": "Dumaguete City",
+                "zip": "4103",
+                "province": "Ilocos Region"
+            },
+            "sex": "Male"
+        },
+        "credential": {
+            "email": "james.smith@email.com",
+            "password": "H2j6a1z9"
+        },
+        "applicationStatus": [],
+        "savedPosts": [],
+        "posts": [],
+        "profile": {
+            "workExperience": "Over 8 years of experience",
+            "education": "Bachelor of Arts in English",
+            "introduction": "Highly skilled in Adobe Creative Suite, with proficiency in graphic design, digital media, and multimedia production.",
+            "portfolioLink": "jamesportfolio.com"
         },
         "messages": [],
         "notifications": []
