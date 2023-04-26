@@ -66,8 +66,6 @@ const generateRandomId = () => {
   return randomId;
 }
 
-
-
 const verifyInput = (fname, mname, lname, b_month, b_day, b_year, email, street, unit, sex, city, province, zip, ps, ps_copy, cbox) => {
 
   const user = {

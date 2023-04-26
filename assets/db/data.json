@@ -1,0 +1,41 @@
+[
+  {
+      "userID": "9RQwdSkW",
+      "userImage": "assets/images/users/male/1.jpg",
+      "personal": {
+          "fullname": {
+              "first": "James",
+              "middle": "Alexander",
+              "last": "Smith"
+          },
+          "birthday": {
+              "month": "June",
+              "day": "14",
+              "year": "1987"
+          },
+          "address": {
+              "houseNo": "172 blk",
+              "street1": "Oak Avenue",
+              "city": "Dumaguete City",
+              "zip": "4103",
+              "province": "Ilocos Region"
+          },
+          "sex": "Male"
+      },
+      "credential": {
+          "email": "james.smith@email.com",
+          "password": "H2j6a1z9"
+      },
+      "applicationStatus": [],
+      "savedPosts": [],
+      "posts": [],
+      "profile": {
+          "workExperience": "Over 8 years of experience",
+          "education": "Bachelor of Arts in English",
+          "introduction": "Highly skilled in Adobe Creative Suite, with proficiency in graphic design, digital media, and multimedia production.",
+          "portfolioLink": "jamesportfolio.com"
+      },
+      "messages": [],
+      "notifications": []
+  }
+]

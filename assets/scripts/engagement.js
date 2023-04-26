@@ -5,19 +5,15 @@ import { generateLoad } from "./form.js";
 document.addEventListener('readystatechange', e => {
     if (e.target.readyState === "loading") {
         generateLoad();
-        console.log("Load");
     } else if (e.target.readyState === "complete") {
         document.querySelector('.content').style.display = "block";
-        console.log("Loaded");
     }
     else {
-        console.log("Header");
+        console.log("Error Occured!");
     }
 });
 
-export const fetchUser = () => {
 
-};
 
 // Create Card Function 
 export const createCard = () => {
@@ -365,7 +361,6 @@ const clearPosts = async () => {
 
     while (wrapper.childElementCount != 0) {
         wrapper.removeChild(wrapper.lastElementChild);
-        console.log("heloo");
     }
 }
 
@@ -385,6 +380,7 @@ const loadPost = async () => {
 }
 
 const handleBtnClick = async (button) => {
+
     clearPosts();
     let dataList = null;
     if (button.classList.contains('active')) {
