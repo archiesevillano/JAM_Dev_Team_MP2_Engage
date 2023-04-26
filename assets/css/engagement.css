@@ -3,10 +3,6 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
-.content {
-    display: none;
-}
-
 /* ENGAGEMENT CONTENT */
 .engagement-content {
     display: flex;
@@ -577,7 +573,6 @@ button {
 /* .engagement-card:nth-child(odd) {
     transform: translateX(100%);
 }
-
 .engagement-card:nth-child(even) {
     transform: translateX(-100%);
 } */
@@ -632,6 +627,7 @@ button {
 .engagement-card .apply-now-btn,
 .engagement-card .enroll-now-btn {
     width: 100%;
+    background-color: var(--primary);
     color: var(--clean);
     outline: none;
     border: none;
@@ -698,6 +694,10 @@ button {
 #workExp::placeholder, #portFolio::placeholder, #educ::placeholder{
     font-family: var(--outfit) ;
     font-size: 14px;
+    
+}
+#workExp, #portFolio, #educ{
+    width:50px;
 }
 .col button, .text-content button {
     border:none; 
