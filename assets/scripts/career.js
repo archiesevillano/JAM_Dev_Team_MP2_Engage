@@ -5,5 +5,5 @@ const headernavburger = () => {
     } else {
         icon.style.display = "block";
     }
-    console.log(headernavburger)
-  }
+    console.log(headernavburger);
+}

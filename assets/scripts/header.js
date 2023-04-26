@@ -73,13 +73,14 @@ const searchData = async e => {
 
             return fullname.toLowerCase().includes(searchInput.toLowerCase());
         });
+
         result.forEach(item => {
             if (result.length <= 10) {
                 const matchedItem = document.createElement('li');
                 matchedItem.textContent = `${item.Firstname} ${item.Middlename} ${item.Lastname}`;
                 resultBox.appendChild(matchedItem);
             }
-        })
+        });
 
         resultBox.style.display = "block";
     }
