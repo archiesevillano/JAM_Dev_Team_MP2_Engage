@@ -10,7 +10,6 @@ export const profileDropdown = () => {
     else {
         dropDown.style.display = "block";
     }
-
 }
 
 export const notificationDropDown = () => {
@@ -34,6 +33,7 @@ export const messageDropDown = () => {
         messageBox.style.display = "flex";
     }
 }
+
 const user_profile = document.querySelector("#user-profile-button");
 user_profile.addEventListener("click", profileDropdown);
 

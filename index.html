@@ -39,7 +39,7 @@
         </div>
         <ul class="header-nav">
             <li>
-                <a href="index.html">
+                <a class="active">
                     Home
                 </a>
             </li>
@@ -66,11 +66,48 @@
                 </button>
             </li>
             <li>
-                <button type="button" class="btn-secondary">
+                <button type="button" class="btn-secondary" id="index-signup-btn">
                     Sign up
                 </button>
             </li>
         </ul>
+        <!-- for Mobile Hamburger Menu -->
+        <div class="navburgermenu">
+            <div class="topnav">
+                <div class="app-logo">
+                    <img src="assets/images/logo.svg"
+                        style="object-fit:contain; filter: grayscale(150%) brightness(200%);">
+                    <h1 style="margin:0;font-family:var(--outfit);">ngage</h1>
+                </div>
+
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="careerpage.html">Careers</a>
+                    <a href="partnerpage.html">Partners</a>
+                    <a href="About.html">Who We Are</a>
+                    <a><button type="button" class="btn-quaternary" id="index-login-btn">
+                            Login
+                        </button></a>
+                    <a><button type="button" class="btn-secondary" id="index-signup-btn">
+                            Sign up
+                        </button></a>
+                    <ul class="button-collections" id="navbuttons">
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="burgerIcon">
+                    <a href="#" class="icon" onclick="headernavburger()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- for Mobile Hamburger Menu -->
     </header>
 
     <section class="hero-section">
@@ -192,7 +229,7 @@
             </div>
         </div>
     </footer>
-
 </body>
+
 
 </html>

@@ -1,46 +1,23 @@
-import { loadOnlineSource } from "./resources.js";
+import { loadLocalSource, loadOnlineSource } from "./resources.js";
+import { generateLoad } from "./form.js";
 
 
-// Objects
-const recruiter = [{
-    imageURL: '',
-    firstname: 'James',
-    lastname: 'Trinidad',
-    timeposted: 'Posted 30 minutes ago',
-    jobtitle: 'Marketing Manager',
-    jobdescription: 'We are seeking a talented Marketing Manager to join our team. The Marketing Manager will be responsible for the overseeing the development and implentation of marketing strategies and campaigns to promote our products or services. The successful candidate will have a deep understaing of consumer behavior and market trends, as well as the ability to manage a team of marketing professionals.',
-    numofapplicants: "433",
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
+document.addEventListener('readystatechange', e => {
+    if (e.target.readyState === "loading") {
+        generateLoad();
+        console.log("Load");
+    } else if (e.target.readyState === "complete") {
+        document.querySelector('.content').style.display = "block";
+        console.log("Loaded");
     }
-},
-{
-    numofapplicants: 433,
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
+    else {
+        console.log("Header");
     }
-},
-{
-    firstname: 'June',
-    lastname: 'Li',
-    timeposted: 'Posted 30 minutes ago',
-    jobtitle: 'Magit rketing Strategist',
-    jobdescription: 'We are seeking a talented Marketing Strategist to join our team. As a Marketing Strategist, you will be responsible for developing and implementing marketing strategies that drive growth and revenue for our company. You will work closely with our marketing and sales teams to develop campaigns that generate leads and engage customers.',
-    numofapplicants: "433",
-    fullname: () => {
-        return this.firstname + ' ' + this.lastname;
-    }
+});
 
-}];
+export const fetchUser = () => {
 
-
-//     numofapplicants: 433,
-//     fullname: () => {
-//         return this.firstname + ' ' + this.lastname;
-//     }
-
-// }];
-
+};
 
 // Create Card Function 
 export const createCard = () => {
@@ -117,7 +94,8 @@ const jobInfo = () => {
     })
 }
 
-const createJobPost = () => {
+const createJobPost = async (userImage, name, time, sourceContent) => {
+    console.log(sourceContent);
 
     const wrapper = document.querySelector(".cards-container");
 
@@ -137,18 +115,18 @@ const createJobPost = () => {
     userProfileDiv.className = "user_profile";
 
     let userImg = document.createElement("img");
-    userImg.src = "assets/images/user-pic.png";
+    userImg.src = await userImage;
     userProfileDiv.appendChild(userImg);
 
     let postHeaderDiv = document.createElement("div");
     postHeaderDiv.className = "post-header";
 
     let postHeaderH3 = document.createElement("h3");
-    postHeaderH3.innerHTML = "Julies Sarmiento";
+    postHeaderH3.innerHTML = name;
     postHeaderDiv.appendChild(postHeaderH3);
 
     let postHeaderP = document.createElement("p");
-    postHeaderP.innerHTML = "Posted 15 minutes ago";
+    postHeaderP.innerHTML = time;
     postHeaderDiv.appendChild(postHeaderP);
 
     let dotsButton = document.createElement("button");
@@ -167,7 +145,7 @@ const createJobPost = () => {
     bodyDiv.className = "body";
 
     let bodyImg = document.createElement("img");
-    bodyImg.src = "assets/images/job/FB_IMG_1682290828586.jpg";
+    bodyImg.src = await sourceContent;
     bodyImg.style.width = "100%";
     bodyImg.style.marginTop = "20px";
     bodyDiv.appendChild(bodyImg);
@@ -194,7 +172,7 @@ const createJobPost = () => {
     wrapper.appendChild(engagementCardDiv);
 }
 
-const createTrainingPost = () => {
+const createTrainingPost = async (name, time, contentImage, userImage) => {
 
     const wrapper = document.querySelector(".cards-container");
 
@@ -214,18 +192,18 @@ const createTrainingPost = () => {
     userProfileDiv.className = "user_profile";
 
     let userImg = document.createElement("img");
-    userImg.src = "assets/images/user-pic.png";
+    userImg.src = await userImage;
     userProfileDiv.appendChild(userImg);
 
     let postHeaderDiv = document.createElement("div");
     postHeaderDiv.className = "post-header";
 
     let postHeaderH3 = document.createElement("h3");
-    postHeaderH3.innerHTML = "Julies Sarmiento";
+    postHeaderH3.innerHTML = name;
     postHeaderDiv.appendChild(postHeaderH3);
 
     let postHeaderP = document.createElement("p");
-    postHeaderP.innerHTML = "Posted 15 minutes ago";
+    postHeaderP.innerHTML = time;
     postHeaderDiv.appendChild(postHeaderP);
 
     let dotsButton = document.createElement("button");
@@ -244,7 +222,7 @@ const createTrainingPost = () => {
     bodyDiv.className = "body";
 
     let bodyImg = document.createElement("img");
-    bodyImg.src = "assets/images/training program Images/cyber security.png";
+    bodyImg.src = await contentImage;
     bodyImg.style.width = "100%";
     bodyImg.style.marginTop = "20px";
     bodyDiv.appendChild(bodyImg);
@@ -268,7 +246,7 @@ const createTrainingPost = () => {
     wrapper.appendChild(engagementCardDiv);
 }
 
-const createInterview = async (src, title, allow, allowF) => {
+const createInterview = async (src, _title, allow) => {
 
     const wrapper = document.querySelector(".cards-container");
 
@@ -288,7 +266,7 @@ const createInterview = async (src, title, allow, allowF) => {
     const userProfile = document.createElement('div');
     userProfile.classList.add('user_profile');
     const logoImg = document.createElement('img');
-    logoImg.src = 'assets/images/logo.png';
+    logoImg.src = await 'assets/images/logo.png';
     userProfile.appendChild(logoImg);
 
     // create the post header div element and add the title and date
@@ -320,7 +298,7 @@ const createInterview = async (src, title, allow, allowF) => {
     youtubeIframe.width = '100%';
     youtubeIframe.height = '270px';
     youtubeIframe.src = await src;
-    youtubeIframe.title = title;
+    youtubeIframe.title = _title;
     youtubeIframe.frameBorder = 0;
     youtubeIframe.allow = allow;
     youtubeIframe.allowFullscreen = true;
@@ -343,3 +321,59 @@ const createInterview = async (src, title, allow, allowF) => {
     // append the engagement card to the document body or another desired parent element
     wrapper.appendChild(engagementCard);
 }
+
+const clearPosts = async () => {
+    const wrapper = document.querySelector(".cards-container");
+
+    while (wrapper.childElementCount != 0) {
+        wrapper.removeChild(wrapper.lastElementChild);
+        console.log("heloo");
+    }
+}
+
+const loadPost = async () => {
+    const sideNav = document.querySelector(".side-post-nav");
+    const buttonList = [...sideNav.children];
+
+    buttonList.forEach(async button => {
+
+        button.addEventListener('click', () => {
+            buttonList.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            handleBtnClick(button);
+        });
+
+    });
+}
+
+const handleBtnClick = async (button) => {
+    clearPosts();
+    let dataList = null;
+    if (button.classList.contains('active')) {
+        switch (button.getAttribute('data-select-type')) {
+            case "job":
+                dataList = await loadLocalSource("json", "dummyUsers.json");
+                dataList.forEach((content, index) => {
+                    // userImage, name, time, sourceContent
+                    createJobPost("assets/images/user-pic.png", content.name, `Posted ${Math.floor((Math.random() * 60))} minutes ago`, `assets/images/Job images/${(index + 1) < 33 ? index + 1 : index - 31}.png`);
+                });
+                break;
+            case "savedPost":
+                break;
+            case "training":
+                dataList = await loadLocalSource("json", "dummyUsers.json");
+                dataList.forEach((content, index) => {
+                    // userImage, name, time, sourceContent
+                    createTrainingPost(content.name, `Posted ${Math.floor((Math.random() * 60))} minutes ago`, `assets/images/training program Images/${(index + 1) < 23 ? index + 1 : index - 21}.png`, "assets/images/user-pic.png");
+                });
+            case "interviewTips":
+                dataList = await loadLocalSource("json", "InterviewVideos.json");
+                dataList.forEach(content => {
+                    createInterview(content.src, content.title, content.allow);
+                });
+                break;
+        }
+    }
+}
+
+loadPost();

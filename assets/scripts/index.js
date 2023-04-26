@@ -1,4 +1,5 @@
 import { loadLogin } from "./login.js";
+import { ModalBox } from "./modal.js";
 
 const init = () => {
     loadLogin(document.body);//add loginform in this html document
@@ -19,3 +20,14 @@ const init = () => {
 }
 
 init();
+
+// NAVBAR MENU for Media Query 414px-768px
+const headernavburger = () => {
+    let icon = document.getElementById("myLinks");
+    if (icon.style.display === "block") {
+        icon.style.display = "none";
+    } else {
+        icon.style.display = "block";
+    }
+    console.log(headernavburger)
+}

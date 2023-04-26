@@ -96,6 +96,7 @@ export const getAge = (month, day, year) => {
 
 
 
+<<<<<<< HEAD
 
 
 const idGenerate = () => {
@@ -130,6 +131,8 @@ const textMax = (text, maxLength) => {
 //       return textMax + '...';
 //     }
 //   }
+=======
+>>>>>>> 2a2659e68c5af6b7713c34693ed436010d6e8c6c
 export const contentChecker = (content, max) => {
     let newText = "";
 
@@ -156,3 +159,13 @@ export const noWhiteSpace = text => {
     return newText;
 }
 
+export const generateLoad = () => {
+    const loaderDiv = document.createElement('div');
+    loaderDiv.classList.add('loader');
+
+    const loaderIcon = document.createElement('i');
+    loaderIcon.classList.add('fa-solid', 'fa-spinner', 'fa-spin', 'loader-icon');
+
+    loaderDiv.appendChild(loaderIcon);
+    document.body.appendChild(loaderDiv);
+}
