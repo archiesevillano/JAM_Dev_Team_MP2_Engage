@@ -61,32 +61,46 @@ const generateRandomId = () => {
   return randomId;
 }
 
-const verifyInput = (fname, mname, lname, b_month, b_day, b_year, email, street, unit, sex, city, province, zip, ps, ps_copy, cbox) => {
+const verifyInput = async (fname, mname, lname, b_month, b_day, b_year, email, street, unit, sex, city, province, zip, ps, ps_copy, cbox) => {
 
   const user = {
     userID: "",
-    fullname: {
-      first: "",
-      middle: "",
-      last: "",
+    userImage: "",
+    personal: {
+      fullname: {
+        first: "",
+        middle: "",
+        last: ""
+      },
+      birthday: {
+        month: "",
+        day: "",
+        year: ""
+      },
+      address: {
+        houseNo: "",
+        street1: "",
+        city: "",
+        zip: "",
+        province: ""
+      },
+      sex: ""
     },
-    sex: "",
-    birthdate: {
-      month: "",
-      day: "",
-      year: "",
-    },
-    account: {
+    credential: {
       email: "",
-      password: "",
+      password: ""
     },
-    address: {
-      street: "",
-      unit: "",
-      city: "",
-      province: "",
-      zip: "",
-    }
+    applicationStatus: [],
+    savedPosts: [],
+    posts: [],
+    profile: {
+      workExperience: "",
+      education: "",
+      introduction: "",
+      portfolioLink: ""
+    },
+    messages: [],
+    notifications: []
   }
 
   const errorMessage = document.querySelector(".error-message");
@@ -150,23 +164,27 @@ const verifyInput = (fname, mname, lname, b_month, b_day, b_year, email, street,
                     else {
 
                       user.userID = generateRandomId();
-                      user.fullname.first = fname.value;
-                      user.fullname.middle = mname.value;
-                      user.fullname.last = lname.value;
-                      user.account.email = email.value;
-                      user.account.password = ps.value;
-                      user.birthdate.month = b_month.value;
-                      user.birthdate.day = b_day.value;
-                      user.birthdate.year = b_year.value;
-                      user.sex = sex.value;
-                      user.address.street = street.value;
-                      user.address.province = province.value;
-                      user.address.zip = zip.value;
-                      user.address.city = city.value;
+                      user.personal.fullname.first = fname.value;
+                      user.personal.fullname.middle = mname.value;
+                      user.personal.fullname.last = lname.value;
+                      user.credential.email = email.value;
+                      user.credential.password = ps.value;
+                      user.personal.birthday.month = b_month.value;
+                      user.personal.birthday.day = b_day.value;
+                      user.personal.birthday.year = b_year.value;
+                      user.personal.sex = sex.value;
+                      user.personal.address.street1 = street.value;
+                      user.personal.address.province = province.value;
+                      user.personal.address.zip = zip.value;
+                      user.personal.address.city = city.value;
 
                       errorMessage.style.display = "none";
                       localStorage.setItem("userAccount", JSON.stringify(user));
-                      alert("Successfully Registered!");
+                      const modBox = new ModalBox("Successful", "information", "Registered Successsful");
+                      if (await modBox.show()) {
+                        //pass the value to engagement
+                        location.href = "engagement.html";
+                      }
 
                     }
 

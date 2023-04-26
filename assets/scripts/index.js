@@ -1,7 +1,7 @@
 import { loadLogin } from "./login.js";
 import { ModalBox } from "./modal.js";
 
-const init = () => {
+export const init = () => {
     loadLogin(document.body);//add loginform in this html document
 
     const loginBtn = document.querySelector('#index-login-btn');

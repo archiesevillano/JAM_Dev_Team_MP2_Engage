@@ -699,15 +699,12 @@ input[type=number]::-webkit-outer-spin-button {
 .messages-box .message-item:hover {
     background-color: var(--primary);
     color: var(--clean)
-    
-    
-    
 }
 
 .notification-box .notif-item:hover i,
 .messages-box .message-item:hover i {
     color: var(--clean);
-    
+
 }
 
 .notification-box .notif-item .icon-container,

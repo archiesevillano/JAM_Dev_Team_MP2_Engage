@@ -1,14 +1,6 @@
 import { togglePassword } from "./form.js";
 import { ModalBox } from "./modal.js";
 
-export const isLogin = () => {
-    if (localStorage.getItem("userAccount") != null || undefined) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 export const loadLogin = async body => {
     const blackScreen = document.createElement("div");
 
@@ -151,11 +143,12 @@ export const loadLogin = async body => {
             //check if the emailField and PasswordField is not empty
             if (emailField.value && passwordField) {
                 const credentials = await JSON.parse(localStorage.getItem("userAccount"));
-                if (credentials.account.email == emailField.value) {
-                    if (credentials.account.password == passwordField.value) {
+                if (credentials.credential.email == emailField.value) {
+                    if (credentials.credential.password == passwordField.value) {
                         const modBox = new ModalBox("Successful", "information", "Credentials Matched");
                         if (await modBox.show()) {
                             //pass the value to engagement
+                            sessionStorage.setItem("userAccount", credentials);
                             location.href = "engagement.html";
                         }
                     }
@@ -195,7 +188,7 @@ export const loadLogin = async body => {
 
 }
 
-// loadLogin(document.body);
+loadLogin(document.body);
 
 // const btn = document.querySelector(".get-started-btn");
 // btn.addEventListener('click', () => {

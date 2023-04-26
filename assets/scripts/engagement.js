@@ -1,19 +1,17 @@
 import { loadLocalSource, loadOnlineSource } from "./resources.js";
 import { generateLoad } from "./form.js";
-
+import { loadLogin } from "./login.js";
 
 document.addEventListener('readystatechange', e => {
-    if (e.target.readyState === "loading") {
-        generateLoad();
-    } else if (e.target.readyState === "complete") {
-        document.querySelector('.content').style.display = "block";
+    if (e.target.readyState === "complete") {
+        if (sessionStorage.getItem("userAccount")) {
+            document.querySelector('.main-content').style.display = "block";
+        }
     }
     else {
         console.log("Error Occured!");
     }
 });
-
-
 
 // Create Card Function 
 export const createCard = () => {
