@@ -154,8 +154,9 @@ export const loadLogin = async body => {
                 if (credentials.account.email == emailField.value) {
                     if (credentials.account.password == passwordField.value) {
                         const modBox = new ModalBox("Successful", "information", "Credentials Matched");
-                        if (modBox.show()) {
+                        if (await modBox.show()) {
                             //pass the value to engagement
+                            location.href = "engagement.html";
                         }
                     }
                     else {

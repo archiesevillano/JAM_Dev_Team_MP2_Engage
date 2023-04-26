@@ -1,5 +1,23 @@
 import { loadLocalSource, loadOnlineSource } from "./resources.js";
+import { generateLoad } from "./form.js";
 
+
+document.addEventListener('readystatechange', e => {
+    if (e.target.readyState === "loading") {
+        generateLoad();
+        console.log("Load");
+    } else if (e.target.readyState === "complete") {
+        document.querySelector('.content').style.display = "block";
+        console.log("Loaded");
+    }
+    else {
+        console.log("Header");
+    }
+});
+
+export const fetchUser = () => {
+
+};
 
 // Create Card Function 
 export const createCard = () => {

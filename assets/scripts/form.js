@@ -122,3 +122,13 @@ export const noWhiteSpace = text => {
     return newText;
 }
 
+export const generateLoad = () => {
+    const loaderDiv = document.createElement('div');
+    loaderDiv.classList.add('loader');
+
+    const loaderIcon = document.createElement('i');
+    loaderIcon.classList.add('fa-solid', 'fa-spinner', 'fa-spin', 'loader-icon');
+
+    loaderDiv.appendChild(loaderIcon);
+    document.body.appendChild(loaderDiv);
+}

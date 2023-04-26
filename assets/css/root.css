@@ -995,9 +995,11 @@ input[type=number]::-webkit-outer-spin-button {
 .page-header>ul li {
     display: inline-block;
 }
+
 .navburgermenu {
-    display:none
+    display: none
 }
+
 .page-header .header-nav {
     width: 30%;
     display: flex;
@@ -1395,8 +1397,9 @@ input[type=number]::-webkit-outer-spin-button {
     color: #ff3737;
 }
 
-.prompt-parent.info .prompt .upper i {
+.prompt-parent .prompt .upper i {
     color: var(--primary);
+    margin-bottom: 10px;
 }
 
 .prompt-parent.warning .prompt .upper i {
@@ -1405,4 +1408,36 @@ input[type=number]::-webkit-outer-spin-button {
 
 .prompt-parent.warning .prompt .lower .btn-primary {
     background-color: #ff3737;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Loader Icon */
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background: var(--primary);
+}
+
+.loader i {
+    color: var(--clean);
+    font-size: 45px;
 }

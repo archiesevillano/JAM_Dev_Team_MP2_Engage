@@ -3,6 +3,10 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
+.content {
+    display: none;
+}
+
 /* ENGAGEMENT CONTENT */
 .engagement-content {
     display: flex;
