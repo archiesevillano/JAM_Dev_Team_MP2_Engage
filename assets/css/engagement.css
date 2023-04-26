@@ -14,7 +14,7 @@ button {
 /* SIDE NAVIGATION */
 .side-navigation {
     width: 300px;
-    height: 80vh;
+    height: 90vh;
     background: var(--milk);
     padding: 20px 10px;
     display: flex;
@@ -22,7 +22,6 @@ button {
 }
 
 .side-navigation ul {
-    width: %;
     padding: 0 10px;
 }
 
@@ -744,9 +743,7 @@ button {
         width: 350px;
         height: 200px;
     }
-    .side-navigation ul li {
-        font-size: 22px;
-    }
+    
 }
 
     /* Extra XL width: 1400px */
@@ -764,9 +761,7 @@ button {
         width: 250px;
         height: 140px;
     }
-    .side-navigation ul li {
-        font-size: 19px;
-    }
+    
 }
 
 
@@ -778,9 +773,7 @@ button {
     .side-navigation, .hiring-board {
         width: 280px;
     }
-    .side-navigation ul li {
-        font-size: 17px;
-    }
+    
     .hiring-board .board {
         width: 230px;
         height: 120px;
@@ -794,11 +787,9 @@ button {
     }
     .hiring-board {
         width: 235px;
-        height: 100vh;
+        
     }
-    .side-navigation ul li {
-        font-size: 14px;
-    }
+    
     .hiring-board .board {
         width: 200px;
         height: 100px;
