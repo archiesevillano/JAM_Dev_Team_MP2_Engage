@@ -995,7 +995,9 @@ input[type=number]::-webkit-outer-spin-button {
 .page-header>ul li {
     display: inline-block;
 }
-
+.navburgermenu {
+    display:none
+}
 .page-header .header-nav {
     width: 30%;
     display: flex;

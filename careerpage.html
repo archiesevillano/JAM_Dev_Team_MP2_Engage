@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <!-- Page Tab Title -->
-        <title>Get Started - Engage</title>
+        <title>Career - Engage</title>
     
         <!-- App Icon - SVG FORMAT -->
         <link rel="icon" href="assets/images/logo.svg">
@@ -18,40 +18,327 @@
         <!-- External JS Files -->
         <script defer type="module" src="assets/scripts/index.js"></script>
         <script defer type="module" src="assets/scripts/resources.js"></script>
+        <script defer src="assets/scripts/career.js"></script>
     
         <!-- FONTS AWESOME CDN -->
         <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
     
     </head>
 <body>
+    <header class="page-header">
+        <div class="brand-container col" data-sub="none">
+            <div class="app-logo">
+                <img src="assets/images/logo.svg" style="object-fit:contain;">
+            </div>
+            <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+        </div>
+        <ul class="header-nav" id="navBar">
+            <li>
+                <a href="landingPage.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="careerpage.html">
+                    Careers
+                </a>
+            </li>
+            <li>
+                <a href="partnerpage.html">
+                    Partners
+                </a>
+            </li>
+            <li>
+                <a href="About.html" class="active">
+                    Who we are
+                </a>
+            </li>
+        </ul>
+        <ul class="button-collections"  id="navbuttons">
+            <li>
+                <button type="button" class="btn-quaternary" id="index-login-btn">
+                    Login
+                </button>
+            </li>
+            <li>
+                <button type="button" class="btn-secondary" id="index-signup-btn">
+                    Sign up
+                </button>
+            </li>
+        </ul>
+        <!-- for Mobile Hamburger Menu -->
+    <div class="navburgermenu">
+        <div class="topnav">
+            <div class="app-logo">
+                <img src="assets/images/logo.svg" style="object-fit:contain; filter: grayscale(150%) brightness(200%);">
+                <h1 style="margin:0;font-family:var(--outfit);">ngage</h1>
+            </div>
+            
+            <div id="myLinks">
+              <a href="index.html">Home</a>
+              <a href="careerpage.html">Careers</a>
+              <a href="partnerpage.html">Partners</a>
+              <a href="About.html">Who We Are</a>
+              <a><button type="button" class="btn-quaternary" id="index-login-btn">
+                Login
+            </button></a>
+            <a><button type="button" class="btn-secondary" id="index-signup-btn">
+                Sign up
+            </button></a>
+              <ul class="button-collections"  id="navbuttons">
+                <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+            </div>
+            <div class="burgerIcon">
+                <a href="#" class="icon" onclick="headernavburger()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+        </div>
+    </div>
+    <!-- for Mobile Hamburger Menu -->
+        
+    </header>
+    <!-- CAREER HERO -->
     <section>
-        <div class="herobanner">
+        <div class="herobanner" style="background-image: url(assets/images/careerpagephotos/herobanner2.jpg);">
             <div class="career-hero">
-                <div>
-                    <span>Find a Job that will fit you</span>
+                <div class="hero-text">
+                    <span class="careerhero-text">Find a Job that will fit you</span>
                 </div>
                 <div class="hero-content">
                     <div class="dropdown">
-                        <button class="drop-btn">Categories <i class="fa-solid fa-arrow-down fa-sm"></i></button>
+                        <button class="drop-btn">Categories <i class="fa-solid fa-arrow-down fa-md"></i></button>
                         <div class="dropdown-content">
-                            <a href="#">Accounting/Finance</a>
-                            <a href="#">Architecture and Construction</a>
-                            <a href="#">Business and Finance</a>
-                            <a href="#">Information Technology</a>
-                            <a href="#">Manufacturing</a>
-                            <a href="#">Marketing</a>
-                            <a href="#">Healthcare</a>
-                            <a href="#">Hotel/Restaurant</a>
-                        </div>
-                        <label></label>
-                        <span><input type="text" placeholder="Search Job Here"><i class="fa-solid fa-magnifying-glass fa-sm"></i></span>
+                            <a href="#" class="acct-finance">Accounting/Finance</a>
+                            <a href="#" class="architecture">Architecture and Construction</a>
+                            <a href="#" class="business-finance">Business and Finance</a>
+                            <a href="#" class="IT">Information Technology</a>
+                            <a href="#" class="manufacturing">Manufacturing</a>
+                            <a href="#" class="marketing">Marketing</a>
+                            <a href="#" class="healthcare">Healthcare</a>
+                            <a href="#" class="hotel-restaturant">Hotel/Restaurant</a>
+                        </div> 
+                    </div>
+                    <div class="search-content">
+                        <input class ="search-bar" type="text" placeholder="Search Job Here"> 
+                    </div>
+                    <div class="search-content">
+                        <button><i class="fa-solid fa-magnifying-glass fa-sm "></i>Find Jobs</button>
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="assets/images/careerpagephotos/herobanner.png">
-            </div>
         </div>
     </section>
+    <!-- END OF CAREER HERO -->
+
+    <!-- CAREER CONTENT/ CARDS -->
+<section>
+    <div class="job-posted">
+            <div class="job-posted-text">
+                <h3>Published Jobs:</h3>
+            </div>
+        <div class="cards-container">
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            <!-- CARDS -->
+            <div class="jobposted-cards">
+                <div class="job-image">
+                    <img class="job-image" src="assets/images/careerpagephotos/jobpostedimage.jpg">
+                </div>
+                <div class="jobtext-content">
+                    <div class="job-name">
+                        <p class="job-name-text">Technical Support Representative</p>
+                        <p class="company-hiring">Accenture</p>
+                    </div>
+                    <div class="job-description">
+                        <p class="job-description-text">Provide technical assistance to customers via phone, email, or chat. Troubleshoot technical issues, escalate complex problems, and document interactions. Possess strong technical aptitude, excellent communication skills, and a customer-focused approach. Prior experience in technical support or customer service is a plus.</p>
+                    </div>
+                </div>
+                <div class="viewjob-btn">
+                    <button>View Job</button>
+                </div>
+            </div>
+            <!-- end of CARDS -->  
+            
+        </div>  
+    </div> 
+    </section>
 </body>
+<footer class="main-footer">
+    <div class="upper">
+        <div class="app-details">
+            <ul class="app-address-container">
+                <li class="footer-headings">Address</li>
+                <li class="app_address">
+                    Epifanio Bldg. 02 St. Manila Mexico,
+                    Metro Manila Philippines
+                </li>
+            </ul>
+            <ul class="app-contacts-container">
+                <li class="footer-headings">Contact us</li>
+                <li>Email: <span class="app_email">engageph@gmail.com</span></li>
+                <li>Phone: <span class="app_phone">(+63) 978 954 8554</span></li>
+            </ul>
+        </div>
+        <ul class="legal-docs">
+            <li>
+                <a href="#">Cookies</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#">Terms and Condition</a>
+            </li>
+        </ul>
+    </div>
+    <div class="lower">
+        <div class="brand-container col" data-sub="none">
+            <div class="app-logo">
+                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
+            </div>
+            <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
+        </div>
+        <div class="copyright-details">
+            <p class="app_copyright">Copyright © JAM April 2023 MP2 - WD54</p>
+        </div>
+    </div>
+</footer>
 </html>
