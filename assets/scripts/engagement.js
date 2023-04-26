@@ -379,6 +379,8 @@ const handleBtnClick = async (button) => {
 
 loadPost();
 
+
+
 const portField = document.getElementById('portFolio');
 const addButton = document.querySelector('.add-btn');
 const editButton = document.querySelector('.edit-btn');
