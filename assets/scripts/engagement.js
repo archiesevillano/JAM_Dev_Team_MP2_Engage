@@ -86,6 +86,30 @@ const jobInfo = () => {
     const clsBtn = document.querySelector(".close-btn");
     const overlay = document.querySelector(".modal-overlay");
 
+    savePost.addEventListener('click', () => {
+        if (savePost.classList.contains('btn-secondary')) {
+          savePost.innerHTML = 'Save Post';
+          savePost.classList.remove('btn-secondary');
+          savePost.classList.add('btn-plain');
+        } else {
+          savePost.innerHTML = 'Saved';
+          savePost.classList.remove('btn-plain');
+          savePost.classList.add('btn-secondary');
+        }
+      });
+
+      applyBtn.addEventListener('click', () => {
+        if (applyBtn.classList.contains('btn-secondary')) {
+          applyBtn.innerHTML = 'Apply Now';
+          applyBtn.classList.remove('btn-secondary');
+          applyBtn.classList.add('btn-primary');
+        } else {
+          applyBtn.innerHTML = 'Cancel';
+          applyBtn.classList.remove('btn-primary');
+          applyBtn.classList.add('btn-secondary');
+        }
+      });
+
     jobBox.classList.add("active");
     overlay.classList.add("active");
     clsBtn.addEventListener('click', () => {
@@ -155,13 +179,18 @@ const createJobPost = async (userImage, name, time, sourceContent) => {
     applyNowButton.className = "apply-now-btn btn-primary";
     applyNowButton.innerHTML = "Apply now";
     applyNowButton.addEventListener('click', () => {
-        applyNowButton.innerHTML = 'Application sent';
-        applyNowButton.classList.remove('btn-primary');
-        applyNowButton.classList.add('btn-secondary');
-        
-
-});
-
+        if (applyNowButton.innerHTML === 'Application sent') {
+          applyNowButton.innerHTML = 'Apply Now';
+          applyNowButton.classList.remove('btn-secondary');
+          applyNowButton.classList.add('btn-primary');
+        } else {
+          applyNowButton.innerHTML = 'Application sent';
+          applyNowButton.classList.remove('btn-primary');
+          applyNowButton.classList.add('btn-secondary');
+          applyNowButton.setAttribute('disabled', 'true');
+          applyNowButton.style.pointerEvents = "none";
+        }
+      });
 
     // Create the Details button element
     let detailsButton = document.createElement("button");
@@ -244,6 +273,7 @@ const createTrainingPost = async (name, time, contentImage, userImage) => {
     let savePostButton = document.createElement("button");
     savePostButton.className = "save-post-btn btn-plain";
     savePostButton.innerHTML = "Save Post";
+    
 
     // Append all elements to the main engagement card div
     engagementCardDiv.appendChild(headerDiv);

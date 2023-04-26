@@ -6,23 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Page Tab Title -->
-    <title>About - Engage</title>
+    <title>Get Started - Engage</title>
 
     <!-- App Icon - SVG FORMAT -->
     <link rel="icon" href="assets/images/logo.svg">
 
     <!-- External CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/root.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/about.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <!-- External JS Files -->
     <script defer type="module" src="assets/scripts/login.js"></script>
     <script defer type="module" src="assets/scripts/index.js"></script>
     <script defer type="module" src="assets/scripts/resources.js"></script>
-    <script defer  src="assets/scripts/about.js"></script>
 
     <!-- FONTS AWESOME CDN -->
-    <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
 
 </head>
@@ -31,13 +29,13 @@
     <header class="page-header">
         <div class="brand-container col" data-sub="none">
             <div class="app-logo">
-                <img src="assets/images/logo.svg" style="object-fit:contain;">
+                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain;">
             </div>
             <h1 style="margin:0;font-family:var(--outfit);color:var(--title-font-color);">ngage</h1>
         </div>
-        <ul class="header-nav" id="navBar">
+        <ul class="header-nav">
             <li>
-                <a href="index.html">
+                <a href="index.html" class="active">
                     Home
                 </a>
             </li>
@@ -52,12 +50,12 @@
                 </a>
             </li>
             <li>
-                <a href="About.html" class="active">
+                <a href="About.html">
                     Who we are
                 </a>
             </li>
         </ul>
-        <ul class="button-collections"  id="navbuttons">
+        <ul class="button-collections">
             <li>
                 <button type="button" class="btn-quaternary" id="index-login-btn">
                     Login
@@ -73,7 +71,7 @@
     <div class="navburgermenu">
         <div class="topnav">
             <div class="app-logo">
-                <img src="assets/images/logo.svg" style="object-fit:contain; filter: grayscale(150%) brightness(200%);">
+                <img src="assets/images/logo.svg" style="width:30px;height:30px;object-fit:contain; filter: grayscale(150%) brightness(200%);">
                 <h1 style="margin:0;font-family:var(--outfit);">ngage</h1>
             </div>
             
@@ -105,60 +103,86 @@
         </div>
     </div>
     <!-- for Mobile Hamburger Menu -->
-        
     </header>
-    
+
     <section class="hero-section">
-        <p class="upper-text">Who we are</p>
         <h1 class="hero-text">
-            What To Know
+            Discover companies in need of your unique skills and expertise
         </h1>
-        <p class="purpose">
-            We created this job website with the purpose of addressing the common challenges that job seekers face in
-            today's competitive job market. We saw a need for a platform that could streamline the job search process
-            and make it easier for job seekers to connect with potential employers. Our goal is to provide a centralized
-            hub for job listings and career resources, empowering job seekers to take control of their careers and find
-            their dream jobs. By offering a comprehensive suite of tools and resources, we aim to level the playing
-            field and give job seekers the support they need to succeed in their job search and beyond.
-        </p>
+        <ul class="hero-list">
+            <li>
+                <i class="fa-regular fa-circle-check"></i>
+                We will assist you in finding companies that are currently hiring
+            </li>
+            <li>
+                <i class="fa-regular fa-circle-check"></i>
+                We will assist you in improving your skills to align with your desired career path
+            </li>
+            <li>
+                <i class="fa-regular fa-circle-check"></i>
+                Our tips and tricks will help you ace your next interview
+            </li>
+        </ul>
     </section>
 
-    <section class="purpose-section">
-        <div class="left">
-            <h1>About ENGAGE</h1>
-            <p>
-                Welcome to our job website, where our purpose is to help connect job seekers with the employment
-                opportunities that align with their qualifications, interests, and career goals.
-            </p>
-            <p>
-                We understand how challenging and overwhelming the job search process can be, which is why we aim to
-                provide a comprehensive platform that streamlines the process and makes it easier for job seekers to
-                find their ideal job.
-            </p>
-            <p>
-                Our website features a diverse range of job vacancies across various industries, from entry-level
-                positions to executive roles. We partner with reputable companies and organizations to ensure that the
-                job listings on our website are genuine and trustworthy, and we continuously update our database to
-                ensure that we are providing the most current and relevant opportunities available.
-            </p>
-            <p>
-                In addition to connecting job seekers with job vacancies, we also provide valuable resources and tools
-                to help them achieve their career goals. Our website features career advice articles, resume and cover
-                letter templates, interview tips, and other resources that job seekers can use to enhance their job
-                search strategies and increase their chances of landing their dream job.
-            </p>
-            <p>
-                We believe that everyone deserves the opportunity to pursue their career aspirations and achieve their
-                full potential, and we are committed to providing a platform that supports and empowers job seekers
-                throughout their career journey.
-            </p>
-            <p>
-                Thank you for choosing our job website as your trusted partner in your job search. We are here to help
-                you succeed!
-            </p>
-        </div>
-        <div class="right">
-            <img src="assets/images/e.png" class="e-image">
+    <section class="features">
+        <h1>Featured Partners</h1>
+        <div class="content-row">
+            <div class="partners">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/images/item1.png" class="feature-image">
+                        <p class="openingText">9+ Job Opening</p>
+                    </div>
+                    <div class="content">
+                        <p class="title">Concentrix PH</p>
+                        <p class="sub-title">Joined 3 years ago</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/images/item2.png" class="feature-image">
+                        <p class="openingText">13+ Job Opening</p>
+                    </div>
+                    <div class="content">
+                        <p class="title">Accenture Inc.</p>
+                        <p class="sub-title">Joined 1 year ago</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/images/item3.png" class="feature-image">
+                        <p class="openingText">6+ Job Opening</p>
+                    </div>
+                    <div class="content">
+                        <p class="title">Capital One Office</p>
+                        <p class="sub-title">Joined 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="item1 items">
+                    <h3>1</h3>
+                    <div class="text-content">
+                        <p class="title">Be part of our thriving community.</p>
+                        <p class="sub-title">201.k people joined us</p>
+                    </div>
+                </div>
+                <div class="item2 items">
+                    <h3>2</h3>
+                    <div class="text-content">
+                        <p class="title">Explore thousands of job postings on our platform.</p>
+                        <p class="sub-title">65.3k Job posts</p>
+                    </div>
+                </div>
+                <div class="item3 items">
+                    <h3>3</h3>
+                    <div class="text-content">
+                        <p class="title">Receive free interview tips and tricks.</p>
+                        <p class="sub-title">2.3k article links and videos</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="main-footer">
@@ -201,6 +225,10 @@
             </div>
         </div>
     </footer>
+    
+
+
+    
 </body>
 
 </html>

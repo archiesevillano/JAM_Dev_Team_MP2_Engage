@@ -60,8 +60,9 @@ body {
 
 .form-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+    align-content: stretch;
 }
 
 .signup-form {
@@ -184,6 +185,9 @@ body {
 
 /* medium width: 768px */
 @media screen and (max-width: 768px) {
+    .showcase, .form-container {
+        width: 100%
+    }
     .field {
         margin: 5px 0;
         padding: 6px;
@@ -196,7 +200,6 @@ body {
     .form-container form {
         position: relative;
         bottom: 40px;
-        left: 195px;
         width: 100%;
 
     }
@@ -233,13 +236,12 @@ body {
 /* small width: 576px */
 @media screen and (max-width: 576px) {
     .form-container {
-        width: 80%
+        width: 100%
     }
 
     .form-container form {
         width: 100%;
-        position: relative;
-        left: 63px;
+        
     }
 
     .fa-eye {
@@ -250,20 +252,33 @@ body {
 
 /* mobile width: 414px */
 @media screen and (max-width: 414px) {
+    .signup-form{
+        width: 380px
+    }
     .form-container {
         width: 100%;
     }
 
     .form-container form {
-        width: 90%;
+        width: 100%;
         position: relative;
         left: 0px;
         bottom: 200px;
     }
 
     .signup-form h1 {
+<<<<<<< HEAD
         padding-left: 73px;
 
 
+=======
+        padding-left: 80px;
+        margin-bottom: 20px;
+ 
+    }
+    .birthdate-container {
+       height: 40px;
+       width: 20px;
+>>>>>>> c2cf9ab297fdc2d04b24e97a118ec25144f05988
     }
 }

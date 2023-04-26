@@ -10,3 +10,23 @@ const init = () => {
 }
 
 init();
+
+
+const func = ( ) => {
+    func.addEventListener ('click', () => {
+        if (inputfield === "" || inputfield === "" || inputfield === "") {
+            funcbtn.classList.remove('');
+            funcbtn.classList.add('');
+            editbtn.classList.add('');
+        }else {
+            funcbtn.classList.remove('');
+            funcbtn.classList.remove('');
+            funcbtn.classList.add('');
+            editbtn.classList.add('');
+        }
+    })
+}
+
+
+
+

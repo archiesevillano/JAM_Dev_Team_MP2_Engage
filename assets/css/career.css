@@ -7,19 +7,32 @@ body, button, input {
     width:30px;
     height:30px
 }
-
 .career-hero {
     padding-left: 70px
 }
-
 .drop-btn {
-    padding: 3px 10px;
-    font-size: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.452);
+    background-color: var(--clean);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--dark);
+    font-family: var(--poppins);
+    padding: 11.5px;
+    font-size: 12.5px;
+    width: 140px;
+    height: 43px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    /* padding: 3px 10px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.400);
     background-color: var(--clean);
     cursor: pointer;
-    height: 40px;
-    width: 160px
+    height: 43px;
+    width: 160px;
+    border-radius:5px */
 }
 .dropdown {
     position: relative;
@@ -32,22 +45,25 @@ body, button, input {
     min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
-  .dropdown-content a {
+    border-radius: 5px;
+}
+.dropdown-content a {
     color: black;
-    padding: 5px 7px;
+    padding: 10px;
     text-decoration: none;
     display: block;
-    font-size: small;
-  }
-  .dropdown-content a:hover {background-color: #ddd;}
+    font-size: 13px;
+    
+    
+}
+.dropdown-content a:hover {
+    background-color: var(--primary);
+    color:var(--clean)
+}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 .herobanner {
     display:flex;
     justify-content: space-between;
@@ -58,8 +74,6 @@ body, button, input {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 .hero-content {
     display:flex;
     column-gap: 5px;
@@ -72,36 +86,37 @@ body, button, input {
     font-size: 35px;
     font-weight: bold
 }
-.search-bar{
-  
-  
-}
-.search-bar {
-    width: 500px;
-    height: 40px
-}
-
-.search-bar:placeholder-shown{
-    font-size: 22px;
-    padding-left: 5px;
-    
-}
-
 .search-content button {
-    background-color: var(--primary);
-    color: white;
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.384);
-    width: 140px;
-    height: 40px;
-    font-size: 20px;
+    background-color: var(--secondary);
+    outline: none;
     cursor: pointer;
+    border: none;
+    transition: var(--controls-transition);
+    color: var(--clean);
+    font-family: var(--poppins);
+    padding: 11.5px;
+    font-size: 12.5px;
+    width: 130px;
+    height: 43px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
 }
 .search-content button:hover {
     filter: brightness(110%);
 }
 .search-content i {
     padding-right: 5px;
+}
+.search-content input {
+    width: 500px;
+    height: 43px;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
 }
 
 
@@ -121,27 +136,27 @@ body, button, input {
 .cards-container{
     display:flex;
     flex-wrap: wrap;
-    
     justify-content: space-evenly;
+    
 }
 
 /* Cards */
 .jobposted-cards {
-    width: 270px;
-    height: 380px;
+    width: 330px;
+    height: 430px;
     border: 1px solid rgba(0, 0, 0, 0.150);
-    border-radius: 5px;
+    border-radius: 1rem;
     box-shadow:
-    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-    100px 100px 80px rgba(0, 0, 0, 0.07);
-    margin: 20px;
+  0.6px 0.6px 2.2px rgba(0, 0, 0, 0.01),
+  1.5px 1.4px 5.3px rgba(0, 0, 0, 0.013),
+  2.9px 2.6px 10px rgba(0, 0, 0, 0.016),
+  5.1px 4.7px 17.9px rgba(0, 0, 0, 0.019),
+  9.6px 8.8px 33.4px rgba(0, 0, 0, 0.024),
+  23px 21px 80px rgba(0, 0, 0, 0.04);
+    margin: 10px;
 }
 .jobtext-content {
-    padding: 10px;
+    padding: 0px 20px;
     display:flex;
     flex-direction: column;
 }
@@ -149,20 +164,23 @@ body, button, input {
     height: 145px;
 }
 .job-image {
-    width: 100%
+    width: 100%;
+    border-radius: 1rem 1rem 17rem 0;
 }
 .job-name-text{
+    padding-top: 10px;
     font-weight: bold;
     font-size: 15px;
 }
 .company-hiring {
     font-size: 13px;
+    color:var(--dark)
 }
 .job-description-text{
-    
-    font-size: 10px;
+    padding: 5px 7px 5px 7px;
+    font-size: 12px;
     text-align:justify;
-    height: 105px;
+    height: 160px;
 }
 .viewjob-btn {
     display:flex;
@@ -178,7 +196,7 @@ body, button, input {
     font-family: var(--poppins);
     padding: 8px;
     font-size: 11px;
-    width: 100px;
+    width: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -212,7 +230,7 @@ body, button, input {
     }
     .drop-btn {
         font-size: 14px;
-        width: 140px
+        width: 150px
     }
     .search-bar {
         width: 400px;
@@ -226,7 +244,7 @@ body, button, input {
         align-items: center;
     }
     .search-content button {
-        font-size: 17px  
+        font-size: 14px  
     }
     
 }
@@ -262,8 +280,8 @@ body, button, input {
         font-size: 23px;
     }
     .drop-btn, .search-bar ,.search-content button {
-        height: 35px;
-        font-size: 15px;
+        
+        font-size: 13px;
     }
     .search-bar {
         width: 350px;
@@ -272,11 +290,12 @@ body, button, input {
         font-size: 15px;
     }
     .jobposted-cards {
-        width: 220px;
-        height: 350px
+        width: 300px;
+        height: 400px
     }
     .job-name-text{
-        font-size: 12px;
+        padding-top: 0px;
+        font-size: 16px;
     }
     .company-hiring {
         font-size: 12px;
@@ -285,8 +304,8 @@ body, button, input {
         padding: 10px
     }
     .job-description-text {
-        font-size: 9px;
-        height: 110px;
+        font-size: 10.5px;
+        height: 130px;
     }
     /* footer */
     .main-footer .upper .app-details ul li:first-child  {
@@ -305,6 +324,9 @@ body, button, input {
         font-size: 11px;
         padding: 5px;
     }
+    .job-name-text, .company-hiring {
+        padding: 0px 
+    }
     .page-header .header-nav a.active {
         font-size: 10px;
     }
@@ -312,12 +334,15 @@ body, button, input {
         font-size: 10px;
         width: 73px
     }
+    .search-content button {
+        font-size: 12px;
+    }
     /* End of Header */
     .herobanner {
         height: 300px
     }
     .drop-btn {
-        width: 90px;
+        width: 120px;
         font-size: 11px;
         padding: 1px;
     }
@@ -339,14 +364,14 @@ body, button, input {
     .cards-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: flex-start;
     } 
     .company-hiring {
         font-size: 11px;
     }
     .job-description-text {
-        height:110px;
+        height: 125px;
     }
     /* footer */
     .app-logo img {
@@ -448,15 +473,16 @@ body, button, input {
         font-size: 18px;
     }
     .drop-btn  {
-        width: 90px;
+        font-size: 12px;
+        width: 150px;
         
     }
     .hero-content {
         display:flex;
         align-items: center;
     }
-    .search-bar {
-        width: 210px;
+    .search-content input {
+        width: 350px;
 
     }
     .search-bar::placeholder{
@@ -464,23 +490,29 @@ body, button, input {
         
     }
     .search-content button {
-        font-size: 14px;
-        width: 100px;
+        font-size: 12px;
+        width: 120px;
         padding: 0px
     }
     
     .job-posted {
         padding: 20px;
     }
-    .job-posted-text {
-        font-size: 15px;
-        padding-bottom: 0px;
+    
+    .jobposted-cards {
+        width: 280px;
+        height: 350px
     }
     .company-hiring {
         font-size: 11px;
     }
     .job-description-text {
-        height: 110px;
+        font-size: 9.5px;
+        height: 100px;
+    }
+    .job-name-text {
+        font-size: 8px;
+        font-size: 13px;
     }
     /* End of Content */
     /* Footer */
@@ -529,11 +561,15 @@ body, button, input {
         display:none
     }
     .drop-btn {
-        width: 90px;
-        font-size: 11px
+        width: 110px;
+        font-size: 10px;
+        padding: 5px
     }
-    .search-bar {
-        width: 240px;
+    .search-content button {
+        font-size: 11px;
+    }
+    .search-content input {
+        width: 200px;
     }
     .search-bar::placeholder{
         font-size: 13px;
@@ -553,10 +589,18 @@ body, button, input {
     .job-description-text {
         font-size: 9px;
         padding-top: 2px;  
-        height: 105px;     
+        height: 115px;     
+    }
+    .job-name-text {
+        font-size: 12px
     }
     .company-hiring {
         font-size: 11px;
+    }
+    .viewjob-btn button{
+        width:100px;
+        padding: 5px;
+        font-size: 10px;
     }
     /* Footer */
     .main-footer .upper .app-details ul li:first-child {
@@ -618,9 +662,9 @@ body, button, input {
         align-items: stretch;
     }
     .drop-btn {
-        font-size: 10px;
-        width: 80px;
-        padding: 5px;
+        font-size: 11px;
+        width: 110px;
+        padding: 3px;
     }
     .dropdown {
         padding-bottom: 3px;
