@@ -12,6 +12,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* align-items: flex-end; */
 }
 
 /* SIDE NAVIGATION */
@@ -25,7 +26,7 @@ button {
 }
 
 .side-navigation ul {
-    width: 100%;
+    width: %;
     padding: 0 10px;
 }
 
@@ -638,4 +639,318 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+/* Profile - Media Query */
+    /* Large width: 992px */
+@media screen and (max-width:992px) {
+    .profile-box .header h1 {
+        font-size: 25px;
+    }
+    .profile-box {
+        width: 900px;
+        height: 600px;
+    }
+    .profile-box .main .right .content {
+        height: 260px;
+        width: 260px;
+    }
+    .content h1 {
+        font-size: 27px;
+    }
+}
+    /* Medium width: 768px */
+@media screen and (max-width: 768px) {
+    .profile-box.active {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile-box .header {
+        justify-content: space-between;
+        align-items: center;
+        
+
+    }
+    .profile-box .main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+        height: 800px;
+        align-content: flex-end;
+        justify-content: center;
+        gap: 50px
+        
+    }
+    .profile-box {
+        width: 500px;
+        height: 900px;
+    }
+    .profile-box .main .left, .profile-box .main .right {
+        width: 100%
+    }
+    .header .left {
+        display:none;
+    }
+}
+
+    /* small width: 576px */
+/* @media screen and (max-width: 576px) {
+    .profile-box .header h1 {
+        font-size: 20px;
+    }
+    .profile-box.active {
+        padding: 0px
+    }
+    .profile-box {
+        width: 400px;
+        height: 550px;
+    }
+    .profile-box .main{
+        height: 400px;
+        justify-content: center;
+        gap: 10px
+    }
+    .profile-box .main .left .content {
+        width: 400px;
+    }
+    .profile-box .main .left, .profile-box .main .right {
+        width: 100%
+    }
+    .profile-box .main .right .content {
+        height: 160px;
+        width: 160px;
+    }
+    .content h1 {
+        font-size: 20px
+    }
+    .download-text {
+        margin: 0px!important;
+    }
+} */
+
+/* Engagement Media Query */
+
+    /*Extra XXL width: 1600px  */
+@media screen and (max-width:1600px) {
+    .engagement-card {
+        width: 730px;
+    }
+    .side-navigation,.hiring-board {
+        width:400px;
+    }
+    .side-navigation ul {
+        width: 100%
+    }
+    .hiring-board .board {
+        width: 350px;
+        height: 200px;
+    }
+    .side-navigation ul li {
+        font-size: 22px;
+    }
+}
+
+    /* Extra XL width: 1400px */
+@media screen and (max-width:1400px) {
+    .engagement-card {
+        width: 620px;
+    }
+    .side-navigation,.hiring-board {
+        width: 350px;
+    }
+    .side-navigation ul {
+        width: 100%
+    }
+    .hiring-board .board {
+        width: 250px;
+        height: 140px;
+    }
+    .side-navigation ul li {
+        font-size: 19px;
+    }
+}
+
+
+    /* Extra L width: 1200px */
+@media screen and (max-width: 1200px) {
+    .engagement-card {
+        width: 550px;
+    }
+    .side-navigation, .hiring-board {
+        width: 280px;
+    }
+    .side-navigation ul li {
+        font-size: 17px;
+    }
+    .hiring-board .board {
+        width: 230px;
+        height: 120px;
+    }
+}
+
+    /* Large width: 992px */ 
+@media screen and (max-width: 992px) {
+    .engagement-card {
+        width: 450px;
+    }
+    .hiring-board {
+        width: 235px;
+        height: 100vh;
+    }
+    .side-navigation ul li {
+        font-size: 14px;
+    }
+    .hiring-board .board {
+        width: 200px;
+        height: 100px;
+    }
+    #searchQueryInput {
+        width: 350px;
+    }
+    #searchQuerySubmit {
+        position:absolute;
+        left: 290px;
+    }
+}
+    /* Medium width: 768px */
+@media screen and (max-width: 768px) {
+    .engagement-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    } 
+    .hiring-board{
+        display:none;
+    }
+    .engagement-card {
+        width: 440px
+    }
+    .cards-container {
+        width: 90%
+    }
+    .side-navigation ul li {
+        font-size: 13px;
+    }
+    .side-navigation li.active {
+        padding: 8px 1px;
+    }
+    #searchQueryInput {
+        width: 330px;
+    }
+    #searchQuerySubmit {
+        position: absolute;
+        left: 260px;
+    }
+    .user_profile {
+        width: 37px;
+        height: 37px;
+        position: relative;
+        bottom: 6px
+    }
+}
+
+    /* Small width: 576px */
+@media screen and (max-width: 576px) {
+    #searchQueryInput {
+        width: 200px;
+    }
+    #searchQuerySubmit {
+        position: absolute;
+        left: 170px;
+    }
+    .engagement-card {
+        width: 320px;
+    }
+    .side-navigation {
+        width: 250px;
+    }
+    .side-navigation ul li {
+        font-size: 10.5px;
+        padding: 5px 1px;
+    }
+    .engagement-card .header .post-header h3{
+        font-size: 15px;
+    }
+    header.main-header {
+        padding: 5px;
+        justify-content: space-evenly;
+    }
+    .user_profile {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        bottom: 2.4px
+    }
+    header.main-header .navigation-bar {
+        width: 30%
+    }
+
+}
+
+    /* mobile width: 414px */
+@media screen and (max-width:414px) {
+    .side-navigation {
+        width: 200px;
+    }
+    .engagement-card  {
+        width: 243px;
+    }
+    .side-navigation ul li{
+        font-size: 9px;
+        padding: 0px;
+    }
+    .side-post-nav i {
+        font-size: 11px;
+        padding: 0px;
+    }
+    .engagement-card .header .post-header h3 {
+        font-size: 12px;
+    }
+    .engagement-card .header .post-header p {
+        font-size:  9px;
+    }
+    .engagement-card .details-btn, .save-post-btn {
+        width: 100%;
+        height: 35px;
+        font-size: 11px;
+
+    }
+    .engagement-card .apply-now-btn, .engagement-card .enroll-now-btn {
+        margin-bottom: 3px;;
+    }
+    .user_profile {
+        width: 33px;
+        height: 33px;
+        position: relative;
+        bottom: 2px
+    }
+    .engagement-card .header .post-header h3 {
+        font-size: 10px;
+        padding-left:3px;
+    }
+    .engagement-card .header .post-header p {
+        font-size: 9px;
+        padding-left:3px;
+    }
+    .brand-container h1 {
+        display:none;
+    }
+    #searchQueryInput {
+        width: 150px;
+    }
+    #searchQuerySubmit {
+        position: absolute;
+        left: 130px;
+    }
+    header.main-header .navigation-bar {
+        width: 35%
+    }
+    .button-collection button {
+        position: relative;
+        top:5px;
+    }
 }
