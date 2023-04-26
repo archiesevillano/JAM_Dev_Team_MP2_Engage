@@ -697,6 +697,9 @@ button {
     object-fit: cover;
 }
 /* Profile Add Info*/
+#portFolio {
+    width: 140px;
+}
 #workExp::placeholder, #portFolio::placeholder, #educ::placeholder{
     font-family: var(--outfit) ;
     font-size: 14px;
