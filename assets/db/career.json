@@ -1,0 +1,449 @@
+{
+    "career":[{
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/account transaction proccessing.png", 
+        "JobTitle": "ACCOUNT TRANSACTION PROCESSING",
+        "JobDescription": "The Account Transaction Processing Specialist is responsible for accurately and efficiently processing financial transactions for client accounts. This role requires a detail-oriented individual with excellent organizational and communication skills."
+    },
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/Acountant.png", 
+        "JobTitle": "ACOUNTANT",
+        "JobDescription": "The Accountant is responsible for managing financial records, preparing financial reports, and ensuring compliance with tax laws and regulations. This role requires a detail-oriented individual with strong analytical skills and knowledge of accounting principles and practices."
+    }
+    ,
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/Auditor.png", 
+        "JobTitle": "AUDITOR",
+        "JobDescription": "The Auditor is responsible for conducting independent and objective evaluations of an organization's financial and operational processes to ensure compliance with established policies, procedures, and regulations. This role requires a detail-oriented individual with strong analytical and problem-solving skills."
+    }
+    ,
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/cost accountant.png", 
+        "JobTitle": "COST ACCOUNTANT",
+        "JobDescription": "The Cost Accountant will be responsible for analyzing and managing the cost accounting processes of the organization. The successful candidate will develop and implement cost accounting systems, prepare financial reports and analyze business operations to identify areas for cost reduction and process improvement."
+    }
+    ,
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/finance manager.png", 
+        "JobTitle": "FINANCE MANAGER",
+        "JobDescription": "We are seeking an experienced Finance Manager to join our team. The Finance Manager will be responsible for overseeing the financial operations of the company and ensuring compliance with all relevant financial regulations. The ideal candidate will have a strong background in finance and accounting, as well as excellent leadership and communication skills."
+    }
+    ,
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/Finance accounting associates.png", 
+        "JobTitle": "FINANCE ACCOUNTING ASSOCIATE",
+        "JobDescription": "Our company is seeking a skilled and detail-oriented Finance Accounting Associate to join our team. In this role, you will be responsible for performing various accounting tasks, including maintaining financial records, reconciling bank statements, processing invoices, and preparing financial reports. The ideal candidate will have excellent analytical and communication skills, strong attention to detail, and the ability to work well in a fast-paced environment."
+    }
+    ,
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/Financial analyst.png", 
+        "JobTitle": "FINANCE ANALYST",
+        "JobDescription": "We are seeking a skilled and detail-oriented Finance Analyst to join our finance team. The Finance Analyst will be responsible for analyzing financial data, preparing financial reports, and providing insights to aid in business decision-making. The ideal candidate should have strong analytical skills, be comfortable working with numbers, and have a solid understanding of financial analysis techniques."
+    }
+    ,
+    {
+        "Category": "Acounting/Finance",
+        "JobImage": "assets/images/Job posting/Accounting and finance/internal auditor.png", 
+        "JobTitle": "INTERNAL AUDITOR",
+        "JobDescription": "We are seeking an experienced Internal Auditor to join our team. As an Internal Auditor, you will be responsible for performing financial and operational audits to ensure compliance with company policies and procedures, as well as relevant laws and regulations. You will also be responsible for identifying areas for improvement in internal controls and processes, and making recommendations to management."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/Architectural Drafts man.png", 
+        "JobTitle": "ARCHITECTURAL DRAFTS MAN",
+        "JobDescription": "We are seeking a skilled Architectural Draftsman to create accurate and detailed technical drawings and plans for construction projects. The ideal candidate should have a strong background in architecture and be proficient in using drafting software, such as AutoCAD or SketchUp. The Architectural Draftsman will be responsible for collaborating with architects and engineers to ensure that the drawings meet all necessary specifications and standards."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/Assistant site manager.png", 
+        "JobTitle": "ASSISTANT SITE MANAGER",
+        "JobDescription": "The Assistant Site Manager will assist the Site Manager in overseeing the day-to-day operations of the site. This includes ensuring that the site is operating efficiently, safely, and in compliance with all applicable regulations. The Assistant Site Manager will also be responsible for managing site staff, maintaining site records, and coordinating with other departments and contractors as needed."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/Construction estimator.png", 
+        "JobTitle": "CONSTRUCTION ESTIMATOR",
+        "JobDescription": "The Construction Estimator is responsible for preparing accurate and timely cost estimates for construction projects, analyzing project specifications, and identifying potential cost-saving measures. The Construction Estimator will work closely with project managers, architects, engineers, and subcontractors to ensure that project estimates are accurate, competitive, and in compliance with all applicable regulations and standards."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/Construction manager.png", 
+        "JobTitle": "CONSTRUCTION MANAGER",
+        "JobDescription": "The Construction Manager is responsible for managing all aspects of construction projects, from planning to implementation. The ideal candidate will have a strong background in construction management and be able to oversee multiple projects simultaneously. The Construction Manager will be responsible for ensuring that all projects are completed on time, within budget, and to the satisfaction of all stakeholders."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/contarctor.png", 
+        "JobTitle": "CONTRACTOR",
+        "JobDescription": "We are looking for a highly skilled contractor to join our team. As a contractor, you will be responsible for completing a range of projects for our clients. You will be working independently and will need to be highly self-motivated and organized."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/Landscape architect.png", 
+        "JobTitle": "LANDSCAPE ARCHITECT",
+        "JobDescription": "The Landscape Architect will be responsible for designing, planning, and managing the development of outdoor spaces, such as parks, gardens, campuses, commercial sites, and residential properties. The Landscape Architect will use their expertise in horticulture, design, engineering, and ecology to create sustainable and functional landscapes that meet the needs and desires of clients."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/JUNIOR-ARCHITECTS.png", 
+        "JobTitle": "JUNIOR ARCHITECTS",
+        "JobDescription": "As a Junior Architect, you will assist the senior architects in designing, planning, and developing architectural projects from conception to completion. You will work closely with other team members to ensure that projects are completed within specified timelines and meet the highest standards of quality and sustainability."
+    }
+    ,
+    {
+        "Category": "Architecture and Construction",
+        "JobImage": "assets/images/Job posting/Architecture and construction/Mason.png", 
+        "JobTitle": "MASON",
+        "JobDescription": "We are seeking an experienced Mason to join our team. The successful candidate will be responsible for building, repairing, and maintaining structures made of brick, stone, and concrete. The Mason will work on a variety of projects, including commercial, industrial, and residential buildings."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Digital marketing manager.png", 
+        "JobTitle": "DIGITAL MARKETING MANAGER",
+        "JobDescription": "We are seeking an experienced and results-driven Digital Marketing Manager to lead our digital marketing efforts. The Digital Marketing Manager will be responsible for developing, implementing, and managing online marketing campaigns that promote our products and services."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Finance Officer.png", 
+        "JobTitle": "FINANCE OFFICER",
+        "JobDescription": "The Finance Officer will be responsible for managing financial transactions, maintaining financial records, and providing financial information to management. They will be responsible for performing a range of financial tasks including bookkeeping, preparing budgets, financial planning and analysis, and ensuring compliance with financial regulations."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Logistics manager.png", 
+        "JobTitle": "LOGISTICS MANAGER",
+        "JobDescription": "We are seeking a highly organized and experienced Logistics Manager to oversee our company's supply chain operations. The Logistics Manager will be responsible for managing the flow of goods and services from suppliers to customers, ensuring that deliveries are timely, cost-effective, and meet customer expectations. The Logistics Manager will also be responsible for managing a team of logistics professionals and ensuring compliance with all relevant laws and regulations."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Marketing consultant.png", 
+        "JobTitle": "MARKETING CONSULTANT",
+        "JobDescription": "Our company is seeking a highly skilled Marketing Consultant to join our team. The ideal candidate will have a proven track record of success in creating and executing marketing strategies that drive growth and revenue for businesses. The Marketing Consultant will work closely with clients to understand their business goals and develop tailored marketing plans to achieve them. The successful candidate will be a creative thinker, strategic planner, and excellent communicator with a passion for marketing."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Operations manager.png", 
+        "JobTitle": "OPERATIONS MANAGER",
+        "JobDescription": "We are seeking an experienced Operations Manager to oversee and coordinate daily operations of our organization. The ideal candidate will be responsible for managing processes, supervising employees, and ensuring efficiency and productivity across departments. The Operations Manager will report to the Chief Operations Officer and work closely with the senior leadership team to meet organizational goals and objectives."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Planning monitoring evaluation and learning manager.png", 
+        "JobTitle": "PLANNING MONITORING EVALUATION AND LEARNING MANAGER",
+        "JobDescription": "The Planning, Monitoring, Evaluation and Learning Manager will be responsible for ensuring that projects are properly planned, monitored, and evaluated, and that lessons learned are documented and applied to future projects. The successful candidate will work closely with project managers and other team members to ensure that project activities are aligned with project goals and objectives, and that progress is regularly tracked and reported to senior management."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Sales manager.png", 
+        "JobTitle": "SALES MANAGER",
+        "JobDescription": "The Sales Manager is responsible for leading a team of sales representatives and driving sales growth within the company. They are accountable for developing and executing sales strategies to meet and exceed sales targets, as well as managing the day-to-day operations of the sales team."
+    }
+    ,
+    {
+        "Category": "Business and Finance",
+        "JobImage": "assets/images/Job posting/business and finance/Research analyst.png", 
+        "JobTitle": "RESEARCH ANALYST",
+        "JobDescription": "The Research Analyst will be responsible for conducting research and analysis on various topics related to the company's industry, market trends, and competitors. They will be required to collect and analyze data, prepare reports, and make recommendations based on their findings. The Research Analyst will work closely with the company's management team to provide insights that will inform business decisions."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Health safety environment officer.png", 
+        "JobTitle": "HEALTH SAFETY ENVIRONMENT OFFICER",
+        "JobDescription": "The Health and Safety Environment Officer is responsible for ensuring the safety and wellbeing of employees, contractors, and visitors in the workplace. The incumbent will be responsible for implementing and maintaining effective health and safety policies, programs, and procedures, as well as ensuring compliance with applicable laws and regulations."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Healthcare Admin.png", 
+        "JobTitle": "HEALTHCARE ADMINISTATION",
+        "JobDescription": "We are seeking a highly motivated and experienced healthcare administrator to join our team. The successful candidate will be responsible for overseeing and managing all administrative aspects of healthcare services. They will work closely with clinical and non-clinical staff to ensure that high-quality patient care is delivered efficiently and effectively. The healthcare administrator will also be responsible for managing budgets, developing and implementing policies and procedures, and ensuring compliance with regulatory requirements."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Medical Assistant.png", 
+        "JobTitle": "MEDICAL ASSISTANT",
+        "JobDescription": "The Medical Assistant will provide clinical and administrative support to healthcare professionals in a medical setting. This role will involve working with patients of all ages, including infants, children, and adults, in a fast-paced environment."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Medical coder.png", 
+        "JobTitle": "MEDICAL CODER",
+        "JobDescription": "The Medical Coder is responsible for reviewing and analyzing medical records to assign appropriate codes for diagnosis and procedures according to industry standards. The role requires excellent analytical skills, attention to detail, and proficiency in medical terminology, anatomy, and physiology. The Medical Coder will ensure accuracy and compliance with regulatory requirements while collaborating with healthcare professionals to maintain quality patient care."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Medical writer.png", 
+        "JobTitle": "MEDICAL WRITER",
+        "JobDescription": "We are seeking an experienced Medical Writer to join our team. The Medical Writer will be responsible for developing and creating high-quality medical content for various audiences, including healthcare professionals, patients, and the general public. The ideal candidate will have a strong background in medical writing, including experience in researching and interpreting scientific literature, and an ability to communicate complex medical information in a clear and concise manner."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Medical-Receptionist-1-1024x1024.png", 
+        "JobTitle": "MEDICAL RECEPTIONIST",
+        "JobDescription": "We are seeking a friendly, professional, and detail-oriented Medical Receptionist to join our healthcare team. As a Medical Receptionist, you will be responsible for greeting and checking in patients, scheduling appointments, answering phones, managing medical records, and providing administrative support to our medical staff. The ideal candidate will have exceptional communication skills, be able to multitask effectively, and maintain a positive and welcoming environment for patients."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/Physician-Assistant-Recruiters-Physician-Assistant-Jobs-White.png", 
+        "JobTitle": "PHYSICIAN ASSISTANT",
+        "JobDescription": "We are seeking a skilled and compassionate Physician Assistant to join our healthcare team. The Physician Assistant will work collaboratively with physicians and other healthcare professionals to provide high-quality care to patients. The successful candidate will be responsible for evaluating and treating patients, performing procedures, ordering and interpreting diagnostic tests, and providing patient education and counseling."
+    }
+    ,
+    {
+        "Category": "Healthcare",
+        "JobImage": "assets/images/Job posting/Healthcare/", 
+        "JobTitle": "",
+        "JobDescription": ""
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/BARISTA .png", 
+        "JobTitle": "BARISTA",
+        "JobDescription": "We are seeking a skilled and customer-focused Barista to join our team. The successful candidate will be responsible for preparing and serving high-quality coffee beverages, providing exceptional customer service, and maintaining a clean and organized work environment. The Barista will also be responsible for managing inventory and ensuring that all equipment is in good working order."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/Bartender.png", 
+        "JobTitle": "BARTENDER",
+        "JobDescription": "The Bartender is responsible for serving drinks and creating a welcoming environment for guests. They must have a good understanding of different types of alcoholic beverages and be able to make recommendations to customers. The Bartender should also be able to mix and prepare drinks according to standard recipes, as well as create their own unique cocktail creations. Additionally, they will be responsible for ensuring that the bar area is clean, stocked, and well-maintained at all times."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/Executive Chef.png", 
+        "JobTitle": "EXECUTIVE CHEF",
+        "JobDescription": "We are seeking an experienced and creative Executive Chef to oversee our culinary operations and lead our kitchen team. The Executive Chef will be responsible for designing and developing innovative menus, managing food preparation, and ensuring the highest quality of food and service for our customers."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/Food beverage supervisor.png", 
+        "JobTitle": "FOOD BEVERAGE SUPERVISOR",
+        "JobDescription": "The Food & Beverage (F&B) Supervisor is responsible for managing the daily operations of the F&B department in a restaurant or hotel. The F&B Supervisor ensures that all food and beverage service meets the highest standards of quality, cleanliness, and customer satisfaction."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/Housekeeping.png", 
+        "JobTitle": "HOUSEKEEPING",
+        "JobDescription": "The Housekeeper is responsible for maintaining the cleanliness and organization of all areas of the house. They will be tasked with cleaning and tidying all rooms, ensuring that all surfaces are dusted, and all floors are swept or vacuumed. The Housekeeper will also be responsible for changing linens, doing laundry, and restocking supplies."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/Receptionist.png", 
+        "JobTitle": "RECEPTIONIST",
+        "JobDescription": "We are seeking a professional and friendly Receptionist to be the first point of contact for our company. The Receptionist will greet and welcome guests, answer and direct phone calls, handle incoming and outgoing mail, maintain office supplies, and perform various administrative tasks as needed. The ideal candidate will have excellent communication skills, be organized, and be able to multitask in a fast-paced environment."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/Restaurant manager.png", 
+        "JobTitle": "RESTAURANT MANAGER",
+        "JobDescription": "The restaurant manager is responsible for overseeing all aspects of the restaurant's operations, ensuring that the establishment runs efficiently and profitably. This includes managing the restaurant's staff, budget, and inventory, as well as maintaining the overall customer experience."
+    }
+    ,
+    {
+        "Category": "Hotel/Restaurant",
+        "JobImage": "assets/images/Job posting/Hotel and restaurant/", 
+        "JobTitle": "",
+        "JobDescription": ""
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/Associate software engineer.png", 
+        "JobTitle": "ASSOCIATE SOFTWARE ENGINEER",
+        "JobDescription": "We are seeking an ambitious and highly motivated Associate Software Engineer to join our team. The successful candidate will have the opportunity to work on cutting-edge software development projects and will gain valuable experience in software design, coding, testing, and deployment."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/Cyber-Security-Analyst-Post.png", 
+        "JobTitle": "CYBER SECURITY ANALYST",
+        "JobDescription": "The Cyber Security Analyst will be responsible for ensuring the confidentiality, integrity, and availability of the organization's information assets by identifying and mitigating potential cyber threats. The successful candidate will work closely with the IT team to assess, develop and implement security controls and procedures to protect the organization's digital assets. This role requires a deep understanding of various security technologies, as well as the ability to analyze security risks and develop appropriate mitigation strategies."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/data analyst.png", 
+        "JobTitle": "DATA ANALYST",
+        "JobDescription": "We are seeking a highly motivated and skilled Data Analyst to join our team. The Data Analyst will be responsible for gathering, analyzing and interpreting large datasets and providing insights that drive business decisions. The ideal candidate will have a strong technical background, excellent analytical skills and the ability to communicate effectively with stakeholders."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/junior java dev.png", 
+        "JobTitle": "JUNIOR JAVA DEVELOPER",
+        "JobDescription": "We are seeking a Junior Java Developer to join our dynamic team. The ideal candidate will be responsible for the development and maintenance of Java applications. They will also be involved in designing and implementing software solutions, troubleshooting software issues, and collaborating with the development team to create high-quality software."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/Node js developer.png", 
+        "JobTitle": "NODE JS DEVELOPER",
+        "JobDescription": "We are seeking an experienced Node.js Developer to join our dynamic team. The successful candidate will be responsible for developing server-side applications, maintaining databases, and ensuring high performance and responsiveness to requests from the front-end. You will be collaborating with our team of developers and designers to build scalable and efficient solutions that meet our clients' business requirements."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/PHP full stack.png", 
+        "JobTitle": "PHP FULLSTACK DEVELOPER",
+        "JobDescription": "Our company is seeking a highly skilled PHP Full Stack Developer to join our team. The successful candidate will be responsible for developing and maintaining web-based applications, designing user interfaces, and implementing web services. The ideal candidate should have strong experience with PHP frameworks, front-end development, and database management."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/Web developer.png", 
+        "JobTitle": "WEB DEVELOPER",
+        "JobDescription": "We are seeking a skilled and creative web developer to join our team. The successful candidate will be responsible for developing and maintaining websites and web applications using front-end and back-end technologies. You will collaborate with our team of designers, developers, and project managers to create innovative and engaging web solutions for our clients."
+    }
+    ,
+    {
+        "Category": "Information Technology",
+        "JobImage": "assets/images/Job posting/Information technology/Software design engineers.png", 
+        "JobTitle": "SOFTWARE DESIGN ENGINEERS",
+        "JobDescription": "Our company is seeking a talented and experienced Software Design Engineer to join our team. The successful candidate will be responsible for designing and developing software applications, as well as testing, debugging, and maintaining software products. The ideal candidate should have a solid understanding of software design principles and programming languages."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/Apprentice-Maintenance-Technicians.png", 
+        "JobTitle": "APPRENTICE MAINTENANCE TECHNICIANS",
+        "JobDescription": "We are seeking a highly motivated Apprentice Maintenance Technician to join our team. The ideal candidate will assist our Maintenance Technicians in the upkeep and repair of our equipment and facilities. The successful candidate will be able to learn quickly and work collaboratively with others."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/boiler oiperators.png", 
+        "JobTitle": "BOILER OPERATORS",
+        "JobDescription": "We are seeking a highly skilled and experienced Boiler Operator to join our team. The successful candidate will be responsible for the safe and efficient operation of our industrial boilers, ensuring that they are properly maintained and performing to the highest standards."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/CNC machinist.png", 
+        "JobTitle": "CNC MACHINIST",
+        "JobDescription": "The CNC Machinist will be responsible for setting up, operating, and maintaining computer numerical control (CNC) machines to produce high-precision components. The successful candidate will have experience working with CNC machines and will be able to read and interpret engineering drawings, blueprints, and other technical documents."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/Machine operator.png", 
+        "JobTitle": "MACHINE OPERATOR",
+        "JobDescription": "The Machine Operator will be responsible for setting up, operating and maintaining various machines to ensure that production targets are met while maintaining the highest levels of safety, quality and efficiency."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/Production assistant.png", 
+        "JobTitle": "PRODUCTION ASSISTANT",
+        "JobDescription": "We are seeking a Production Assistant to support our production team in the creation and execution of high-quality film, TV, or video content. The Production Assistant will work closely with producers, directors, and other members of the production crew to ensure that all aspects of the production process run smoothly."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/Risk and compliance officer.png", 
+        "JobTitle": "RISK AND COMPLIANCE OFFICER",
+        "JobDescription": "The Risk and Compliance Officer will be responsible for ensuring that the organization adheres to all legal and regulatory requirements, as well as internal policies and procedures. This individual will be responsible for identifying potential risks and developing strategies to mitigate them, while also ensuring that the organization's compliance program is effective and efficient."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/Sheet metal craftsman.png", 
+        "JobTitle": "SHEET METAL CRAFTSMAN",
+        "JobDescription": "The Sheet Metal Craftsman will be responsible for fabricating and installing various sheet metal products such as roofing, gutters, ductwork, and HVAC components. The Craftsman must have knowledge of sheet metal fabrication techniques, able to read and interpret blueprints, and have experience working with various types of metals."
+    }
+    ,
+    {
+        "Category": "Manufacturing",
+        "JobImage": "assets/images/Job posting/Manufacturing/welder-111-360x320.png", 
+        "JobTitle": "WELDER",
+        "JobDescription": "The Welder is responsible for fabricating and welding metal parts and components for various projects. The Welder will interpret blueprints and schematics to determine specifications, select appropriate materials, and use a variety of tools and equipment to assemble and weld the parts together. The Welder will also be responsible for inspecting finished products for quality assurance and making necessary repairs or adjustments as needed."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/Brand Manager.png", 
+        "JobTitle": "BRAND MANAGER",
+        "JobDescription": "We are seeking an experienced and creative Brand Manager to lead our brand development and implementation. The successful candidate will be responsible for creating and executing effective brand strategies, managing the brand image, and enhancing brand awareness across all channels. The Brand Manager will collaborate with cross-functional teams to ensure consistent messaging, monitor market trends, and analyze consumer behavior to develop strategies that enhance brand loyalty and drive growth."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/Digital Marketing Coordinator.png", 
+        "JobTitle": "DIGITAL MARKETING COODINATOR",
+        "JobDescription": "We are seeking a Digital Marketing Coordinator to join our team and assist with the planning and execution of digital marketing campaigns. The ideal candidate will have experience in digital marketing, including email marketing, social media, SEO, PPC, and content marketing. They will be responsible for monitoring and reporting on campaign performance, managing budgets, and collaborating with various departments to ensure campaigns are executed effectively."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/Email maerketing specialist.png", 
+        "JobTitle": "EMAIL MARKETING SPECIALIST",
+        "JobDescription": "We are seeking a talented Email Marketing Specialist to join our team. The Email Marketing Specialist will be responsible for creating and executing effective email marketing campaigns that increase brand awareness, drive traffic, and generate revenue. The ideal candidate will have a proven track record of success in email marketing, excellent communication skills, and be highly analytical."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/marketing and communcations executive.png", 
+        "JobTitle": "MARKETING AND COMMUNICATIONS EXECUTIVE",
+        "JobDescription": "We are seeking a highly motivated and experienced Marketing and Communications Executive to join our team. As a Marketing and Communications Executive, you will be responsible for developing and executing marketing strategies and initiatives to increase brand awareness, generate leads and drive revenue growth. You will work closely with the Marketing and Sales teams to ensure a cohesive and effective approach to marketing and communications."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/Public relations specialist.png", 
+        "JobTitle": "PUBLIC RELATIONS SPECIALIST",
+        "JobDescription": "The Public Relations Specialist will be responsible for managing the company's public image and reputation by developing and executing strategic PR campaigns. This person will work closely with the marketing and communications team to ensure consistent messaging across all channels. The ideal candidate will have experience in media relations, crisis management, and social media strategy."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/Senior content marketing manager.png", 
+        "JobTitle": "SENIOR CONTENT MARKETING MANAGER",
+        "JobDescription": "The Senior Content Marketing Manager will be responsible for developing and executing content marketing strategies that will increase brand awareness, drive traffic, and generate leads. They will oversee the creation and distribution of high-quality, engaging content across various channels to engage our target audience and meet business objectives."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/Social media manager.png", 
+        "JobTitle": "SOCIAL MEDIA MANAGER",
+        "JobDescription": "We are seeking a highly motivated and creative Social Media Manager to join our team. The Social Media Manager will be responsible for managing and executing our social media strategy across all relevant platforms. This position will require a strong understanding of social media trends, excellent communication skills, and the ability to create engaging content that resonates with our audience. The ideal candidate will be organized, data-driven, and able to work independently."
+    }
+    ,
+    {
+        "Category": "Marketing",
+        "JobImage": "assets/images/Job posting/Marketing/We-Are-Hiring-Digital-Outreach-Director-771x386.png", 
+        "JobTitle": "DIGITAL OUTREACH DIRECTOR",
+        "JobDescription": "The Digital Outreach Director is responsible for developing and implementing outreach strategies across digital platforms to increase brand awareness, engagement, and revenue. This individual will work collaboratively with the marketing and content teams to identify target audiences, create and distribute engaging content, and monitor and analyze performance metrics."
+    }
+]
+}
