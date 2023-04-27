@@ -1,4 +1,5 @@
 import { populateCities, populateDays, populateMonths, populateProvince, populateYears, togglePassword } from "./form.js";
+import { ModalBox } from "./modal.js";
 
 const load = () => {
   const cancelBtn = document.querySelector(".sign-up-cancel-btn");
