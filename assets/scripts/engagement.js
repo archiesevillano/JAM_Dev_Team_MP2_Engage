@@ -13,79 +13,68 @@ document.addEventListener('readystatechange', e => {
     }
 });
 
-// Create Card Function 
-export const createCard = () => {
-    // Card Creation
-    // Create Element
-    const cards = document.createElement('div');
-    const card = document.createElement('div');
-    const imgContainer = document.createElement('div');
-    const img = document.createElement('img');
-    const recNameTime = document.createElement("div");
-    const recName = document.createElement('p');
-    const timePost = document.createElement('p');
-    const recOps = document.createElement('div');
-    const recOpsBtn = document.createElement('button');
-    const engCardsContent = document.createElement('div');
-    const jobTitle = document.createElement('div');
-    const jobTitleCntnt = document.createElement('p');
-    const jobDescript = document.createElement('div');
-    const jobSumName = document.createElement('p');
-    const jobSummary = document.createElement('p');
-    const hireCompany = document.createElement('div');
-    const hiringComp = document.createElement('img');
-    const engInfo = document.createElement('div');
-    const engInfoNum = document.createElement('p');
-    const engBot = document.createElement('div');
-    const engBotBtn = document.createElement('button');
-    const engBotBtn2 = document.createElement('button');
-
-    // Class Adding
-
-    cards.className = ".engagement-cards";
-    card.className = ".engagement-cards-name";
-    imgContainer.className = ".recruiter-image";
-    recNameTime.className = ".recruiter-name-timeposted";
-    recName.className = ".recruiter-name";
-    timePost.className = ".time-posted";
-    recOps.className = ".recruiter-options";
-    recOpsBtn.className = ".fa-solid fa-ellipsis fa-xs";
-    engCardsContent.className = ".engagement-cards-content";
-    jobTitle.className = ".job-title";
-    jobDescript.className = ".job-description";
-    hireCompany.className = ".hiring-company";
-    engInfo.className = ".engagement-info";
-    engBot.className = ".engagement-bottom";
 
 
-    cards.appendChild(card);
-    card.appendChild(imgContainer, recNameTime, recOps, engCardsContent, engInfo, engBot);
-    imgContainer.appendChild(img);
-    recNameTime.appendChild(recName, timePost);
-    recOps.appendChild(recOpsBtn);
-    engCardsContent.appendChild(jobTitle, jobDescript, hireCompany);
-    engInfo.appendChild(engInfoNum);
-    engBot.appendChild(engBotBtn, engBotBtn2);
+const handleApply = async key => {
 
+    const dataList = await loadLocalSource("json", "source.json");
+    dataList.forEach(async (content, index) => {
+        // userImage, name, time, sourceContent
+        if (content.posts.length != 0) {
+            if (content.posts[0].postID == key) {
+                const data = await localStorage.getItem("userAccount");
+                const user = await JSON.parse(data);
 
-};
+                user.applicationStatus.push(content.posts[0]);
+                localStorage.setItem("userAccount", JSON.stringify(user));
+            }
+        }
+    });
 
-const jobInfo = () => {
-    const jobBox = document.querySelector(".job-information");
-    const jobPosition = document.querySelector(".job-position");
-    const qualifications = document.querySelector(".qualification-list");
-    const applyBtn = document.querySelector(".apply-btn");
-    const savePost = document.querySelector(".save-btn");
-    const more = document.querySelector(".more-job-details");
-    const clsBtn = document.querySelector(".close-btn");
-    const overlay = document.querySelector(".modal-overlay");
+    const wrapper = document.querySelector(".cards-container");
 
-    jobBox.classList.add("active");
-    overlay.classList.add("active");
-    clsBtn.addEventListener('click', () => {
-        jobBox.classList.remove('active');
-        overlay.classList.remove('active');
-    })
+    // create the container div element
+    const container = document.createElement("div");
+    container.classList.add("appstatus-container");
+
+    // create the ul element
+    const ul = document.createElement("ul");
+    ul.classList.add("appstatus");
+
+    // create the list items
+    const liIndex = document.createElement("li");
+    liIndex.classList.add("appstatus-Index");
+    liIndex.textContent = "1";
+
+    const liJob = document.createElement("li");
+    liJob.classList.add("appstatus-job");
+    liJob.textContent = "ADMIN MANAGER";
+
+    const liDate = document.createElement("li");
+    liDate.classList.add("appstatus-date");
+    liDate.textContent = "04/26/2013";
+
+    const liStatus = document.createElement("li");
+    liStatus.classList.add("appstats-status");
+    liStatus.textContent = "PENDING";
+
+    // create the cancel button
+    const cancelButton = document.createElement("button");
+    cancelButton.classList.add("appstats-btn");
+    cancelButton.textContent = "Cancel";
+
+    // append the elements to the ul
+    ul.appendChild(liIndex);
+    ul.appendChild(liJob);
+    ul.appendChild(liDate);
+    ul.appendChild(liStatus);
+    ul.appendChild(cancelButton);
+
+    // append the ul to the container
+    container.appendChild(ul);
+
+    // add the container to the document
+    wrapper.appendChild(container);
 }
 
 const createJobPost = async (id, userImage, name, time, sourceContent) => {
@@ -149,7 +138,7 @@ const createJobPost = async (id, userImage, name, time, sourceContent) => {
     applyNowButton.setAttribute("data-post-id", id);
     applyNowButton.innerHTML = "Apply now";
     applyNowButton.addEventListener('click', e => {
-        alert(e.target.getAttribute("data-post-id"));
+        handleApply(e.target.getAttribute("data-post-id"));
     })
 
     // Create the Details button element
@@ -360,10 +349,10 @@ const handleBtnClick = async (button) => {
             case "savedPost":
                 break;
             case "training":
-                dataList = await loadLocalSource("json", "dummyUsers.json");
+                dataList = await loadLocalSource("json", "source.json");
                 dataList.forEach((content, index) => {
                     // userImage, name, time, sourceContent
-                    createTrainingPost(content.name, `Posted ${Math.floor((Math.random() * 60))} minutes ago`, `assets/images/training program Images/${(index + 1) < 23 ? index + 1 : index - 21}.png`, "assets/images/user-pic.png");
+                    createTrainingPost(Object.values(content.personal.fullname).join(" "), content.posts[0].timePosted, `assets/images/training program Images/${(index + 1) < 23 ? index + 1 : index - 21}.png`, `assets/images/users/Male/${index + 1}.jpg`);
                 });
             case "interviewTips":
                 dataList = await loadLocalSource("json", "InterviewVideos.json");
